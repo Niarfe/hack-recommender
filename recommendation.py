@@ -103,3 +103,39 @@ def transformPrefs(prefs):
             # Flip item and person
             result[item][person]=prefs[person][item]
     return result
+
+# Example code
+
+# find distance between two reviewers using euclidian distance should be 0.148...
+euclid_distance_Lisa_Gene  = sim_distance(critics, 'Lisa Rose', 'Gene Seymour')
+print sim_distance(critics, 'Lisa Rose', 'Gene Seymour')
+# should be 0.148148148148
+
+
+# find distance using pearson
+pearson_distance_Lisa_Gene = sim_pearson(critics, 'Lisa Rose', 'Gene Seymour')
+print sim_pearson(critics, 'Lisa Rose', 'Gene Seymour')
+# should be 0.396059017191
+
+# get the first 3, sorted, critics which are similar to Toby
+top_3_like_Toby = topMatches(critics, 'Toby', n=3)
+print topMatches(critics, 'Toby', n=3)
+# should be [(0.99124070716192991, 'Lisa Rose'), (0.92447345164190486, 'Mick LaSalle'), (0.89340514744156474, 'Claudia Puig')]
+
+# recommend a movie for Toby based on what similar critics liked
+list_recommendations = getRecommendations(critics, 'Toby')
+print getRecommendations(critics, 'Toby')
+# should be [(3.5002478401415877, 'The Night Listener'), (2.7561242939959363, 'Lady in the Water'), (2.4619884860743739, 'Just My Luck')]
+
+# to work with movies, transform to get reverse sparse matrix
+movies = transformPrefs(critics)
+
+# now you can find movies similar to a given movie ...
+movies_like_superman = topMatches(movies, 'Superman Returns')
+print topMatches(movies, 'Superman Returns')
+# should be [(0.657, 'You, Me and Dupree'), (0.487, 'Lady in the Water'), (0.111, 'Snakes on a Plane'), (-0.179, 'The Night Listener'), (-0.422, 'Just My Luck')]
+
+# you can also get recommendations as to which reviewers would like a movie
+who_likes_just_my_luck = getRecommendations(movies, 'Just My Luck')
+print getRecommendations(movies, 'Just My Luck')
+# should be [(4.0, 'Michael Phillips'), (3.0, 'Jack Matthews')]
