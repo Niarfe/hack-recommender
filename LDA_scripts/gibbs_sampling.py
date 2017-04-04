@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-#
+# SOURCE: Data Science from Scratch
+
 # Chap 20: pg 245 An Aside: Gibbs Sampling
 # Gibbs sampling is a technique for generating samples from multidimensional
 # distributions when we only know some of the conditional distributions.
