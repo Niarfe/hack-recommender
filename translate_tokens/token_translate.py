@@ -5,11 +5,11 @@ import os
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/gracezhou/PycharmProjects/translate/cloud-client/token-translate-0411726cdfed.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "token-translate-0411726cdfed.json"
 
 
 """ read token for GRACE.csv"""
-FR = '/Users/gracezhou/Downloads/tokens for GRACE.csv'
+FR = 'tokens for GRACE.csv'
 fr = open(FR)
 fr.readline()
 
@@ -44,7 +44,7 @@ with open(FR, 'rb') as csvfile:
             data[product_id].append(x)
 
 """ read products for Grace.csv """
-PD = '/Users/gracezhou/Downloads/products for GRACE.csv'
+PD = 'products for GRACE.csv'
 prod = open(PD)
 prod.readline()
 lookup = {}

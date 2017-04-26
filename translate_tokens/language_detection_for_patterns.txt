@@ -1,0 +1,1 @@
+product_id	product_name	original pattern	token and separated token	detected_language	confidence_score	translated_language 
