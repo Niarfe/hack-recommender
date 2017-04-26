@@ -1,6 +1,9 @@
 import re
 import snippets
 import os
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')  #encoding with utf-8 so that some wired characters can be written into file
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "../token-translate-0411726cdfed.json"
 
 
