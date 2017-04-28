@@ -9,7 +9,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "token-translate-0411726cdfed.jso
 
 
 """ read token for GRACE.csv"""
-FR = 'tokens for GRACE.csv'
+FR = "pieces/{}".format(sys.argv[1]) 
 fr = open(FR)
 fr.readline()
 
@@ -61,7 +61,7 @@ with open(PD, 'rb') as csvfile:
 
 """save txt file with \t as seperator"""
 product_ids = data.keys()
-LP = '../language_detection_for_patterns.txt'
+LP = "results/{}_language_detection_for_patterns.txt".format(sys.argv[1])
 fw = open(LP, 'w')
 fw.write("product_id\tproduct_name\toriginal pattern\ttoken and separated token\tdetected_language\tconfidence_score\ttranslated_language \n")
 for i in range(len(product_ids)):
