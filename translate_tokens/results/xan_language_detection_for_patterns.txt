@@ -1,0 +1,227 @@
+product_id	product_name	original pattern	token and separated token	detected_language	confidence_score	translated_language 
+11829	Gumgum	['"Gum Gum" ad']	ad	it	0.49612402916	A.D
+14679	Fiksu	['Fiksu mobile']	mobile	en	0.680769205093	mobile
+14678	Digital Turbine	['"Digital Turbine"']	turbine	en	0.775193810463	turbine
+14677	AppLovin	['AppLovin']	applovin	sl	1	applovin
+14675	Aerserv	['Aerserv']	aerserv	ro	0.195129349828	Aerserv
+14674	Adxcel	['Adxcel']	adxcel	ro	0.765023350716	Adxcel
+14673	Adelphic	['Adelphic']	adelphic	en	0.7890625	adelphic
+14179	JobAdder	['"Job Adder"']	adder	en	0.98046875	adder
+14671	Aarki	['Aarki']	aarki	so	0.999998927116	aarki
+14670	140 Proof	['"140 Proof"']	proof	en	1	proof
+14711	Kanbanize	['Kanbanize']	kanbanize	ja	0.578125	Kanbanize
+6726	Xerox 770	['"Xerox 770"']	xerox	en	0.554263591766	xerox
+14076	AdMarvel	['"Ad Marvel"']	marvel	en	0.69921875	marvel
+14070	Adbutler	['"ad butler"']	butler	en	0.8203125	butler
+14712	Scrumwise	['Scrumwise']	scrumwise	sn	0.999997854233	scrumwise
+13161	OrthoView	['"Ortho View"']	view	en	1	view
+14350	Hospira Symbiq	['Symbiq']	symbiq	az	0.853243589401	symbiq
+14351	CareFusion Alaris EtCO2	['Alaris EtCO2', '"Alaris EtCO2"']	etco	ru	0.28785893321	Etco
+14352	Baxter Sigma Spectrum	['"Baxter Sigma"', '"sigma spectrum"', '"sigma infusion"', '"spectrum infusion"', '"sigma pump"']	pump	en	0.97637796402	pump
+14353	Smiths CADD Solis	['CADD Solis']	solis	lv	0.369649797678	step
+14354	Aclaro Softworks	['Aclaro software', 'Petrolook']	petrolook	en	0.464566916227	petrolook
+14355	Energy Navigator	['"Energy Navigator"', '"AFE Navigator"', '"Value Navigator"', '"AFE Nav"', '"Val Nav"']	val	lt	0.354330718517	h
+14356	Enersight	['Enersight']	enersight	id	0.44140625	Enersight
+14357	Exprosoft	['Exprosoft']	exprosoft	la	0.384640693665	exprosoft
+14358	Geologix	['Geologix']	geologix	en	0.666666686535	geologix
+14359	Ikon Science	['"Ikon Science"', 'RokDoc']	rokdoc	cs	0.995536983013	Rokdoc
+14713	Salesforce Health Cloud	['"Salesforce Health Cloud"']	cloud	en	0.763565897942	cloud
+14672	Accengage	['Accengage']	accengage	jw	0.981020689011	accengage
+14219	Metrigo	['Metrigo']	metrigo	cy	1	metrigo
+14218	Merchant Advantage	['"Merchant Advantage"', '"via MerchantAdvantage"']	merchantadvantage	en	0.964705884457	merchantadvantage
+14547	FrontRange GoldMine Premium	['"GoldMine Premium"']	premium	en	0.671875	premium
+14211	MartJack	['MartJack']	martjack	sl	0.98828125	martjack
+14210	MarketVolt	['MarketVolt']	marketvolt	en	0.885826766491	marketvolt
+14213	MediaSpan	['MediaSpan']	mediaspan	es	0.262745112181	Mediaspan
+14212	MasteryConnect	['MasteryConnect']	masteryconnect	en	0.6796875	masteryconnect
+14215	Meetrics	['Meetrics']	meetrics	et	1	meetrics
+14214	Google Meebo	['Meebo']	meebo	en	0.484251976013	meebo
+14217	Memberium	['Memberium']	memberium	en	0.890625	memberium
+14216	MemberClicks	['MemberClicks']	memberclicks	en	0.890625	memberclicks
+5267	HP Officejet	['"Office jet" Printer']	printer	en	0.79766535759	printer
+10965	McAfee Advanced Threat Defense	['"McAfee Advanced Threat Defense"', '"Mcafee ATD"']	atd	cs	0.890625	etc
+6799	CA DUO	['"CA DUO"']	duo	en	0.957198441029	duo
+14540	ArchiOffice	['ArchiOffice']	archioffice	cy	0.999642133713	archioffice
+14612	Cisco ASA 5540	['"ASA 5540"', 'ASA5540']	asa	ro	0.616600811481	so
+14492	PeopleHR	['PeopleHR']	peoplehr	en	1	peoplehr
+14542	Bullhorn CRM	['"Bullhorn CRM"']	crm	en	0.8203125	crm
+14325	Zebra ZM600	['Zebra ZM600', 'Zebra "ZM 600"']	zm	pl	0.937007844448	Zm
+14324	Zebra ZM400	['Zebra ZM400', 'Zebra "ZM 400"']	zm	pl	0.937007844448	Zm
+14455	Artificial Solutions	['"Artificial Solutions"', '"using Artificial Solutions"']	using	en	1	using
+14454	Arago AutoPilot	['Arago AutoPilot']	autopilot	en	0.83011585474	autopilot
+14321	Motorola Symbol	['"Motorola Symbol"']	symbol	en	0.6484375	symbol
+14320	Honeywell Dolphin	['"Honeywell Dolphin"']	dolphin	en	0.854901969433	dolphin
+14323	Zebra Z4M	['Zebra Z4M']	zebra	en	0.625984251499	zebra
+14322	PatientTouch	['PatientTouch']	patienttouch	en	0.8515625	patienttouch
+14596	Keysight EESof	['EESof', 'Keysight EDA', '"Keysight ADS"']	ads	en	0.98828125	ads
+14594	Cisco Catalyst 6509-E	['Cisco "6509-E"']	cisco	en	0.834645688534	cisco
+14546	SnapHRM	['SnapHRM']	snaphrm	hi	0.899769604206	Snaphrm
+14329	Zebra 2844	['Zebra 2844']	zebra	en	0.625984251499	zebra
+14328	Zebra Xi4	['Zebra Xi4']	xi	zh-CN	0.94140625	Xi
+14459	Digital Reasoning	['"Digital Reasoning"']	reasoning	en	1	reasoning
+14458	CustomerMatrix	['CustomerMatrix']	customermatrix	en	1	customermatrix
+14695	PressKing	['PressKing']	pressking	en	1	pressking
+14694	MediaMiser	['MediaMiser']	mediamiser	it	0.365384608507	Mediamiser
+14697	TrendKite	['TrendKite']	trendkite	no	0.325581401587	Trendkite
+14696	Celergo	['Celergo']	celergo	la	1	celergo
+14691	goPRit	['goPRit']	goprit	fr	0.857327640057	Goprit
+14690	Yieldmo	['Yieldmo']	yieldmo	so	0.999457716942	yieldmo
+14693	ISEBOX	['ISEBOX']	isebox	xh	0.64184230566	Xbox
+14692	IrisPR	['"Iris PR"', 'IrisPR']	irispr	mt	0.999804973602	irispr
+14699	Zignal Labs	['Zignal']	zignal	xh	0.583198785782	signal
+14698	Vuelio	['Vuelio']	vuelio	es	0.999639093876	He returned
+1017	Adobe SocialAnalytics	['"Adobe Online Marketing Suite"', '"Adobe Social Analytics"']	analytics	en	0.618677020073	analytics
+102	Beagle Software	['Beagle Clockwatch']	clockwatch	en	1	clockwatch
+902	IBM Security AppScan	['"Security AppScan"', 'Rational AppScan', '"AppScan Standard"', '"AppScan Enterprise"', '"AppScan Source"', '"AppScan Dynamic"', '"AppScan Mobile"']	mobile	en	0.680769205093	mobile
+14440	BigTime	['BigTime billing']	billing	en	0.98046875	billing
+14521	Avaya Sipera	['Sipera']	sipera	sn	0.394301503897	sipera
+38	Webroot	['"Webroot Secure Anywhere"']	anywhere	en	1	anywhere
+14527	PandaDoc	['PandaDoc', '"Panda Doc"']	doc	en	0.51171875	doc
+14526	MEDxConnect	['MEDxConnect', '"Compressus"']	compressus	la	0.76953125	compressed
+14525	Brother OmniJoin	['OmniJoin']	omnijoin	fi	0.938299298286	Omnijoin
+13439	Konica Minolta Acies	['Konica Acies']	acies	la	1	line
+14529	Image Stream Medical	['"Image Stream Medical"']	medical	en	0.96875	medical
+14528	HealthLinkNow	['HealthLinkNow']	healthlinknow	en	1	healthlinknow
+14442	Bitrix24	['Bitrix24', '"Bitrix 24"']	bitrix	en	0.62109375	bitrix
+14443	Breezy HR	['"Breezy HR"']	hr	en	0.633204638958	hr
+14689	Trumpia	['Trumpia']	trumpia	lt	0.87890625	briefly
+14496	ProsperWorks	['ProsperWorks']	prosperworks	en	0.674418628216	prosperworks
+14444	CareerPlug	['CareerPlug', '"CareerPlug ATS"']	ats	lt	0.662745118141	Answer
+14445	CIPHR	['CIPHR']	ciphr	hi	0.962931156158	Ciphr
+14031	FreeWave Technologies	['"FreeWave Tool Suite"']	suite	fr	0.509727597237	after
+1002	Veritas InfoScale Storage	['"Infoscale Storage"']	storage	en	1	storage
+14446	Comindware	['Comindware']	comindware	zu	0.667976260185	comindware
+14131	Trellix	['"trellix software"', '"using trellix"']	using	en	1	using
+14447	dapulse	['dapulse']	dapulse	la	0.969489276409	dapulse
+8460	Digital River	['MyCommerce']	mycommerce	sv	0.593300700188	Mycommerce
+11265	TouchCommerce	['"with touchcommerce"']	touchcommerce	en	1	touchcommerce
+14495	ProofHub	['"ProofHub databases"', '"using ProofHub"', '", ProofHub,"', '"such as Proofhub"', '"ProofHub software"']	software	en	0.736000001431	software
+9322	Engage121	['"Engage 121" Social']	social	en	0.66409265995	social
+14476	FunctionFox	['TimeFox']	timefox	no	0.921875	Timefox
+14147	FastBooking	['"Fastbooking.com"']	com	pt	0.86770427227	with
+14729	Connexity	['Connexity']	connexity	en	1	connexity
+6435	CGI Horizon	['"CGI Horizon"']	horizon	en	0.775590538979	horizon
+6433	CGI EAS	['"CGI EAS"']	eas	la	0.444881886244	it
+3517	Dell PowerEdge T105 Tower Server	['"PowerEdge T105"']	poweredge	en	0.80859375	poweredge
+14494	PlanPlus Online	['"PlanPlus Online"']	online	en	0.603921592236	online
+14728	Choozle	['Choozle']	choozle	sk	0.576118588448	choozle
+14624	Windows 10	['"Windows 10"']	windows	en	0.638132274151	windows
+14625	Enonic	['Enonic']	enonic	xh	0.344654500484	NIC
+14626	FirstSpirit	['FirstSpirit']	firstspirit	en	1	firstspirit
+14627	AliCloud	['AliCloud', 'Aliyun', '"Alibaba Cloud"']	cloud	en	0.763565897942	cloud
+14620	Cisco ASA 5585	['ASA5585', '"ASA 5585"']	asa	ro	0.616600811481	so
+14621	Cisco Catalyst 2960	['"catalyst 2960"']	catalyst	en	0.98828125	catalyst
+14623	Cisco 1811	['1811 ISR']	isr	en	0.747081696987	isr
+14628	Cisco Catalyst 2960-C	['"2960-C"']	c	en	0.55859375	c
+14629	Cisco Catalyst 3560-C	['"3560-C"']	c	en	0.55859375	c
+14149	FlexSlider	['"Flex Slider"']	slider	en	0.75	slider
+93	Auto FX	['"AutoFX"']	autofx	el	0.820471823215	Autofx
+7175	EXEControl	['EXEControl ERP']	erp	nl	0.713178277016	Erp
+8906	FlowBreeze	['"Flow Breeze" Software']	software	en	0.736000001431	software
+14368	Midland Valley	['"Midland Valley" geol*', '"Midland Valley" MOVE']	move	en	1	move
+14499	Recruitee	['Recruitee', '"recruitee.com"']	com	pt	0.86770427227	with
+14498	Really Simple Systems CRM	['"Really Simple Systems" CRM']	crm	en	0.8203125	crm
+14714	4INFO	['4INFO']	info	en	0.575875461102	info
+14715	7search	['7search']	search	en	1	search
+14716	Adadyn	['Adadyn']	adadyn	fy	0.628025889397	adadyn
+14717	Adaptly	['Adaptly']	adaptly	hu	0.511473894119	adaptly
+14538	Aditro HRM	['Aditro', 'Aditro HRM']	hrm	sv	0.51953125	Hrm
+12511	Veritas Enterprise Vault	['veritas "enterprise vault"']	vault	en	1	vault
+14246	CA Flowdock	['Flowdock']	flowdock	en	1	flowdock
+7174	AcctVantage	['AcctVantage ERP']	erp	nl	0.713178277016	Erp
+14244	OpenResty	['OpenResty']	openresty	en	0.94921875	openresty
+14245	Atlassian HipChat	['HipChat']	hipchat	ru	0.395690560341	Hipchat
+14242	Ometria	['Ometria']	ometria	la	0.325840950012	ometria
+14243	Slack	['Slack app', 'Slack messaging', '"Slack collaboration"', '"using Slack"']	using	en	1	using
+14240	Arxan Application Protection	['"Arxan software"']	software	en	0.736000001431	software
+14241	Harmon.ie	['"Harmon.ie"']	ie	en	0.48828125	ie
+12190	LeadLiaison	['LeadLiaison.com']	com	pt	0.86770427227	with
+12191	Leadsius	['Leadsius']	leadsius	lt	0.936318874359	Leadsun
+12192	LeadSquared	['LeadSquared']	leadsquared	en	0.999999284744	leadsquared
+14362	Laversab	['Laversab']	laversab	en	1	laversab
+14365	HRH Geology	['Winlog geolog*', '"gravitas software"', '"using HRH"']	hrh	en	1	hrh
+14363	Rock Flow Dynamics	['tNavigator', 'tNavigator "Rock Flow Dynamics"']	dynamics	en	1	dynamics
+14248	Google Panoramio	['Panoramio']	panoramio	en	0.433070868254	panoramio
+14366	ArrowHead CRM	['"Arrowhead stadium"', 'ArrowHead CRM']	crm	en	0.8203125	crm
+14490	Nutshell CRM	['"Nutshell CRM"']	crm	en	0.8203125	crm
+12759	Kemp Technologies	['"Kemp Load"']	load	en	0.98828125	load
+14497	ProWorkflow	['ProWorkflow']	proworkflow	pl	0.9609375	Proworkflow
+7071	Windward	['"Windward Workflow"', '"AutoTag Transaction"', '"AutoTag Software"', '"through AutoTag"', '"using Autotag"']	using	en	1	using
+14364	Xait	['Xait', 'XaitPorter']	xaitporter	el	0.952956438065	Xaitporter
+14394	CSC PatReg	['CSC PatReg', 'iSoft PatReg']	isoft	en	1	isoft
+14395	Bluebeam Revu	['bluebeam construction', 'Bluebeam Revu']	revu	fr	0.87890625	reviewed
+14396	Aclara TWACS	['Aclara TWACS']	twacs	fy	0.916332125664	twacs
+14397	Sensus FlexNet	['Sensus FlexNet']	flexnet	en	1	flexnet
+14390	ChipSoft	['"chipsoft files"', '"ChipSoft (CS)"', '"Chipsoft-EZIS"']	ezis	lv	0.98046875	hedgehog
+14391	COPRA PDMS	['COPRA PDMS', '"COPRA software"']	software	en	0.736000001431	software
+14392	CSC Lorenzo	['"CSC Lorenzo"']	lorenzo	it	0.347490340471	Lorenzo
+14393	CSC ClinicCentre	['ClinicCentre']	cliniccentre	en	0.891472876072	cliniccentre
+14249	PatronManager	['PatronManager', '"Patron Manager"']	manager	en	0.813953459263	manager
+14398	Elster EnergyAxis	['EnergyAxis']	energyaxis	en	1	energyaxis
+14399	Landis+Gyr Gridstream	['Gridstream']	gridstream	la	0.906530559063	gridstream
+12495	Cybera	['"Cybera One"']	one	en	0.98828125	one
+12883	Emdeon	['"Emdeon systems"', 'Navinet Emdeon', '"Emdeon Software"', '"Emdeon Claims"', '"Emdeon payment"', '"Emdeon Eligibility"', 'Emdeon medical']	medical	en	0.96875	medical
+14567	Formisimo	['Formisimo']	formisimo	la	0.292490124702	formisimo
+14565	PubExchange	['"pubexchange.com"', '"to PubExchange"']	to	en	0.864341080189	to
+14563	Workbook.net	['"Workbook.net"', 'Workbook projekt', '"*\xc3\xb8konomisystemet " Workbook projekt', 'Workbook " Sammenfattet Projektstyring"', '"*\xc3\xb8konomisystemet " Workbook']	konomisystemet workbook	ja	0.296117901802	Konomisystemet workbook
+14562	LogicMonitor	['LogicMonitor']	logicmonitor	en	1	logicmonitor
+14561	LSSP PinPoint	['PinPoint "document management"']	management	en	0.934108555317	management
+14560	TeamSupport	['"TeamSupport.com"']	com	pt	0.86770427227	with
+6358	Veritas Disaster Recovery Orchestrator	['"Disaster Recovery Orchestrator"']	orchestrator	en	1	orchestrator
+11135	Jazz HR	['"Jazz HR"', '"Jazz ATS"']	ats	lt	0.662745118141	Answer
+14408	Siemens eMeter	['Siemens eMeter', '"eMeter Software"', '"eMeter EnergyIP"']	energyip	en	1	energyip
+14409	EnerNOC	['EnerNOC']	enernoc	en	1	enernoc
+14404	Schneider ADMS	['Schneider ADMS']	adms	en	1	adms
+14405	GE PowerOn	['GE PowerOn', '"PowerOn Advantage"']	advantage	en	1	advantage
+14406	GE Smallworld	['GE Smallworld']	smallworld	en	1	smallworld
+14407	Siemens Energy IP	['Siemens "Energy IP"', 'EnergyIP']	energyip	en	1	energyip
+14400	Silver Spring UtilityIQ	['UtilityIQ']	utilityiq	en	0.636363625526	utilityiq
+14401	CGI PragmaLINE	['PragmaLINE']	pragmaline	en	0.94921875	pragmaline
+14402	Schneider OAsyS	['OAsyS SCADA', 'Schneider OAsyS']	schneider	en	0.436293423176	schneider
+14403	Schneider ArcFM	['Schneider ArcFM', 'ArcFM GIS']	gis	no	0.490196079016	Gis
+11712	MedAssets	['"using MedAssets"', '"through MedAssets"', '"uploaded into MedAssets"', '"MedAssets Service Line Analytics"', '", MedAssets,"', '"Utilize MedAssets"']	utilize	en	0.7890625	utilize
+8646	Cisco ESW 500	['ESW500']	esw	el	1	Esw
+7186	FIT Tracking Solutions	['"FIT BugTrack"', '"FIT HelpDesk"']	helpdesk	en	0.532818555832	helpdesk
+9121	Netsuite Partner Relationship Management	['Netsuite PRM']	prm	en	0.9296875	prm
+14389	CHILI PACS	['CHILI PACS']	pacs	ca	0.44921875	PACS
+14223	Mister Wong	['MisterWong']	misterwong	en	1	misterwong
+498	Wintertree	['"Winter tree Software"']	software	en	0.736000001431	software
+7226	Cisco Catalyst 6500	['"Catalyst 6500"']	catalyst	en	0.98828125	catalyst
+6412	CGI Edge	['"CGI Edge"']	edge	en	1	edge
+14539	actiTIME	['actiTIME']	actitime	en	1	actitime
+14228	SoftDent	['SoftDent', '"Soft Dent"']	dent	en	0.645914375782	dent
+4982	Oracle Service Cloud	['"Oracle Service Cloud"']	cloud	en	0.763565897942	cloud
+14229	Easydent	['Easydent', '"easy dent software"', '"easy dent" and dental']	dental	en	0.918287932873	dental
+13486	Smiths Graseby	['"graseby 3100"']	graseby	en	1	graseby
+14101	ACI Worldwide	['"ACI Proactive Risk Manager"']	manager	en	0.813953459263	manager
+14505	SalesforceIQ	['SalesforceIQ']	salesforceiq	en	0.956692934036	salesforceiq
+14109	Datalogix	['"Data logix"', '"Using Datalogix"']	datalogix	da	0.474903464317	Data logic
+14661	Altair FEKO	['FEKO CEM', 'FEKO electromagnetic']	electromagnetic	en	0.98828125	electromagnetic
+14662	Altair HyperForm	['HyperForm']	hyperform	en	1	hyperform
+14663	Altair HyperXtrude	['HyperXtrude']	hyperxtrude	en	0.5	hyperxtrude
+14665	Veritas Data Insight	['Veritas "Data Insight"']	insight	en	0.98828125	insight
+14666	Veritas eDiscovery	['"Veritas eDiscovery"']	ediscovery	en	1	ediscovery
+14667	Veritas InfoScale Enterprise	['"InfoScale Enterprise"']	enterprise	en	0.945098042488	enterprise
+6716	Xerox D95	['Xerox "d 95"']	xerox	en	0.554263591766	xerox
+8872	Cisco 7600 Series Routers	['"Cisco Routers 7600"', '"CISCO 7600" router']	router	en	0.643410861492	router
+13153	Intuitive Surgical	['"davinci robots"', '"da vinci robots"']	vinci	en	0.30859375	vinci
+13152	Jeron Electronic	['"Jeron nurse"', '"Jeron intercom"']	intercom	en	0.752895772457	intercom
+11371	BounceExchange	['"Bounce Exchange"', 'BounceX']	bouncex	en	1	bouncex
+13396	UltraRAD	['ultraGATEWAY', 'UltraArchive']	ultraarchive	fi	0.8203125	Ultraarchive
+12302	DudaMobile	['DudaMobile']	dudamobile	es	1	Dudamobile
+12183	Hatchbuck	['Hatchbuck']	hatchbuck	en	0.476744174957	hatchbuck
+14361	KBC Advanced Technologies	['"Petro-SIM"', 'KBC ProSteam']	prosteam	pl	0.33984375	I&#39;m straight
+14208	MarketGID	['MarketGID']	marketgid	en	1	marketgid
+14209	Marketizator	['Marketizator']	marketizator	en	0.885826766491	marketizator
+14619	Cisco ASA 5555	['"ASA 5555"', 'ASA5555']	asa	ro	0.616600811481	so
+14618	Cisco ASA 5545	['ASA5545', '"ASA 5545"']	asa	ro	0.616600811481	so
+14202	LiveZilla	['"live!zilla"', '"live zilla"']	zilla	en	0.8984375	zilla
+14614	Cisco ASA 5580	['ASA5580', '"ASA 5580"']	asa	ro	0.616600811481	so
+14617	Cisco ASA 5525	['ASA5525', '"ASA 5525"']	asa	ro	0.616600811481	so
+14616	Cisco ASA 5515	['ASA5515', '"ASA 5515"']	asa	ro	0.616600811481	so
+14611	Cisco ASA 5520	['ASA5520', '"ASA 5520"']	asa	ro	0.616600811481	so
+14610	Cisco ASA 5505	['ASA5505', '"ASA 5505"']	asa	ro	0.616600811481	so
+14613	Cisco ASA 5550	['"ASA 5550"', 'ASA5550']	asa	ro	0.616600811481	so
+7136	IBM WebSphere Presence Server	['Websphere "Presence Server"']	server	en	0.716535449028	server
+14193	LinkConnector	['"Link Connector" marketing']	marketing	en	0.686046540737	marketing
+9389	SproutLoud	['"Sprout Loud"']	loud	en	0.98046875	loud

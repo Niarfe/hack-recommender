@@ -1,0 +1,655 @@
+product_id	product_name	original pattern	token and separated token	detected_language	confidence_score	translated_language 
+9077	Cognos Disclosure Management	['"Cognos CDM"']	cdm	it	0.8203125	Cdm
+11823	GenesisMedia	['"Genesis Media"']	media	en	0.657587528229	media
+6723	Xerox Color 800	['"Xerox 800"']	xerox	en	0.554263591766	xerox
+13358	IPAC Administrator	['"IPAC Administrator"', '"Infection Prevention and Control Administrator"']	control	en	0.87890625	control
+13089	QuickSilver	['Broadvision QuickSilver', 'Interleaf QuickSilver', 'Quicksilver desktop', 'Quicksilver publishing']	publishing	en	0.9609375	publishing
+13088	Corel Ventura	['"Corel Ventura"']	ventura	en	0.509727597237	ventura
+13085	CareFusion Viasys	['Carefusion Viasys', 'viasys respiratory']	respiratory	en	1	respiratory
+13084	CareFusion MedMined	['MedMined']	medmined	da	1	Medmined
+13087	Kronos Visionware	['Visionware']	visionware	en	0.638132274151	visionware
+13086	CareFusion PHACTS	['PHACTS']	phacts	zu	0.651001036167	phacts
+13081	SchuyLab	['SchuyLab']	schuylab	en	0.98828125	schuylab
+13080	Sunquest Flexilab	['Flexilab']	flexilab	la	0.66015625	flexilabris
+13083	Quantros MediQual	['MediQual']	mediqual	bg	1	Mediqual
+13082	CareFusion Alaris	['"Alaris Smart Pump"', '"alaris pump upgrades"', '"Alaris Pump"']	alaris pump	en	0.55771535635	alaris pump
+13243	Questys	['Questys']	questys	pl	0.78125	Questys
+13242	Relias Learning	['"Relias Learning"']	learning	en	1	learning
+13241	Rycan	['Rycan']	rycan	cs	0.99999666214	Rycan
+13169	Drobo	['Drobo']	drobo	en	1	drobo
+13247	Redwood REPORT2WEB	['REPORT2WEB']	web	en	0.596899211407	web
+13246	Staffing Angel	['"Staffing Angel"']	angel	en	0.621621608734	angel
+13245	IQMS	['IQMS ERP', 'EnterpriseIQ']	enterpriseiq	en	0.98046875	enterpriseiq
+13244	Nonin Medical	['Nonin', '"Nonin Medical"', '"Nonin SPO2"']	spo	sq	0.383399218321	Spo
+13162	Cleo Communications	['Cleo EDI', 'Lexicom EDI', '"Cleo Harmony"', '"Cleo LexiCom"', '"Cleo VLTrader"', '"Cleo A+"', '"Cleo 3780"']	cleo a	en	0.134701415896	cleo a
+13160	Malwarebytes	['Malwarebytes']	malwarebytes	en	0.843137264252	malwarebytes
+13161	OrthoView	['OrthoView']	orthoview	en	0.58984375	orthoview
+13166	Alere Health	['"Alere health"']	health	en	1	health
+13167	Avreo	['Avreo']	avreo	el	0.294764280319	No
+13164	Smaart Medical Systems	['Smaart PACS', 'Smaart hospital']	hospital	en	0.778210103512	hospital
+13165	Intelerad	['Intelerad', 'IntelePACS']	intelepacs	ro	0.40000000596	Wise
+11181	Infor d/EPM	['infor dEPM', '"d/EPM"']	epm	en	1	epm
+13452	3M VoiceScript	['VoiceScript']	voicescript	en	0.98046875	voicescript
+12065	PayproGlobal	['payproglobal', '"Paypro Global"']	global	en	0.817120611668	global
+4736	Adobe Pagemaker	['Aldus Pagemaker', 'Adobe Pagemaker']	adobe	en	0.767716526985	adobe
+4735	Adobe InDesign	['"Adobe In Design"']	design	en	0.79766535759	design
+13016	LeanLogistics	['LeanLogistics']	leanlogistics	fy	0.999316513538	leanlogistics
+13017	MercuryGate	['MercuryGate', '"Mercury Gate"']	gate	en	0.859375	gate
+13014	Oracle Value Chain Planning	['Oracle "Value Chain Planning"', '"Oracle VCP"']	vcp	en	1	vcp
+13015	Quintiq	['Quintiq']	quintiq	en	0.98046875	quintiq
+13012	Jonova	['Jonova']	jonova	bg	0.378558337688	Jonova
+13013	Kinaxis	['"Worked in Kinaxis"', '"Kinaxis software"', '"Kinaxis application"']	application	en	0.890625	application
+13010	Wedia	['Wedia', 'NOHETO']	noheto	st	0.999144077301	noheto
+13011	Boardwalktech	['Boardwalktech', '", BoardwalkTech,"']	boardwalktech	en	1	boardwalktech
+13018	Transplace	['", Transplace,"']	transplace	en	0.464566916227	transplace
+13019	MobiControl	['MobiControl']	mobicontrol	vi	0.73828125	Mobicontrol
+194	ESET	['"ESET Endpoint"']	endpoint	en	0.96875	endpoint
+12987	Bintec	['Bintec', 'elmeg', '"Elmeg ICT"', '"Elmeg PBX"']	pbx	en	0.833333313465	pbx
+12986	Avira	['Avira antivirus', 'Antivir']	antivir	de	0.359375	Antivir
+12985	Earthlink	['"@earthlink"', 'earthlink', '"knowledge in earthlink"']	in	en	0.752895772457	in
+12984	Avention	['"in isell"', '"entered into isell"', '"within isell"']	within	en	1	within
+12983	ZoomInfo	['Zoominfo']	zoominfo	da	0.76171875	Zoom info
+12982	Zenefits	['Zenefits']	zenefits	lb	0.999922037125	zenefits
+12981	AT&T U-Verse	['"AT&T Managed Internet"', '"AT&T VPN"', '"@att"']	att	sv	1	to
+12980	Charter Spectrum	['"@charter"']	charter	en	0.88803088665	charter
+13427	T-C Transcription WebMR	['WebMR']	webmr	ku	0.149879664183	Ophbls
+13426	TECHNIDATA TG-Synergy	['"TD-Synergy"']	synergy	en	0.887159526348	synergy
+13425	Tech-Time	['"TechTime System"', '"TechTime STAT"']	stat	ro	0.424710422754	state
+13424	TekTone	['TekTone']	tektone	id	0.25	Tektone
+13423	Telecor	['Telecor']	telecor	en	0.509727597237	telecor
+13422	FileCD	['FileCD']	filecd	la	0.545207738876	filecd
+12989	ADFITECH	['ADFITECH']	adfitech	fy	1	adfitech
+12988	Zucchetti	['Zucchetti', '"gestionale Zucchetti"', '"Produzione di Zucchetti"', '"Zucchetti Ad Hoc Enterprise"', '"Zucchetti program"', '"expertise in Zucchetti"']	in	en	0.752895772457	in
+13058	Cerner RadNet	['Cerner RadNet']	radnet	id	1	Radnet
+13516	GE MERS	['"GE MERS"']	mers	ro	0.747081696987	Walk
+13059	McKesson InteGreat	['InteGreat EMR', 'InteGreat EHR']	ehr	de	0.96875	Honest
+13367	Cerner Etreby Pharmacy Management System	['Cerner Etreby']	etreby	sk	0.999880313873	etreby
+12595	GE Flowcast	['"IDX Flowcast"']	flowcast	cy	0.999492287636	flowcast
+9151	Applicom Apollo	['Applicom Apollo']	apollo	en	0.624000012875	apollo
+12592	Hologic	['Selenia']	selenia	en	0.9609375	selenia
+11868	Veinteractive	['Veinteractive']	veinteractive	es	1	Veinteractive
+12840	Aspyra	['Accessnet radiology', 'Medview', '"CyberLAB ECM"', '"CyberLab Data"', 'Accessnet PACS']	pacs	ca	0.44921875	PACS
+13050	ChartMaxx	['ChartMaxx']	chartmaxx	de	1	Chartmaxx
+13438	Kronos OptiLink	['OptiLink']	optilink	en	1	optilink
+13339	MailChimp Mandrill	['Mandrill Mailchimp', 'Mandrill email']	email	en	0.715953290462	email
+13051	Philips TraceMaster	['Tracemaster EKG', 'Tracemaster ECG', 'Philips Tracemaster']	philips	en	0.43137255311	philips
+13530	Palo Alto GlobalProtect	['GlobalProtect']	globalprotect	en	0.694117665291	globalprotect
+13333	Acuitec GasChart	['Acuitec']	acuitec	la	0.999998867512	acuitec
+13332	Hitachi Oasis	['"Hitachi Oasis"']	oasis	en	0.633204638958	oasis
+13330	Hitachi Medical AIRIS	['Hitachi AIRIS']	airis	lv	0.437984496355	oar
+13337	3AM Technologies ServeRx	['"ServeRx system"', '"ServeRx orders"']	orders	en	0.98046875	orders
+4622	Cisco Unified Web Interaction Manager	['"Cisco WIM"']	wim	nl	0.713178277016	Wim
+13335	Centricity Anesthesia	['"Centricity anesthesia"']	anesthesia	en	1	anesthesia
+13334	Merge AIMS	['DocuSys', '"Merge AIMS"']	aims	en	1	aims
+13535	Draeger Fabius	['Fabius Draeger', 'Fabius Drager', '"Fabius GS"', 'Fabius Anesthesia', 'Fabius Tiro']	tiro	es	0.374015748501	threw
+13534	Draeger Isolette	['drager Isolette']	isolette	it	0.8515625	Islets
+13537	TELESYNERGY	['TELESYNERGY']	telesynergy	en	0.98046875	telesynergy
+337	Nitro PDF	['NitroPDF']	nitropdf	en	0.976653695107	nitropdf
+13536	Draeger Evita	['Drager Evita', 'Evita ventil*']	ventil	de	0.250980407	Valve
+13539	Echo360	['Echo360', '"Echo 360"']	echo	en	0.701960802078	echo
+11343	Adara Networks	['adara', '"adara experience"']	experience	en	1	experience
+5130	Lawson Cloverleaf	['"infor cloverleaf"']	cloverleaf	en	1	cloverleaf
+13207	Swisslog	['Swisslog', 'Pillpick', 'Boxpicker', '"Swiss Log"']	log	en	0.7890625	log
+13205	Masimo	['"Masimo Rainbow"', '"MASIMO PATIENT"']	patient	en	0.9296875	patient
+13204	Nuance Emdat	['Emdat']	emdat	af	0.536700427532	emdat
+13203	Craneware	['Craneware']	craneware	mi	0.389188736677	craneware
+13202	MagView	['MagView']	magview	hu	0.658140718937	view themselves
+13201	Diskriter	['Diskriter']	diskriter	sv	0.171875	Discriter
+13200	Viterion	['Viterion']	viterion	it	0.433070868254	Viterion
+10583	Salesforce.com Marketing Cloud	['"Salesforce marketing Cloud"']	cloud	en	0.763565897942	cloud
+13208	Blackbaud Raiser's Edge	['"Raiser\'s Edge"', '"RaisersEdge"']	raisersedge	en	1	raisersedge
+13240	ScheduleSoft	['ScheduleSoft']	schedulesoft	en	1	schedulesoft
+11914	Snoobi	['Snoobi']	snoobi	en	1	snoobi
+13509	IgeaCare	['IgeaCare']	igeacare	ga	0.972392380238	igeacare
+7008	Supermicro SuperServer	['"Supermicro SuperServer"']	superserver	en	1	superserver
+13249	Raintree Systems	['"Raintree Systems"']	systems	en	0.98046875	systems
+13248	Red Condor	['"RedCondor"', '"Red Condor"']	condor	en	0.534883737564	condor
+10844	CPSI	['CPSI "System 2000"']	system	en	0.9296875	system
+6890	CA UPSTREAM	['"CA UPSTREAM"']	upstream	en	1	upstream
+11531	ASG Safari	['"ASG Safari"']	safari	en	0.5873016119	safari
+11530	HP Moonshot	['"HP Moonshot"']	moonshot	en	1	moonshot
+13113	Viztek	['Viztek', '"Opal-Rad"']	rad	bs	0.724806189537	work
+13112	TomTec Imaging	['TomTec Imaging']	imaging	en	0.98828125	imaging
+13111	Medstreaming	['Medstreaming']	medstreaming	af	0.59820318222	medstreaming
+13110	Digisonics	['Digisonics', 'Digiview cardiology']	cardiology	en	1	cardiology
+13117	RL Solutions	['"RL Solutions"', 'RL6 healthcare']	healthcare	en	1	healthcare
+13116	Zerto	['Zerto']	zerto	eu	0.986351191998	zerto
+13115	JA Thomas	['"JA Thomas"']	thomas	en	0.655038774014	thomas
+13114	TeraRecon	['TeraRecon']	terarecon	ro	0.832921683788	Terarecon
+13052	Philips Avalon CL	['Avalon fetal']	fetal	en	0.880308866501	fetal
+13053	AGFA Heartlab	['Heartlab']	heartlab	en	1	heartlab
+13119	CostFlex	['CostFlex']	costflex	ca	0.499696671963	costflex
+13118	Landacorp	['CareRadius', 'Landacorp', '"Maxsys II"']	ii	ro	0.41015625	Ii
+13056	TherapySource	['TherapySource']	therapysource	en	0.810810804367	therapysource
+13057	Vitera SuccessEHS	['SuccessEHS', '"Success EHS"']	ehs	en	1	ehs
+13054	Fujifilm Prosolv	['Prosolv']	prosolv	ms	0.51953125	prosolv
+13055	Scimage	['Scimage']	scimage	vi	1	Scimage
+556	IBM Power7	['"Power 7 architecture"']	architecture	en	0.91015625	architecture
+13508	McKesson SurgiServer	['SurgiServer']	surgiserver	fr	0.87109375	Surgiserver
+12199	ReachForce	['Reachforce']	reachforce	ga	0.999998867512	reachforce
+7171	Corel PaintShop Pro	['PaintShopPro']	paintshoppro	en	1	paintshoppro
+13500	Philips Esprit	['Respironics Esprit', 'Esprit ventilato*']	ventilato	it	1	Ventilated
+13501	Medquist	['Medquist']	medquist	pt	0.536371648312	Medquist
+13502	Loxogon	['Loxogon']	loxogon	gl	0.999999940395	loxogon
+13503	Nextech	['Nextech EMR']	emr	tr	0.76171875	Order
+13504	Med-Dispense	['"Med-Dispense"']	dispense	en	0.626459121704	dispense
+13505	Meta Health	['"Meta Health"', '"charms 2000"']	charms	en	0.890625	charms
+13506	Puritan Bennett	['"Puritan Bennett 840"']	bennett	en	0.92549020052	bennett
+13507	BreezeSuite	['BreezeSuite']	breezesuite	en	1	breezesuite
+13549	WINASAP	['WINASAP']	winasap	tl	0.9609375	winasap
+13188	CliniComp	['CliniComp', 'ESSENTRIS']	essentris	en	0.818181812763	essentris
+7073	PTC Arbortext	['"Arbor Text"']	text	en	0.779922783375	text
+13239	ScriptPro	['ScriptPro']	scriptpro	en	0.766536951065	scriptpro
+1278	IBM Tivoli Access Manager	['Encentuate']	encentuate	ceb	0.69921875	encentuate
+6978	IBM Smarter Workforce	['"IBM Smarter Workforce"']	workforce	en	1	workforce
+13474	Kingdee	['Kingdee']	kingdee	en	0.87890625	kingdee
+13475	Excel4Apps	['"GL Wand"', 'Excel4Apps', '"GLWand"']	glwand	xh	0.78195297718	glwand
+13476	Yonyou	['Yonyou', 'UFIDA']	ufida	so	0.999742388725	ufida
+13477	WatchGuard XTM	['WatchGuard XTM']	xtm	sk	1	xtm
+13470	Avreo interWORKS	['interworks pacs']	pacs	ca	0.44921875	PACS
+13471	Candelis ImageGrid	['ImageGrid', '"Candelis PACS"']	pacs	ca	0.44921875	PACS
+13379	Cerner RxStation	['RxStation']	rxstation	uz	0.435382276773	rxstation
+13473	PointClickCare	['PointClickCare']	pointclickcare	en	1	pointclickcare
+13377	Cerner MSMeds	['MSMeds']	msmeds	da	0.151454165578	Msmeds
+13376	Cerner Learning Manager	['"Cerner Learning Manager"']	manager	en	0.813953459263	manager
+13375	Cerner CoPathPlus	['CoPathPlus']	copathplus	gd	0.282020658255	copathplus
+13373	MEDITECH Client/Server	['MEDITECH "Client/Server"']	server	en	0.716535449028	server
+13479	Viztek Onyx	['Viztek Onyx', 'OnyxRad', '"Onyx Rad"']	rad	bs	0.724806189537	work
+13370	Cerner INET Virtual	['CERNER AND "INET Virtual"']	virtual	en	0.715953290462	virtual
+13577	Cath Lab	['"CATH LAB"']	lab	en	0.823529422283	lab
+13573	Emergency Department Information System	['"Emergency Department Information System"', 'EDIS']	edis	lt	0.326848238707	EDIS
+687	Avaya VPN Gateway	['"Avaya VPN"']	vpn	en	0.715953290462	vpn
+8428	Blackbaud	['Kintera']	kintera	uz	0.277992278337	KINTEX
+13351	Microsoft SQL Server 2012	['2012r2']	r	en	0.330708652735	r
+8981	Paychex	['"via paychex"', '"through paychex"']	through	en	1	through
+12839	Aperek	['Mediclick']	mediclick	af	0.525096535683	medi click
+7381	Stripe	['"stripe.com"', '"stripe.js"', '"Stripe Checkout"']	checkout	en	1	checkout
+10694	IBM API Management	['"IBM API Management"']	management	en	0.934108555317	management
+13388	Freeland Systems	['"Freeland Systems"']	systems	en	0.98046875	systems
+13489	SCC SoftLab	['SoftLab']	softlab	en	0.80078125	softlab
+13488	Siemens Enterprise Access Directory	['"Enterprise Access Directory"']	directory	en	0.96875	directory
+12172	IBM HTTP Server	['"IBM HTTP Server"']	server	en	0.716535449028	server
+13481	VersaSuite	['VersaSuite']	versasuite	la	1	versasuite
+13480	Visonex	['Visonex']	visonex	it	0.98046875	Visonex
+13483	Sunquest Antrim	['Sunquest Antrim']	antrim	en	0.968503952026	antrim
+13482	Sysmex	['Sysmex', '"Clinitek Atlas"']	atlas	en	0.484496116638	atlas
+13485	Smiths Pneupac	['Pneupac']	pneupac	ca	0.989984989166	pneupac
+13484	Smiths Medical	['"Smiths Medical"']	medical	en	0.96875	medical
+6718	Xerox D125	['Xerox D125']	xerox	en	0.554263591766	xerox
+6716	Xerox D95	['Xerox d95']	xerox	en	0.554263591766	xerox
+6717	Xerox D110	['Xerox D110']	xerox	en	0.554263591766	xerox
+6714	Xerox 550	['"Xerox 550"']	xerox	en	0.554263591766	xerox
+13157	CareEvolution	['CareEvolution']	careevolution	en	0.991268336773	careevolution
+13156	TruCode	['TruCode']	trucode	fr	0.481184542179	Trucode
+13155	Quality Systems Mirth	['"Mirth Care"', '"Mirth Connect"', '"Mirth Match"', '"Mirth Mail"', '"Mirth Results"', '"Mirth Developer"', '"Mirth Interface"']	interface	en	0.856031119823	interface
+13154	Executone Systems	['"Versus RTLS"', '"executone telephone"', '"executone phone"', '"executone switchboard"']	switchboard	en	1	switchboard
+13153	Intuitive Surgical	['"da Vinci Xi"', '"da Vinci Surgical"', '"da Vinci Si System"']	system	en	0.9296875	system
+13152	Jeron Electronic	['Jeron nurse', 'Jeron intercom']	intercom	en	0.752895772457	intercom
+13151	Marshfield Cattails	['CattailsMD', 'Cattails software', 'Cattails EHR', '"Cattails MD"', 'Cattails EMR']	emr	tr	0.76171875	Order
+13099	Crimson Population Risk Management	['"crimson population"', 'Crimson CPRM', 'Crimson "population risk"']	risk	en	0.918287932873	risk
+13096	Draeger Innovian	['Innovian']	innovian	tr	0.51953125	Innovian
+13097	AeroScout	['AeroScout']	aeroscout	en	1	aeroscout
+13094	WinSURGE	['WinSurge']	winsurge	en	0.715830147266	winsurge
+13095	Surgical Information Systems	['"Surgical Information Systems"', '"SIS Trax"']	trax	en	0.779922783375	trax
+13092	Carestream Directview	['Carestream Directview']	directview	en	1	directview
+13093	WindoPath	['WindoPath']	windopath	cy	0.997641563416	windopath
+13159	Canon PACS	['"Canon PACS"']	pacs	ca	0.44921875	PACS
+13091	SmartDraw	['SmartDraw', '"Smart Draw"']	draw	en	1	draw
+13395	Voyant TraumaCad	['TraumaCad']	traumacad	en	0.636363625526	traumacad
+13394	Midas BedReady	['BedReady']	bedready	fy	1	bedready
+13397	Netilla	['Netilla']	netilla	fi	0.592555046082	On the net
+10591	Symantec Messaging Gateway	['Brightmail']	brightmail	en	1	brightmail
+13258	Asure ADI Time	['"ADI Time"']	time	en	1	time
+13259	WinPharm	['WinPharm']	winpharm	hmn	0.992739975452	winpharm
+13393	Midas Statit PPR	['Statit PPR']	ppr	vi	0.368217051029	PPR
+13392	Zynx ZynxCare	['ZynxCare']	zynxcare	el	0.999978125095	Zynxcare
+13254	MetaViewer	['Metaviewer']	metaviewer	el	1	Metaviewer
+13255	Medkinetics	['Medkinetics']	medkinetics	da	0.832007527351	Medkinetics
+13256	Lucidoc	['Lucidoc']	lucidoc	it	0.9296875	Lucidoc
+13257	MedEvolve	['MedEvolve']	medevolve	af	0.476297169924	medevolve
+13250	Quantrax	['Quantrax']	quantrax	vi	0.9296875	Quantrax
+13251	QMS Focus	['"QMS Focus"']	focus	en	0.937007844448	focus
+13252	Par Excellence Systems	['"Par Excellence Systems"', 'ParExcellence']	parexcellence	la	0.987015545368	parexcellence
+13253	MIM Software	['"MIM Software"', 'MIMVista']	mimvista	sn	0.999791383743	mimvista
+12906	CardioPACS	['Lumedx']	lumedx	la	0.571837544441	LUMEDX
+13288	Protegrity	['"such as protegrity"', '"Protegrity file"', '"protegrity tool"']	tool	en	0.8984375	tool
+13312	CA Advanced Authentication	['"CA Advanced Authentication"']	authentication	en	1	authentication
+7134	IBM Worklight	['"IBM Worklight"']	worklight	en	1	worklight
+13328	Fortinet FortiClient	['FortiClient']	forticlient	en	1	forticlient
+13282	Gravitant	['Gravitant tools', 'Gravitant cloud']	cloud	en	0.763565897942	cloud
+13023	IntraNexus	['IntraNexus']	intranexus	en	0.51171875	intranexus
+13022	SurgiSource	['SurgiSource']	surgisource	fr	0.87109375	Surgisource
+13021	AdvantX	['AdvantX']	advantx	en	0.80859375	advantx
+13020	Stockell Healthcare	['InsightCS', 'Stockell']	stockell	en	0.669260680676	stockell
+13027	Cerner SurgiNet	['SurgiNet']	surginet	en	0.76953125	surginet
+13026	Cerner PharmNet	['PharmNet']	pharmnet	zu	0.338379234076	pharmnet
+13025	Cerner PowerInsight	['Cerner PowerInsight']	powerinsight	en	0.9609375	powerinsight
+13024	Cerner Millennium	['"Cerner Millennium"', '"Millennium EHR"', '"Millenium EHR"', '"Millennium electronic"', '"Millennium EMR"', '"Cerner Millenium"']	cerner millenium	fr	0.202150419354	Cerner millenium
+13029	Epic Cupid	['Epic Cupid']	cupid	en	0.71875	cupid
+13028	Cerner VitalWorks	['VitalWorks']	vitalworks	en	1	vitalworks
+10874	CenturyLink	['CenturyLink', '"@Centurylink"', '"centurylink systems"', '"experience with centurylink"', '"exp. working with centurylink"']	working	en	1	working
+12990	TenA	['TenA mortgage', 'TenA loan', '"SecondLook Software"', '"Tena Software"', '"Tena Second Look"', '"Tena SecondLook"', '"Second Look Tena"', '"scanning to TENA"']	to	en	0.864341080189	to
+12991	Visible Equity	['"including Visible Equity"', '"using visible equity"']	using	en	1	using
+12992	Optimal Blue	['OptimalBlue', '"Optimal Blue"']	blue	en	0.940711438656	blue
+12993	Cogent QC	['CogentQC', '"Cogent QC"', '"Cogent ProductionQC"']	productionqc	en	0.7890625	productionqc
+12994	Dell EqualLogic PS6210 Series Arrays	['ps6210']	ps	en	0.383399218321	ps
+12995	HP StoreVirtual	['StoreVirtual']	storevirtual	no	0.48828125	Storevirtual
+12996	IP Infusion	['IPInfusion', '"IP Infusion software"']	software	en	0.736000001431	software
+12997	Metaswitch	['Metaswitch']	metaswitch	en	1	metaswitch
+12998	Survalent	['Survalent', 'SmartSCADA']	smartscada	en	0.795275568962	smartscada
+12999	Hansoft	['Hansoft']	hansoft	ny	0.72078037262	hansoft
+13432	Sunquest Blood Bank	['"Sunquest Blood Bank"']	bank	en	0.652509629726	bank
+13433	Sunquest PowerPath	['Tamtron Powerpath', 'Sunquest Powerpath']	sunquest	en	1	sunquest
+13434	Sunquest Transfusion Manager	['Sunquest "Transfusion Manager"']	manager	en	0.813953459263	manager
+13435	Sunquest FlexiRad	['FlexiRad']	flexirad	gl	1	flexirad
+13436	Kronos Staffrunner	['Staffrunner']	staffrunner	en	1	staffrunner
+13437	Kronos Timekeeper Central	['"Timekeeper Central"']	central	en	0.76953125	central
+13491	SCC SoftPath	['SoftPath patho*']	patho	en	1	patho
+13497	TheraDoc	['TheraDoc']	theradoc	en	1	theradoc
+516	Cisco Nexus Switches	['"Cisco Nexus"']	nexus	en	0.486381322145	nexus
+13472	Zetta, Inc.	['Zetta backup', 'Zetta recovery']	recovery	en	1	recovery
+13324	Fortinet FortiManager	['FortiManager']	fortimanager	en	1	fortimanager
+13325	Fortinet FortiAnalyzer	['FortiAnalyzer']	fortianalyzer	en	1	fortianalyzer
+13326	Fortinet FortiWeb	['FortiWeb']	fortiweb	el	1	Fortiweb
+13327	Fortinet FortiAuthenticator	['FortiAuthenticator']	fortiauthenticator	la	0.921875	fortiauthenticator
+13320	Teradata Value Analyzer	['"Teradata Value Analyzer"', 'Teradata TVA']	tva	ro	0.573643386364	Tva
+13321	Teradata Dual Active	['Teradata "Dual Active"']	active	en	0.918287932873	active
+13289	CipherCloud	['CipherCloud']	ciphercloud	en	0.96875	ciphercloud
+13323	IRI CoSort	['CoSort']	cosort	sv	0.862878620625	Cosort
+13287	Vormetric	['Vormetric']	vormetric	af	0.999880552292	Vormetric
+13286	Sabre Airline Solutions	['"Sabre Airline Solutions"']	solutions	en	0.87890625	solutions
+13285	Kaavo	['Kaavo']	kaavo	fi	0.505876779556	Formula
+13284	Abiquo	['Abiquo']	abiquo	la	1	abíque
+13283	IBM Power8	['Power8']	power	en	0.98828125	power
+13329	Fortinet FortiMail	['FortiMail']	fortimail	en	1	fortimail
+13281	Concur Invoice	['"Concur Invoice"']	invoice	en	0.98046875	invoice
+13280	SAP Supplier Relationship Management	['"SAP Supplier Relationship Management"', '"SAP SRM"']	srm	vi	0.91015625	SRM
+13049	3M CodeRyte	['CodeRyte']	coderyte	ru	0.539625763893	Coderyte
+13449	3M DRGfinder	['DRGfinder']	drgfinder	da	0.841350615025	Drgfinder
+13448	3M ChartView	['3M ChartView']	chartview	bg	0.999942004681	Chartview
+13048	athenaNet	['athenaNet', 'athenaclinicals', 'athenacommunicator', 'Epocrates EHR']	ehr	de	0.96875	Honest
+13445	Healthcare Insights, LLC	['"Healthcare Insights System"', '"HealthCare Insights (HCI)"', '"financial data to Healthcare Insights"', '"Healthcare Insights Program"']	program	en	0.75	program
+13444	InStar RIS	['InStar radiology', 'InStar RIS']	ris	it	0.396825402975	Ris
+13447	3M APC Grouper	['APC Grouper']	grouper	en	0.69140625	grouper
+13446	GEMMS USA	['GEMMS EHR', '"GEMMS ONE"']	one	en	0.98828125	one
+13441	InteliChart	['InteliChart']	intelichart	es	0.309803932905	Intelichart
+13440	IntraNexus Allegra	['SMS Allegra']	allegra	en	0.515748023987	allegra
+13443	InteHealth	['InteHealth']	intehealth	mi	0.952558815479	intehealth
+13442	Intelemage	['Intelemage', 'InteleGRID']	intelegrid	ro	0.40000000596	Intelegrid
+11812	CPX Interactive	['"CPX Interactive"']	interactive	en	0.957198441029	interactive
+13396	UltraRAD	['UltraRAD']	ultrarad	es	0.51171875	Ultrarad
+5107	BMC Coradiant	['"BMC Coradiant"']	coradiant	en	0.7890625	coradiant
+13210	Blackbaud Education Edge	['Blackbaud AND "Education Edge"', '"in Education Edge"', '"into education edge"', '"Raiser\'s Edge" AND "Education Edge"']	raiser	en	1	raiser
+13211	Blackbaud Financial Edge	['Blackbaud "Financial Edge"']	edge	en	1	edge
+13212	Blackbaud NetCommunity	['Blackbaud NetCommunity', 'Blackbaud BBNC', 'Blackbaud "Net Community"']	community	en	0.94921875	community
+13213	CA Service Catalog	['"CA Service Catalog"']	catalog	en	0.86274510622	catalog
+13214	BMC MyIT	['BMC myIT']	myit	ha	0.78125	myit
+13215	MDeverywhere	['"in MDEverywhere"', '"into MDEverywhere"', '"MDEverywhere system"', '"from MDeverywhere"']	from	en	1	from
+13216	MediQuant	['MediQuant', 'Dataark']	dataark	no	0.8203125	Datasheet
+13217	Cepheid GeneXpert	['GeneXpert']	genexpert	de	0.921875	Genexpert
+13193	InstaMed	['InstaMed']	instamed	fr	0.76953125	Instamed
+13219	Omtool	['Omtool', 'AccuRoute']	accuroute	en	1	accuroute
+13191	CareAlign	['CareAlign']	carealign	en	1	carealign
+13190	AlphaSystems	['Alpha Imageworks', '"Alpha Systems" hospital', '"Alpha Systems" medical', '"Alpha Systems" chart', '"Alpha Systems electronic"']	electronic	en	0.957198441029	electronic
+13197	Canon Oce VarioStream	['VarioStream']	variostream	en	1	variostream
+13196	Xerox D136	['Xerox d136']	xerox	en	0.554263591766	xerox
+13195	Xerox iGen 150	['iGen150', '"iGen 150"']	igen	sv	0.444881886244	again
+13194	Xerox iGen5	['"igen 5"']	igen	sv	0.444881886244	again
+13547	GlaceEMR	['"Glenwood EMR"', 'GlaceEMR', '"Glace EMR"']	glace	fr	0.9609375	ice
+13128	Wolters Kluwer CCH	['CCH tax', 'CCH ProFX', 'CCH IntelliConnect']	intelliconnect	en	0.682539701462	intelliconnect
+13540	Steris	['"Steris System"', '"operate steris"', '"Steris Machine"', '"Steris Machines"', '"Steris Room"', '"Steris Glassware"', '"run steris"', '"Steris WFI"']	wfi	en	0.55078125	wfi
+12342	Ontraport	['Ontraport']	ontraport	eo	0.834662735462	ontraport
+13541	StatRad	['StatRad', 'RadConnect']	radconnect	en	1	radconnect
+13429	Syntermed	['Syntermed']	syntermed	en	1	syntermed
+13428	TC Software ConnectMate	['ConnectMate']	connectmate	en	0.887159526348	connectmate
+12618	PeriGen	['PERIBIRTH', 'Pericalm']	pericalm	en	0.69921875	pericalm
+12611	Iatric Systems	['scriptlink']	scriptlink	en	0.766536951065	scriptlink
+9330	Jack Henry & Associates	['"Jack Henry" software']	software	en	0.736000001431	software
+13067	Netsmart	['Netsmart CMHC', 'Netsmart myAvatar', '"Netsmart EMR"', 'Netsmart MIS', 'Netsmart Avatar']	avatar	vi	0.256000012159	Avatar
+13066	Medsphere	['Medsphere', 'OpenVistA']	openvista	en	1	openvista
+13065	Mediware HCLL Transfusion	['HCLL Transfusion', '"HCLL Blood"', '"HCLL Bloodbank"', 'Hemocare Lifeline']	lifeline	en	0.94921875	lifeline
+13064	ReDoc	['ReDoc']	redoc	la	0.518114984035	redoc
+13063	ChartOne	['ChartVault', '"ChartOne EMR"', '"with ChartOne"', '", Chartone,"']	with	en	1	with
+13062	Intellicure	['Intellicure']	intellicure	en	0.682539701462	intellicure
+13061	WoundExpert	['WoundExpert']	woundexpert	en	1	woundexpert
+13060	Cedaron	['cedaron', '"APTA CONNECT"']	connect	en	1	connect
+13548	Fukuda Denshi	['"Fukuda Denshi"']	denshi	ja	1	Denshi
+13069	Qualifacts	['Qualifacts', 'Carelogic']	carelogic	ro	1	Carelogic
+13068	iSALUS	['iSALUS']	isalus	et	0.940601050854	isalus
+13265	Xyloc	['Xyloc']	xyloc	hmn	0.802429020405	xyloc
+13264	HealthLine Systems	['"healthLine Systems"']	systems	en	0.98046875	systems
+8925	Dimensional Insight	['"Diver solution"', '"DimensionalInsight"', '"Dimensional Insight"']	insight	en	0.98828125	insight
+13266	EnGenius	['EnGenius']	engenius	gl	0.9296875	EnGenius
+13261	Emdeon ExpressBill	['ExpressBill']	expressbill	en	0.680769205093	expressbill
+13109	Haemonetics	['SafeTrace', 'OrthoPAT', '"Cell Saver"', '"TEG 5000"', '"Haemonetics PCS-2"', '"Haemonetics Safetrace"', '"Haemonetics troubleshooting"', '"Haemonetics machine"', '"Haemonetics software"', '"Haemonetics application"', '"Haemonetics Reports"']	reports	en	1	reports
+13263	Healthix	['Healthix']	healthix	en	1	healthix
+13262	Ingenious Med	['"Ingenious Med"']	med	sv	0.420233458281	with
+13104	Medecision	['Medecision']	medecision	fr	0.880308866501	Medication
+13105	CenTrak	['Centrak']	centrak	en	0.52362203598	centrak
+13107	Netchex	['Netchex']	netchex	so	0.999997913837	netchex
+13269	iMedConsent	['iMedConsent']	imedconsent	la	0.986506938934	imedconsent
+13268	Digital Innovation NTRACS	['NTRACS']	ntracs	hu	0.843183219433	ntracs
+13102	Epic Healthy Planet	['Epic "Healthy Planet"']	planet	en	0.744186043739	planet
+13103	i2iTracks	['i2iTracks', '"i2i Tracks"', '"i2i Systems"']	systems	en	0.98046875	systems
+12957	VigiLanz	['vigilanz']	vigilanz	es	0.444015443325	Vigilance
+13176	Tyler Technologies	['"Tyler Technologies"', 'Tyler MUNIS']	munis	fr	0.91015625	Provided
+13519	GE Giraffe	['GE Giraffe', 'Giraffe incubator', 'Ohmeda giraffe']	ohmeda	en	1	ohmeda
+13518	GE MAC	['"GE MAC"']	mac	en	0.683397710323	mac
+13401	athenaCollector	['athenaCollector']	athenacollector	en	0.5390625	athenacollector
+13369	Cerner Direct	['"Cerner Direct"']	direct	en	0.7109375	direct
+13403	RevSpring	['RevSpring']	revspring	no	0.366468399763	Revspring
+13405	ScottCare	['CardioView', 'ScottCare']	scottcare	it	0.985677659512	Scotch
+13404	PedCath	['PedCath']	pedcath	gd	0.73615449667	pedcath
+13407	Shiftboard	['", shiftboard,"', '"Shiftboard Web-based"', '"shiftboard application"', '"Shiftboard data"', '"shiftboard program"', '"shiftboard platform"', '"shiftboard software"', '"Shiftboard database"', '"like Shiftboard"']	like	en	0.98828125	like
+13406	Segami Oasis	['Segami Oasis']	oasis	en	0.633204638958	oasis
+13360	Meditech 6.0	['"Meditech 6.0"']	meditech	en	0.747035562992	meditech
+13361	Meditech 6.1	['"Meditech 6.1"']	meditech	en	0.747035562992	meditech
+13365	Cerner Fetalink	['Fetalink']	fetalink	it	0.890625	Fetalink
+13366	Cerner Discern nCode	['"Discern nCode"', 'Cerner "Discern Analytics"', 'Cerner "Discern Rule*"', 'Cerner "Discern Alerts"', 'Cerner "Discern Explore*"', '"Cerner Discern"', 'Cerner "Discern Expert"', 'Cerner "Discern Tools"', 'Cerner "in Discern"', 'Cerner "through Discern"']	through	en	1	through
+8784	Tibco Slingshot	['"Tibco Slingshot"']	slingshot	en	1	slingshot
+13386	Allscripts Confidence	['"Allscripts Confidence"']	confidence	en	1	confidence
+13568	case mix management	['"case mix management"']	management	en	0.934108555317	management
+13387	Cisco HealthPresence	['HealthPresence']	healthpresence	en	1	healthpresence
+13566	Certified Primary Stroke Center	['"Certified Primary Stroke"']	stroke	en	0.785992205143	stroke
+13567	Population Health Management	['"Population health Management"']	management	en	0.934108555317	management
+13564	Transcatheter Aortic Valve Replacement	['"aortic valve replacement"', 'TAVR']	tavr	hr	0.333560317755	Tavr
+13565	ScaleArc	['ScaleArc']	scalearc	it	0.66015625	Scalearc
+13562	Benelogic	['Benelogic']	benelogic	el	1	Benelogic
+13563	Akamai Bloxx	['Bloxx filter*']	filter	en	0.764705896378	filter
+13561	Benefitfocus	['Benefitfocus']	benefitfocus	en	0.764705896378	benefitfocus
+13511	Honeywell Xenon	['"Honeywell Xenon"', '"Honeywell Barcode"']	barcode	en	0.795275568962	barcode
+13409	OptumInsight CareMedic	['CareMedic']	caremedic	sl	0.91015625	caremedic
+8718	Cisco VM-FEX	['"VM-FEX"']	fex	la	0.76171875	sex
+8435	Palo Alto Networks	['"PaloAlto Networks"']	networks	en	1	networks
+13199	Canon Oce JetStream	['Oce Jetstream', '"Jetstream 1000"', '"Jetstream 2200"']	jetstream	en	0.83984375	jetstream
+13198	Canon Oce ColorStream	['Oce Colorstream']	colorstream	en	1	colorstream
+13408	Skytron	['Skytron']	skytron	en	1	skytron
+12826	3M ClinTrac	['Chartstat']	chartstat	en	0.94140625	chartstat
+12822	Infinisource	['Qqest']	qqest	mt	0.333871245384	qqest
+13319	Teradata Decision Experts	['"Teradata Decision Experts"']	experts	en	0.918287932873	experts
+13318	Teradata CRM	['"Teradata CRM"']	crm	en	0.8203125	crm
+13315	Tableau Server	['"Tableau Server"']	server	en	0.716535449028	server
+13314	Tableau Public	['"Tableau Public"']	public	en	0.87890625	public
+13317	Teradata CLDM	['"Teradata CLDM"']	cldm	la	0.127622678876	cldmos
+13316	Teradata Marketing	['"Teradata Marketing"']	marketing	en	0.686046540737	marketing
+13311	CA Service Management	['"CA Service Management"']	management	en	0.934108555317	management
+13310	CA Process Automation	['"CA Process Automation"']	automation	en	0.906614780426	automation
+13313	Tableau Desktop	['"Tableau Desktop"']	desktop	en	0.71875	desktop
+6562	Kofax Front Office Server	['"Kofax Front Office"']	office	en	0.94921875	office
+13218	Mediscribe	['Mediscribe']	mediscribe	nl	1	Mediscribe
+13498	VelociDoc	['VelociDoc']	velocidoc	en	0.37890625	velocidoc
+13499	PLATOCODE	['PLATOCODE']	platocode	sk	0.62109375	platocode
+411	SciQuest	['"Upside Software"']	software	en	0.736000001431	software
+13192	NextGate Solutions	['MatchMetrix', 'NextGate']	nextgate	en	0.588585317135	nextgate
+13490	SCC SoftMic	['SoftMic']	softmic	el	0.387635946274	Softly
+13389	Healthland Centriq	['EHR Centriq', 'hospital Centriq', 'EMR Centriq']	emr	tr	0.76171875	Order
+13496	veEDIS	['veEDIS', 'ProMed emergency']	emergency	en	1	emergency
+12570	Virtual Radiologic	['vRad radio*']	radio	en	0.572549045086	radio
+13494	Recondo	['Recondo']	recondo	es	0.691119670868	I reconnoiter
+13495	Mortara	['Mortara cardi*', 'Mortara EKG']	ekg	sl	0.75	ECG
+12571	3M Codefinder	['"3M CRS"']	crs	en	1	crs
+13554	SecureTide	['SecureTide']	securetide	en	1	securetide
+13140	InTouch Health	['"InTouch Health"']	health	en	1	health
+13141	Gorrie-Regan	['Gorrie Regan']	regan	en	0.9296875	regan
+13142	Baxter Healthcare	['"Baxter IV"', '"Baxter pump"', '"Baxter pumps"', '"Baxter infusion"']	infusion	en	0.9296875	infusion
+13143	Austco	['Austco nurse', 'Tacera']	tacera	la	0.999580621719	incident
+13144	PatientKeeper	['PatientKeeper', '"Patient Keeper"']	keeper	en	0.76953125	keeper
+13145	PatientSafe Solutions	['PatientSafe']	patientsafe	en	0.8515625	patientsafe
+13146	Atlas Medical	['LabWorks Atlas']	atlas	en	0.484496116638	atlas
+13147	Talyst	['Talyst', 'AutoCarousel', 'AutoPharm']	autopharm	en	1	autopharm
+13148	Optum Netwerkes	['NETWERKES']	netwerkes	nl	0.86274510622	Networks
+13149	FastHealth	['FastHealth']	fasthealth	sv	0.285714298487	Fasthealth
+13229	ZirMed	['ZirMed']	zirmed	ku	0.750892698765	Zirmeh
+13228	ShiftHound	['ShiftHound']	shifthound	lb	0.915384709835	shift hound
+13384	Epic Health Information Management	['"Epic Health Information Management"', '"Epic HIM"']	him	en	0.9609375	him
+13385	Allscripts Canopy	['Allscripts Canopy']	canopy	en	0.897637784481	canopy
+13382	Epic Clarity	['"Epic Clarity"']	clarity	en	1	clarity
+13383	Epic Identity	['"Epic HIM/Identity"', '"Epic Identity"']	epic identity	en	0.243630215526	epic identity
+13380	Epic Bridges	['"Epic Bridges"']	bridges	en	1	bridges
+13221	BayScribe	['BayScribe']	bayscribe	tl	0.362739980221	BayScribe
+13220	SpectraSoft	['SpectraSoft']	spectrasoft	en	0.96875	spectrasoft
+13223	Cardiocom	['Cardiocom']	cardiocom	en	0.7109375	cardiocom
+13222	Bradoc	['Bradoc']	bradoc	ca	0.979176580906	bradoc
+13225	Digitech PaperVision	['Digitech PaperVision', '"PaperVision Enterprise"', '"Papervision Capture"']	capture	en	0.94140625	capture
+13224	Pitney Bowes EngageOne	['EngageOne']	engageone	en	0.67984187603	engageone
+13227	MediaBeacon	['MediaBeacon']	mediabeacon	nl	0.794573664665	Media confession
+13226	Candelis	['Candelis', '"Astra cloud"']	cloud	en	0.763565897942	cloud
+12648	Siemens MobileMD	['"MobileMD"']	mobilemd	en	0.671875	mobilemd
+5328	McAfee Cloud Identity Manager	['McAfee "Cloud Identity Manager"']	manager	en	0.813953459263	manager
+781	Azure	['"Azure Table Storage"', '"Azure Service Bus"', '"Azure Blob Storage"', '"Azure Architect"', '"azure dba"', '"Azure virtual machines"', '"azure infrastructure"', '", azure,"', '", azure."', '"azure engineer"']	engineer	en	0.948818922043	engineer
+10981	Bentley Rail Track	['"Bentley Rail Track"']	track	en	1	track
+13135	HealthPort	['HealthPort', '"routing to Healthport"', '"Healthport invoices"']	invoices	en	1	invoices
+13134	Medweb	['Medweb']	medweb	ny	0.569823205471	medweb
+13137	Compliance 360	['Compliance360', '"Compliance 360"']	compliance	en	0.98828125	compliance
+13136	Ekahau	['Ekahau']	ekahau	en	1	ekahau
+13038	Siemens Mammomat	['Mammomat']	mammomat	hi	1	Mammomat
+13039	Siemens Mobilett	['Mobilett']	mobilett	en	0.671875	mobilett
+13133	Nihon Kohden America	['Nihon Kohden', '"Nihon Kohden software"']	software	en	0.736000001431	software
+13132	OnePacs	['OnePacs']	onepacs	lv	0.999783694744	onepacs
+13034	Aesynt	['Aesynt', 'Acudose']	acudose	gl	0.549009144306	acudose
+13035	Siemens Eagle 2000	['"Eagle 2000"']	eagle	en	0.882352948189	eagle
+13036	Siemens Invision	['Siemens INVISION']	invision	en	0.784313738346	invision
+13037	Siemens Inveon	['Siemens Inveon']	inveon	en	1	inveon
+13030	McKesson Paragon	['"paragon electronic"', 'Paragon AND EMR', '"Paragon HIS"']	his	en	1	his
+13031	McKesson InterQual	['InterQual']	interqual	la	0.80859375	interqual
+13032	McKesson Medcon	['Mckesson Medcon', 'Medcon cardiology']	cardiology	en	1	cardiology
+13033	McKesson Trendstar	['Trendstar']	trendstar	en	0.7890625	trendstar
+13431	SunTech Medical	['Suntech tango']	tango	en	0.297297298908	tango
+13522	GE Critikon	['Critikon', 'Dinamap']	dinamap	es	0.260700374842	Dinamap
+13523	GE RxTFC	['RxTFC']	rxtfc	el	0.324802219868	Rxtfc
+13520	GE iPath	['"GE iPath"']	ipath	en	1	ipath
+13521	GE Dash	['"GE Dash"']	dash	en	0.918287932873	dash
+13526	Gamma-Dynacare	['Gamma Dynacare']	dynacare	el	0.537859618664	Dynacare
+12968	Sun SeeBeyond	['"Sun SeeBeyond"']	seebeyond	en	1	seebeyond
+13524	GE Apex Pro	['GE "Apex Pro"']	pro	cs	0.633204638958	for
+13525	GE AgileTrac	['AgileTrac']	agiletrac	la	0.775964617729	agiletrac
+13528	1 EDI Source	['"1 EDI Source"']	source	en	0.91015625	source
+13529	3M ChartStat	['ChartStat']	chartstat	en	0.94140625	chartstat
+10812	WinMagic	['SecureDoc']	securedoc	en	1	securedoc
+12030	Netriplex	['Netriplex']	netriplex	lb	0.633792102337	netriplex
+12036	Return Path	['"Return path" email']	email	en	0.715953290462	email
+12539	Epic Willow	['"Willow Inpatient Pharmacy System"']	system	en	0.9296875	system
+9137	Cisco IGX 8400	['"IGX8400"']	igx	eo	1	works run down
+13298	Siemens CATHCOR	['CATHCOR']	cathcor	ga	0.664092540741	cathcor
+13299	Siemens Uroskop	['Uroskop']	uroskop	da	0.851303577423	Uroscope
+13338	Urban Airship	['"Urban Airship"']	airship	en	1	airship
+13355	Mediregs Complytrack	['Complytrack']	complytrack	en	1	complytrack
+13290	Dataguise	['Dataguise']	dataguise	en	1	dataguise
+13291	Inductive Automation	['"Inductive Automation"', 'SCADA Ignition']	ignition	en	1	ignition
+13292	OSISoft	['OSISoft']	osisoft	en	1	osisoft
+13293	Varonis	['Varonis']	varonis	lv	1	hero
+13294	Mimaki	['Mimaki']	mimaki	cy	0.220472440124	Mimaki
+13295	Oracle Contact Center Anywhere	['Oracle "Contact Center Anywhere"', '"Oracle CCA"']	cca	cs	0.426356583834	Approx
+13296	Cisco Intercloud	['"Cisco Cloud"', '"Cisco Intercloud"']	intercloud	en	0.587548613548	intercloud
+13297	Siemens AngioStar	['AngioStar']	angiostar	en	1	angiostar
+13458	Allscripts Eclipsys 7000	['"Eclipsys 7000"']	eclipsys	en	1	eclipsys
+13459	Allscripts Eclipsys SDK	['"Eclipsys SDK"']	sdk	en	0.956692934036	sdk
+13456	ALERT Life Sciences Computing	['"ALERT Life Sciences Computing"']	computing	en	0.98828125	computing
+13457	AllMeds	['AllMeds']	allmeds	en	1	allmeds
+13454	Talk Technologies Inc.	['Sylencer', '"Talk Tech" voice']	voice	en	0.94921875	voice
+13455	Airstrip	['Airstrip OB']	ob	sl	0.444015443325	the
+968	PeopleSoft Candidate Gateway	['"PeopleSoft Candidate Gateway"']	gateway	en	0.836575865746	gateway
+4834	Bentley	['"Bentley CAD"']	cad	ga	0.415384620428	what
+13450	3M Health Data Management System	['3M "HEALTH DATA MANAGEMENT SYSTEM"']	system	en	0.9296875	system
+13451	3M Medical Necessity	['"3M Medical Necessity"']	necessity	en	1	necessity
+11638	ProVation MD	['ProVations']	provations	it	0.7109375	Provations
+13336	iMDsoft MetaVision	['MetaVision']	metavision	el	1	Metavision
+13184	Availity	['Availity']	availity	en	1	availity
+13185	Suite Scheduler	['"Suite Scheduler"']	scheduler	en	0.94921875	scheduler
+13186	Sonitor	['Sonitor']	sonitor	it	0.774146258831	Sonitor
+13187	BRIT Systems	['BRIT PACS']	pacs	ca	0.44921875	PACS
+13180	Asure Legiant	['Legiant']	legiant	en	0.384615391493	legiant
+13181	Timeware	['Timeware']	timeware	sv	0.657587528229	Timeware
+13182	4medica	['4medica']	medica	it	0.665354311466	Doctor
+13183	Columbia Ultimate	['"Columbia Ultimate"']	ultimate	en	0.98828125	ultimate
+12819	PeopleStrategy	['"through PeopleStrategy"', '"using PeopleStrategy"', 'Peoplestrategy HRMS']	hrms	cs	0.382878929377	Hrms
+13189	Criticare Systems	['"Criticare Systems"', 'Criticare 8100', 'Criticare vital']	vital	en	0.729729712009	vital
+13131	PolyOptimum	['PolyOptimum']	polyoptimum	la	0.798629283905	polyoptimum
+12600	Rauland-Borg	['Rauland Nurse']	nurse	en	0.98828125	nurse
+6630	Quantum Vision	['"Quantum Vision"']	vision	en	0.817120611668	vision
+11497	MedeAnalytics	['MEDEFINANCE']	medefinance	nl	1	Co-financing
+13070	WebPT	['WebPT']	webpt	sv	0.383492201567	Webpt
+13071	OncoMED	['OncoEMR', '"Onco EMR"']	emr	tr	0.76171875	Order
+13072	T SystemEV	['SystemEV']	systemev	en	0.86770427227	systemev
+13073	Wellsoft	['Wellsoft']	wellsoft	en	0.457563877106	wellsoft
+13074	Logicare	['Logicare']	logicare	en	0.78125	logicare
+13075	TrueCrypt	['TrueCrypt']	truecrypt	en	0.69921875	truecrypt
+13076	McAfee IronMail	['IronMail']	ironmail	en	1	ironmail
+13077	SafetySurveillor	['SafetySurveillor']	safetysurveillor	en	1	safetysurveillor
+13079	iNTERFACEWARE	['iNTERFACEWARE']	interfaceware	en	0.733333349228	interfaceware
+13138	MediTract	['MediTract']	meditract	mg	0.997534453869	meditract
+13276	Concur Expense	['"Concur Expense"']	expense	en	1	expense
+13277	Concur Travel	['"Concur Travel"']	travel	en	0.98828125	travel
+13274	Bunnell	['"Bunnell Jet"', 'Bunnell vent*']	vent	fr	0.428015559912	wind
+13275	IntelliFill	['IntelliFill']	intellifill	en	0.682539701462	intellifill
+13272	Connexall	['Connexall']	connexall	fr	0.901960790157	Connexall
+13273	ONCOCHART	['ONCOCHART']	oncochart	ga	1	oncochart
+13270	Elligence	['"Elligence"']	elligence	da	0.552200257778	Elligence
+13271	Cyberquery	['Cyberquery']	cyberquery	gl	0.70662933588	Cyberquery
+13171	GlobalMED	['GlobalMED']	globalmed	en	0.694117665291	globalmed
+13170	PenRad	['PenRad']	penrad	ga	0.250814437866	penrad
+13173	Acronis nScaled	['nScaled']	nscaled	ga	0.998353481293	nscaled
+13172	Interbit Data	['Interbit', 'NetDelivery', 'NetSafe']	netsafe	ny	0.999720871449	netsafe
+13175	JBDev	['JBDev']	jbdev	sl	0.927882671356	jbdev
+13174	Voalte	['Voalte']	voalte	mg	0.947250545025	vEIL
+13278	Peoplesoft eProcurement	['"Peoplesoft eProcurement"', '"Peoplesoft ePro"']	epro	en	1	epro
+13279	Tungsten Network	['"Tungsten Network"', 'OB10']	ob	sl	0.444015443325	the
+216	Fortinet	['Fortinet firewalls']	firewalls	en	0.817120611668	firewalls
+6876	CA Service Desk Manager	['"CA Service Desk"']	desk	en	0.98828125	desk
+6875	CA Service Accounting	['"CA Service Accounting"']	accounting	en	0.96875	accounting
+13267	eBridge	['"eBridge application"', '"Using eBridge"', '"eBridge solutions"']	solutions	en	0.87890625	solutions
+13005	Microsoft Equivio	['Equivio']	equivio	en	1	equivio
+13004	Exasol	['Exasol', 'EXASolution']	exasolution	en	1	exasolution
+13007	Stormshield	['Stormshield', 'Netasq', 'Arkoon']	arkoon	fr	0.6796875	Arkoon
+10959	PTC Creo	['"Pro/Engineer"']	engineer	en	0.948818922043	engineer
+13001	Axcient	['"Axcient BDR"']	bdr	ar	1	Bdr
+13000	3Scale	['3Scale']	scale	en	0.96875	scale
+13003	Eptica	['Eptica']	eptica	en	1	eptica
+13002	Talentia Software	['Talentia']	talentia	fi	1	Talentia
+13108	Businessolver	['Businessolver']	businessolver	en	0.964705884457	businessolver
+13008	Allscripts TouchWorks	['Touchworks']	touchworks	vi	0.454545468092	Touchworks
+13260	Identity Finder	['"Identity Finder"']	finder	da	0.573643386364	Finder
+13412	TruPay	['TruPay']	trupay	sl	0.875568926334	trupay
+13413	Nuance Transcend	['BeyondTXT']	beyondtxt	en	1	beyondtxt
+13410	Truven Health Analytics	['"Truven Health"']	health	en	1	health
+13411	Truven CareDiscovery	['CareDiscovery']	carediscovery	cy	0.859375	carediscovery
+13416	Tiani Spirit	['Tiani Spirit']	spirit	en	0.94921875	spirit
+13417	Three Palm Software	['"Three Palm Software"']	software	en	0.736000001431	software
+13414	Toshiba SimPACS	['SimPACS']	simpacs	hu	0.753776848316	simpacs
+13415	Toshiba Voxar 3D	['Voxar 3D']	voxar	pt	0.735855937004	To vox
+13418	Theronyx	['Theronyx']	theronyx	en	0.688715934753	theronyx
+13419	Medibase	['Medibase']	medibase	en	0.66015625	medibase
+13558	ADP HR/Perspective	['ADP "HR/Perspective"']	perspective	en	0.890625	perspective
+13098	Four Rivers Software	['"Four Rivers" software']	software	en	0.736000001431	software
+13553	Anthelio	['"with anthelio"', '"Anthelio Software"', '"Anthelio storage"']	storage	en	1	storage
+13100	Caradigm Intelligence Platform	['Azyxxi', 'Amalga', 'Caradigm Intelligence']	intelligence	en	0.91015625	intelligence
+13551	infoRouter	['infoRouter']	inforouter	fr	0.618677020073	Information
+13150	Quadax	['Quadax']	quadax	la	1	quadax
+13556	Attainia	['Attainia']	attainia	en	1	attainia
+13555	Aramark ISIS Pro	['Aramark "ISIS Pro"', 'Aramark ISISPro']	isispro	et	0.854693174362	isispro
+13101	eClinicalWorks CCMR	['eCW CCMR']	ccmr	co	0.168939843774	CCMR
+13421	Teleflex Voldyne	['Voldyne']	voldyne	da	0.553657948971	Voldyne
+13552	Amano TruTime	['TruTime', '"Tru Time"']	time	en	1	time
+13569	patent foraman ovale (PFO) closure	['"foraman ovale"']	ovale	fr	0.360784322023	oval
+13527	Microsoft EMET	['"Microsoft EMET"']	emet	ca	0.705426335335	emits
+13550	ScanFile	['ScanFile']	scanfile	en	1	scanfile
+1324	IBM System x Server	['"IBM System x"', '"IBM Systemx"']	systemx	en	1	systemx
+1328	Compuware Gomez	['Gomez "application management"', '"Knowledge of Gomez"']	of	en	0.98828125	of
+13090	Xara Photo	['Xara Designer', 'Xara Photo', 'Xara Xtreme', '"Xara X"', '"Xara 3D"', 'Xara media', 'Xara eXtreme', 'Xara graphics']	graphics	en	1	graphics
+13158	SCI Solutions	['"SCI Solutions"']	solutions	en	0.87890625	solutions
+13308	Aprimo Relationship Manager	['Aprimo "Relationship Manager"']	manager	en	0.813953459263	manager
+13309	CA Configuration Automation	['"CA Cohesion"']	cohesion	en	1	cohesion
+13306	Akamai Terra	['Akamai Terra']	terra	it	0.380392163992	land
+13307	Aprimo Marketing Studio	['Aprimo "Marketing Studio"']	studio	en	0.536964952946	studio
+13304	JDA Timera	['Timera']	timera	pl	0.73046875	Timer
+13305	Reflexis	['Reflexis']	reflexis	es	0.273764252663	Reflexes
+13302	GE Senographe	['Senographe']	senographe	en	0.747035562992	senographe
+13303	Tomax	['Tomax', '"Retail.net"']	net	en	0.33984375	net
+13300	Siemens Emotion	['"Somatom Emotion"']	emotion	en	0.937007844448	emotion
+13301	Siemens Volume Zoom	['"Volume Zoom"']	zoom	en	0.62890625	zoom
+12096	dotMailer	['dotMailer']	dotmailer	sv	0.359867274761	Dotmailer
+13391	Zynx ZynxEvidence	['ZynxEvidence']	zynxevidence	gl	0.992670893669	zynxevidence
+13390	Zynx Zynxorder	['Zynxorder']	zynxorder	gl	0.921640872955	zynxorder
+8941	NetSuite Retail	['"NetSuite Retail"']	retail	en	0.957198441029	retail
+13179	CeleriTime	['CeleriTime']	celeritime	es	0.265384614468	Celeritime
+12451	DocuWare	['westbrook fortis']	fortis	en	0.355731219053	fortis
+13399	Aionex	['Aionex']	aionex	la	0.684915006161	aionex
+13544	Medtronic Paceart	['Paceart']	paceart	ga	0.604214191437	paceart
+8893	Cisco CTE 1400	['CTE1400']	cte	sq	0.498054474592	Cte
+13398	AGFA Qdoc	['AGFA QDoc', 'QDoc PACS']	pacs	ca	0.44921875	PACS
+13238	Sechrist Industries	['Sechrist hyperbaric', 'Sechrist respiratory']	respiratory	en	1	respiratory
+13178	TimeClock Plus	['"TimeClock Plus"']	plus	fr	0.79766535759	more
+12326	Inspectlet	['Inspectlet']	inspectlet	en	0.736220479012	inspectlet
+13232	Vecna Pathfinder	['Vecna Pathfinder']	pathfinder	en	0.8515625	pathfinder
+13233	TimeIPS	['TimeIPS', '"using TIME IPS"', '"Maintain Time IPS"']	maintain	en	1	maintain
+13230	Viatronix	['Viatronix', 'V3D imaging']	imaging	en	0.98828125	imaging
+13231	Fiberlink MaaS360	['MaaS360', '"MaaS 360"']	maas	nl	0.5703125	mesh
+13236	TherAssist	['TherAssist']	therassist	en	0.9609375	therassist
+13237	ShiftWise	['"through Shiftwise"', '"via shiftwise"', '"to shiftwise"', '"in shiftwise"', '"into shiftwise"', '"uses shiftwise"']	uses	en	0.98046875	uses
+13234	TimeCentre	['TimeCentre']	timecentre	ca	0.520588755608	timecentre
+13235	Kronos TimeLink	['TimeLink']	timelink	en	0.905511796474	timelink
+13545	Medisolution Virtuo	['Virtuo logiciel', 'Virtuo finance']	finance	en	0.852713167667	finance
+13420	Cirius Group	['Acculog', 'Cirius Group']	group	en	1	group
+5335	Citrix CloudBridge	['"Citrix CloudBridge"']	cloudbridge	en	1	cloudbridge
+13533	Palo Alto PA Series	['"Palo Alto PA"']	pa	sl	0.48046875	however,
+7262	Cisco ACE30	['Cisco "ACE 30"']	ace	en	0.569230794907	ace
+13478	WahlTek	['WahlTek']	wahltek	de	1	Selecttek
+13546	SAP C4C	['SAP C4C', 'SAP "Cloud for Customer"']	customer	en	0.96875	customer
+10999	Google Drive	['GoogleDrive']	googledrive	en	0.596837937832	googledrive
+11500	Standard Register SMARTworks	['SMARTworks clinical']	clinical	en	1	clinical
+13126	Ascom US	['Ascom Nurse', 'Telligence Nurse', 'Ascom Nurses', 'Ascom Nursing']	nursing	en	1	nursing
+13127	Welch Allyn	['"Welch Allyn Devices"']	devices	en	1	devices
+13124	Webmedx	['Webmedx']	webmedx	et	0.78125	webmedx
+13125	Nuance RadWhere	['RadWhere']	radwhere	en	0.999008119106	radwhere
+13122	Nuance eScription	['eScription', '"eScription MT"', '"EScription experience"', '", eScription,"', '"Escription (ESC)"', '"Nuance escription"', '"users of Escription"', '"eScription platform"']	platform	en	0.906614780426	platform
+13123	Nuance Editscript	['Editscript']	editscript	bg	0.766120433807	Editscript
+13120	Sentri7	['Sentri7', '"Sentri 7"']	sentri	ms	1	sentry
+13121	Nuance Dictaphone	['"Dictaphone Enterprise"', '"Nuance Dictaphone"', 'ExText', 'EXSpeech', 'iChart dictaphone', 'EXVoice']	exvoice	el	0.50118625164	Exotic
+13041	Allscripts HealthMatics	['Allscripts Healthmatics']	healthmatics	en	1	healthmatics
+13040	Siemens Novius	['Siemens Novius', 'Novius blood', '"Novius lab"']	lab	en	0.823529422283	lab
+13043	GE Carescape	['GE Carescape']	carescape	fr	1	Carescape
+13042	Allscripts dbMotion	['dbMotion']	dbmotion	nl	0.193521782756	Dbmotion
+13045	QuadraMed Misys CPR	['"Misys CPR"']	cpr	da	0.79766535759	Cpr
+13044	GE Corometrics	['Corometrics']	corometrics	en	1	corometrics
+13047	Prognosis Innovation Healthcare	['ChartAccess', 'MedGenix']	medgenix	sl	1	medgenix
+13046	QuadraMed nCoder+	['"nCoder+"']	ncoder	hmn	0.893970072269	ncoder
+12978	Cox Business Internet	['"Cox Internet"', '"@cox"']	internet	en	0.465116292238	internet
+12979	Google Sheets	['"Google Sheets"']	sheets	en	1	sheets
+13517	GE MUSE	['MUSE cardio*']	cardio	en	0.609195411205	cardio
+12977	Verizon Business	['"Verizon Audio Conferencing"', '"Jetpack Mifi"', 'UCCaaS AND Verizon', '"@Verizon"', '"Verizon VPN"']	vpn	en	0.715953290462	vpn
+13515	GlobalCerts	['GlobalCerts']	globalcerts	en	0.694117665291	globalcerts
+13514	Hamilton Medical	['galileo ventilator', '"Hamilton Ventilator"']	hamilton	en	0.741176486015	hamilton
+13513	HealthInfoNet	['HealthInfoNet']	healthinfonet	en	1	healthinfonet
+13512	TimeControl	['TimeControl', '"HMS Timecontrol"', '"HMS Time Control"']	control	en	0.87890625	control
+6888	CA UFO	['"CA UFO"']	ufo	it	0.24806201458	UFO
+13510	ICNet	['"ABX Alert"']	alert	en	0.834645688534	alert
+7161	Alliance Storage Technologies	['"Archive Appliance" Plasmon']	plasmon	en	0.8984375	plasmon
+1183	Infor Epiphany CRM Enterprise	['"infor epiphany CRM"']	crm	en	0.8203125	crm
+110	BP Logix	['BPLogix']	bplogix	sq	1	Bplogix
+13400	AirMagnet	['AirMagnet']	airmagnet	en	1	airmagnet
+7285	Aastra 6770	['"Aastra VOIP"']	voip	en	0.636363625526	voip
+12890	API Healthcare	['Concerro']	concerro	en	0.69921875	concerro
+13342	Allscripts Sunrise	['"Sunrise Acute Care"', '"Sunrise Clinical Manager"', '"Allscripts Sunrise"', '"sunrise EHR"']	ehr	de	0.96875	Honest
+13343	Amazon Kinesis	['"Amazon Kinesis"', '"AWS Kinesis"']	aws	hmn	0.5	ok
+13340	Pulse Secure	['"Pulse Secure"']	secure	en	1	secure
+13341	Acusis	['", ACUSIS,"']	acusis	la	1	PIN
+13346	MemSQL	['MemSQL']	memsql	hi	0.72540128231	Memsql
+13347	Pivotal HAWQ	['Pivotal HAWQ']	hawq	mt	0.953993201256	hawq
+13344	Apache Phoenix	['"Apache Phoenix"']	phoenix	en	0.837944686413	phoenix
+13345	DataTorrent	['DataTorrent']	datatorrent	it	1	Datatorrent
+13542	Zettler	['Zettler nurse']	nurse	en	0.98828125	nurse
+13469	AssistMed	['AssistMed']	assistmed	en	0.694117665291	assistmed
+13468	EMscribe	['Emscribe']	emscribe	en	0.99999332428	emscribe
+13463	AmkaiCharts	['AmkaiCharts', '"Amkai Charts"']	charts	en	0.94140625	charts
+13462	Amkai Solutions	['Amkai']	amkai	ht	1	amkai
+13461	AmerisourceBergen	['AmerisourceBergen']	amerisourcebergen	en	1	amerisourcebergen
+13460	GE SenoClaire	['SenoClaire']	senoclaire	fr	0.806432366371	Senoclaire
+13467	Arrendale Associates	['arrendale transc*']	transc	en	1	transc
+13466	SpamAssassin	['SpamAssassin']	spamassassin	en	1	spamassassin
+13465	Analogic Corporation	['Analogic MRI']	mri	sl	0.325581401587	MRI
+13464	AmkaiOffice	['"Amkai Office"']	office	en	0.94921875	office
+13543	CareWebQI	['CareWebQI', '"CareWeb QI"']	qi	zh-CN	1	Qi
+12558	Hospira	['SYMBIQ']	symbiq	az	0.853243589401	symbiq
+9216	SGI ICE X	['Altix ICE']	ice	en	0.98046875	ice
+13129	Spacelabs Healthcare	['Spacelabs monitor', '", spacelabs,"']	monitor	en	0.741312742233	monitor
+13350	Microsoft SQL Server 2008	['2008r2']	r	en	0.330708652735	r

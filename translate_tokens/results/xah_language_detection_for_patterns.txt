@@ -1,0 +1,694 @@
+product_id	product_name	original pattern	token and separated token	detected_language	confidence_score	translated_language 
+1140	Serena Dimensions CM	['"Dimensions CM"']	cm	en	0.232283458114	cm
+10834	SiSense	['SiSense']	sisense	ca	1	sisense
+1141	Serena Dimensions RM	['"Dimensions RM"']	rm	en	0.576335906982	rm
+10457	Highjump Software	['"High jump Software"']	software	en	0.736000001431	software
+4789	BMC Software	['BMCSoftware']	bmcsoftware	so	0.997601926327	bmcsoftware
+4783	Siemens Teamcenter	['"Siemens team center"']	center	en	0.914728701115	center
+10899	Autotask	['Autotask']	autotask	en	1	autotask
+10898	Riversand	['Riversand', 'MDMCenter']	mdmcenter	ny	0.812040090561	mdmcenter
+10893	Gnip	['Gnip']	gnip	la	0.206202507019	Gnip
+10892	Datasift	['Datasift']	datasift	fi	0.55859375	Datasift
+10891	Exide	['Exide', 'Exide AND UPS']	ups	en	0.824902713299	ups
+9286	Mechanic Net	['"MechanicNet.com"']	com	pt	0.86770427227	with
+9281	Smile Reminders	['"Smile Reminder"']	reminder	en	0.96875	reminder
+9280	Lighthouse 360	['LH360']	lh	ar	1	Lh
+10895	IBM Content Collector	['"IBM Content Collector"', '"IBM ICC"']	icc	en	0.727272748947	icc
+9282	Sesame Communications	['Sesame AND patients', 'ortho AND sesame', 'Sesame AND appointment', '"Sesame dental"']	dental	en	0.918287932873	dental
+346	OmniUpdate	['"Omni Update"']	update	en	0.8203125	update
+10587	Cisco Ironport	['"Iron port"']	port	en	0.724806189537	port
+10589	Mimecast	['"Mime cast"']	cast	en	0.937743186951	cast
+992	Veritas Backup Exec	['Symantec AND "BackupExec"']	backupexec	en	1	backupexec
+8901	Hard Dollar	['HardDollar']	harddollar	da	0.832577586174	Harddollar
+8903	Microsoft Dynamics SL	['"Dynamics SL 7"', '"Dynamics SL 2011"']	sl	bs	0.217898830771	etc.
+6356	Veritas InfoScale Operations Manager	['"Veritas Operations Manager"', 'Veritas AND "Command Central"', 'Veritas AND CommandCentral']	commandcentral	en	1	commandcentral
+5183	Tibco Business Studio	['Tibco AND BusinessStudio']	businessstudio	en	0.964705884457	businessstudio
+7040	Xactly	['"Xactly Sales"', '"Xactly SPM"', '"Xactly commission"']	commission	en	0.87109375	commission
+5186	Tibco PortalBuilder	['Tibco AND "Portal Builder"']	builder	en	0.96875	builder
+961	PeopleSoft Academic Advisement	['"PeopleSoft Academic"']	academic	en	1	academic
+5265	HP CloudSystem	['HP AND CloudSystem', '"HP Cloud System"']	system	en	0.9296875	system
+422	Siemens PLM	['Siemens AND "Solid Edge"', 'Siemens AND "SolidEdge"', '"Solid Edge" AND PLM', '"SolidEdge" AND PLM']	solidedge and plm	en	0.440569162369	solidedge and plm
+5260	IBM DS3500	['IBM AND DS3500', '"ds 3500"']	ds	pl	0.396887153387	Ds
+1168	Hitachi Adaptable Modular Storage	['"AMS 2500"', '"AMS 2300"', '"AMS 2100"', '"AMS 2000"']	ams	ar	0.98828125	Ams
+1062	Autonomy Records Manager	['Autonomy AND CARM', '"CA Records Manager"', '"autonomy records manager"']	autonomy records manager	en	0.268368989229	autonomy records manager
+1065	Microsoft Dynamics AX	['"Dynamics AX"']	ax	ku	0.83984375	ax
+424	Sitecore	['"Site core" AND CMS']	cms	en	0.408560305834	cms
+10848	BMC Middleware Management	['BMC AND "Middleware Management"', 'BMC AND BMM', 'QPasa', '"Q Pasa"']	pasa	es	0.592156887054	pass
+10808	Microsoft Active Directory Federation Services	['"Active Directory Federation Services"', '"AD FS"', 'ADFS']	adfs	en	1	adfs
+10809	Abila	['Abila', 'Avectra']	avectra	fr	0.994561493397	Avectra
+10849	BMC Application Transaction Tracing	['Qnami', '"Q nami"', 'BMC AND BMTM', 'BMC AND BATT']	batt	en	0.796812772751	batt
+10804	IBM Sterling Managed File Transfer	['"Sterling Managed File Transfer"', '"Sterling MFT"', '"Sterling Commerce MFT"', '"IBM Managed File Transfer"']	ibm	en	0.55078125	ibm
+10805	Acteva	['Acteva']	acteva	ca	0.894146502018	acteva
+10806	etouches	['etouches']	etouches	en	1	etouches
+10807	Eventbrite	['Eventbrite']	eventbrite	en	1	eventbrite
+10800	IBM Tivoli Compliance Insight Manager	['Tivoli AND "Compliance Insight Manager"', 'Tivoli AND TCIM', 'IBM AND TCIM']	ibm	en	0.55078125	ibm
+10801	Quantum Scalar 10K	['"Scalar 10K"', 'S10K']	s k	en	0.217776656151	s k
+10802	Jenzabar	['Jenzabar']	jenzabar	mt	1	jenzabar
+10803	Targit	['Targit']	targit	mt	0.8984375	target
+591	NetApp Brocade Encryption	['"NetApp BES"']	bes	ar	0.98046875	Bes
+593	NetApp Data ONTAP	['"ONTAP 7"', '"NetApp ONTAP"']	netapp	en	0.778656125069	netapp
+1121	SAS Data Integration	['"SAS DI"']	di	it	0.69921875	of
+1122	SAS ETL	['"SAS Data Management"']	management	en	0.934108555317	management
+190	EpicCare	['"Epic Care"']	care	ro	0.6484375	which
+19	JD Edwards	['"JD Edward"', '"JDEdward"']	jdedward	en	1	jdedward
+274	Juniper Networks (Unspecified Product)	['"juniper SSL"', '"knowledge of juniper"', 'JNCIP', 'JNCIS', 'rout* AND "Juniper Networks"']	networks	en	1	networks
+1014	Brightcove	['"bright cove"']	cove	en	0.874509811401	cove
+5002	BatchMaster	['"Batch Master"']	master	en	0.715953290462	master
+448	Syspro	['"impact ERP"']	erp	nl	0.713178277016	Erp
+9258	Infor AMSI	['StarBuilder']	starbuilder	en	0.76171875	starbuilder
+10702	Epsilon	['DreamMail', 'Epsilon AND email']	email	en	0.715953290462	email
+6408	CGI BestMix	['BestMix']	bestmix	en	1	bestmix
+10705	Clickback	['Clickback AND "email marketing"']	marketing	en	0.686046540737	marketing
+444	SurveyTracker	['"Survey Tracker"']	tracker	en	0.838461518288	tracker
+1134	SAS Base	['"SAS V9"']	sas	el	0.98828125	Sas
+8691	Monsoon Commerce	['"Monsoon Edge"', 'Monsoon AND ecommerce', 'Monsoon AND "e\\-commerce"']	commerce	en	0.554263591766	commerce
+105	BlackBerry	['"Black Berry"']	berry	en	0.752895772457	berry
+4812	Alcatel Lucent	['LCTE']	lcte	ca	0.490560203791	lcte
+900	IBM DB2 for z/OS Operating System	['"DB2 zOS"', '"ZOS DB2"']	zos db	en	0.156650304794	zos db
+33	Microsoft Exchange 4.0	['"Exchange 4"']	exchange	en	0.976653695107	exchange
+32	Microsoft Exchange 5.0	['"Exchange 5"', '"Exchange 5.5"', '"Exchange Server 5"']	server	en	0.716535449028	server
+6500	Teradata Database	['"Teradata DBA"']	dba	en	0.677165329456	dba
+34	Microsoft Exchange 1.0	['"Exchange 1"']	exchange	en	0.976653695107	exchange
+1241	Pivotal Tracker	['"PivotalTracker"']	pivotaltracker	en	0.8515625	pivotaltracker
+6379	OmniFocus	['"Omni Focus"']	focus	en	0.937007844448	focus
+9413	Radware	['Strangeloop']	strangeloop	en	0.948818922043	strangeloop
+644	SAP ERP	['"SAP FS CM"', '"SAP Claims"']	claims	en	1	claims
+439	Stylus Studio	['"StylusStudio"']	stylusstudio	en	0.73828125	stylusstudio
+10637	Oracle AutoVue	['Oracle AND "Auto Vue"']	vue	fr	0.98046875	view
+434	StarCite	['"Star Cite"']	cite	en	0.732558131218	cite
+431	Spectra	['SpectraLogic']	spectralogic	en	0.96875	spectralogic
+10890	Clary	['Clary', 'Clary AND UPS']	ups	en	0.824902713299	ups
+10785	HP QuickTest Professional	['HP AND QuickTest', '"HP QTP"']	qtp	bg	0.459749370813	Qtp
+10897	Informatica PIM	['"Informatica PIM"', 'Heiler']	heiler	de	0.98046875	healer
+10896	Enterworks	['Enterworks']	enterworks	el	1	Enterworks
+8460	Digital River	['DigitalRiver']	digitalriver	en	0.580392181873	digitalriver
+10798	Advantage Software	['"Advantage Software" AND agency', '"Advantage Software" AND advertising']	advertising	en	1	advertising
+10799	Vetstreet	['Vetstreet software']	software	en	0.736000001431	software
+10794	AltaPoint	['AltaPoint']	altapoint	no	1	Altapoint
+5136	Lawson Business Process Management	['Lawson AND "Process Flow Integration"']	integration	en	0.882352948189	integration
+10796	MaximEyes	['MaximEyes']	maximeyes	ro	0.328125	Maximeyes
+10797	Workamajig	['Workamajig']	workamajig	pl	1	Workamajig
+10790	Nice Interaction Management	['Nice AND "Interaction Management"', '"NICE Perform"']	perform	en	1	perform
+10791	Intuit Demandforce	['Demandforce']	demandforce	en	0.478599220514	demandforce
+10792	Riverbed Wireshark	['Wireshark']	wireshark	en	0.828125	wireshark
+5130	Lawson Cloverleaf	['cloverleaf AND Quovadx', 'Healthvision AND cloverleaf']	healthvision	en	1	healthvision
+8947	MarkLogic	['"Mark Logic"']	logic	en	0.937007844448	logic
+7415	IBM Unica Campaign	['"IBM Campaign"']	campaign	en	1	campaign
+8956	Noetix	['Jaros AND technologies']	technologies	en	0.87890625	technologies
+8954	SpringCM	['"Spring CM"']	cm	en	0.232283458114	cm
+4774	Taleo Analytics	['"Taleo Advanced Analytics"']	analytics	en	0.618677020073	analytics
+4775	Taleo Connect	['"Taleo TCC"']	tcc	es	0.94921875	Tcc
+6615	FalconStor Software	['"Falcon Stor"']	stor	sv	0.3984375	great
+9024	CoreIMS	['"Core IMS" AND inventory', '"Core IMS" AND logistics']	logistics	en	0.957198441029	logistics
+7003	Cisco TelePresence	['TelePresence AND VCS']	vcs	pt	0.9296875	You
+7002	Marketwire	['"Market wire"']	wire	en	1	wire
+7005	Sybase iAnywhere	['iAnywhere']	ianywhere	en	1	ianywhere
+96	AutomatedQA	['TestComplete', '"AQtime"']	aqtime	so	0.996427357197	aqtime
+10840	Microsoft SQL Server Reporting Services	['"SQL Server Reporting Services"', 'Microsoft AND SSRS']	ssrs	en	1	ssrs
+10841	Healthland	['Healthland']	healthland	en	1	healthland
+10842	Kontagent	['Kontagent']	kontagent	eu	0.758754849434	kontagent
+10843	Siebel Customer Order Management	['"Siebel Quote"', '"Siebel Order Capture"']	capture	en	0.94140625	capture
+10844	CPSI	['CPSI AND EHR', 'CPSI AND healthcare', 'CPSI AND hospital']	hospital	en	0.778210103512	hospital
+10845	Keane	['Keane AND EHR', 'Keane AND healthcare', 'Keane AND hospital']	hospital	en	0.778210103512	hospital
+10846	GE IDX	['"GE IDX"', 'IDX AND Groupcast']	groupcast	en	0.98828125	groupcast
+5223	BoxTone	['"Box Tone"']	tone	en	0.758754849434	tone
+348	OpenDNS	['"Open DNS"']	dns	en	0.439688712358	dns
+5188	Tibco BusinessConnect	['"Tibco Business Connect"']	connect	en	1	connect
+8935	Microsoft Dynamics RMS	['"RMS POS"']	pos	id	0.420233458281	post
+8936	iQmetrix	['"iQ metrix"']	metrix	en	1	metrix
+8939	Sage BusinessVision	['Sage AND "Business Vision"']	vision	en	0.817120611668	vision
+7279	Sourcegear Vault	['"Sourcegear"']	sourcegear	en	0.91015625	sourcegear
+7177	HarrisData	['"Harris Data"']	data	en	0.755905508995	data
+5085	Sybase PowerDesigner	['"sybase Power Designer"']	designer	en	0.767716526985	designer
+234	Hyperion	['Hyperian']	hyperian	en	0.854901969433	hyperian
+4613	Nice Systems	['NICEVision', '"NICE Situator"', 'NICEsystems', '"NICE Inform"']	inform	en	0.96875	inform
+231	HelpSTAR	['"Help STAR"']	star	en	0.805447459221	star
+4616	Nice Workforce Management	['"IEX WFM"', '"IEX TotalView"', '"totalview WFM"']	totalview wfm	en	1	totalview wfm
+1199	Whamcloud Lustre	['Lustre AND file', 'Lustre AND Intel']	intel	en	0.616600811481	intel
+7079	InterCall	['Smoothstone', 'Unisfair']	unisfair	fr	0.970981299877	Unisfair
+1192	Infor Hansen	['"Hansen 7"', '"Hansen 8"']	hansen	da	0.33590734005	Hansen
+10835	Telstra	['Telstra']	telstra	en	1	telstra
+5146	Infor ION	['"Infor Ion"']	ion	en	0.490196079016	ion
+10837	InfinityQS	['InfinityQS', '"Infinity QS"']	qs	en	0.52362203598	qs
+10836	NCR Retail	['"NCR Retail"', '"NCR Silver"']	silver	en	0.9296875	silver
+10831	Blue Jeans Network	['"Blue Jeans" AND video', 'BlueJeans AND video']	bluejeans	en	1	bluejeans
+10830	Vidyo	['Vidyo']	vidyo	tr	0.96875	Video
+10833	Systemware	['Systemware AND content', '"Systemware ECM"', 'XPTR', 'XTND']	xtnd	uz	0.504078984261	xtnd
+4881	Schlumberger Petrel	['Petrel']	petrel	no	0.76953125	Petrel
+10839	Microsoft SQL Server Management Studio	['"SQL Server Management Studio"', 'Microsoft AND SSMS']	ssms	en	1	ssms
+5144	Infor Performance Management	['Comshare AND MPC']	mpc	en	1	mpc
+146	CommVault	['"Comm Vault"']	vault	en	1	vault
+618	NetApp SupportEdge	['netapp AND "support edge"']	edge	en	1	edge
+145	CommonSpot	['"Common Spot"']	spot	en	0.864341080189	spot
+612	NetApp SnapManager	['NetApp AND "Snap Manager"']	manager	en	0.813953459263	manager
+7399	Liferay	['"life ray"']	ray	en	0.727272748947	ray
+1008	Tibco Spotfire	['Tibco AND "Spot fire"']	fire	en	0.86770427227	fire
+614	NetApp SnapProtect	['NetApp AND "snap protect"']	protect	en	1	protect
+7398	Mulesoft	['"Mule soft"']	soft	en	0.83011585474	soft
+4886	Siemens Solid Edge	['Siemens AND "Solid Edge"']	edge	en	1	edge
+4887	Siemens Teamcenter Visualization	['"team center visualization"']	visualization	en	1	visualization
+1285	IBM Tivoli Directory Integrator (TDI)	['Tivoli AND TDI']	tdi	ro	0.213438734412	Tdi
+1280	IBM Tivoli Application Dependency Discovery Manager	['Tivoli AND "Application Dependency"']	dependency	en	1	dependency
+4709	JBoss Enterprise SOA Platform	['"JBoss SOA"']	soa	pt	0.303149610758	It sounds
+4664	Dell EMC VNX	['VNX5300', 'VNX7500', 'VNX5700', 'VNX5100', 'VNX5500', 'VNX5200', 'VNX5400', 'VNX5600', 'VNX5800', 'VNX7600', 'VNX8000']	vnx	la	0.999496340752	vnx
+4665	Dell EMC VNXe	['VNXe']	vnxe	en	1	vnxe
+8765	Unisys InfoImage	['UNISYS AND "Info Image"']	image	en	0.834645688534	image
+8763	M-Files	['"Mfiles"']	mfiles	mt	0.68465089798	mfiles
+3405	SteelCentral Transaction Analyzer	['AppTransaction', 'OPNET AND "App Transaction"']	transaction	en	0.91015625	transaction
+8644	Sage BusinessWorks	['Sage AND "Business Works"', '"BusinessWorks Accounting"', '"BusinessWorks software"']	software	en	0.736000001431	software
+8643	Sage DacEasy	['"Dac Easy"']	easy	en	1	easy
+5171	Novell Vibe	['Novell AND Vibe']	vibe	en	0.75	vibe
+9201	Ciscosecure	['"Cisco secure"']	secure	en	1	secure
+5175	Novell ZENworks Patch Management	['Novell AND ZPM']	zpm	cs	0.99998497963	Zpm
+5179	Tibco BusinessEvents	['"Tibco Business Events"']	events	en	0.98046875	events
+3416	SunGard Aligne	['Aligne']	aligne	fr	1	Aligned
+8548	RedPrairie Warehouse Management	['"RedPrairie Warehouse"', '"RedPrairie WMS"']	wms	en	0.71875	wms
+3411	Riverbed SteelCentral	['"Cascade Pilot"', '"Cascade Express"']	express	en	0.76953125	express
+8544	Tigerpaw Software	['"Tigerpaw Software"']	software	en	0.736000001431	software
+5070	IMSI TurboCAD	['"Turbo CAD"']	cad	ga	0.415384620428	what
+5076	Autodesk Flame	['Autodesk AND Lustre']	lustre	fr	0.277992278337	chandelier
+3419	SunGard Global Plus	['SunGard AND GlobalPlus']	globalplus	en	0.694117665291	globalplus
+24	Microsoft SharePoint	['"MOSS 2007"', '"MOSS 2013"', '"MOSS 2012"', '"MOSS 2010"', '"MOSS 2008"', '"MOSS 2003"']	moss	en	0.708171188831	moss
+20	VMware (Unspecified Product)	['VCDX', 'VCAP AND certification']	certification	en	0.921875	certification
+6575	Rackspace	['"Rack space" AND cloud', '"Rack space" AND IaaS', 'CloudKick']	cloudkick	da	0.464319258928	Cloudkick
+624	OpenText (Unspecified Product)	['"Livelink ECM"', '"ECM Livelink"', 'Artesia AND DAM', 'Captaris', 'Vignette AND IDM', '"Hummingbird Exceed"']	exceed	en	1	exceed
+6475	Sun Storage 2500	['"Sun storage" AND 2500', '"SUN 2500"', '2530m2', '2540m2', 'StorageTEK 2540', 'StorageTEK 2530', '"StorageTEK 2530"', '"StorageTEK 2540"']	storagetek	en	1	storagetek
+10664	Rapid7	['nexpose', '"metasploit"', 'mobilisafe']	mobilisafe	en	0.286821693182	mobilisafe
+1372	IBM i (formerly known as i5/OS)	['os400']	os	pt	0.7890625	the
+10749	Novell GroupWise 6	['"GroupWise 6"']	groupwise	en	0.744186043739	groupwise
+10748	Microsoft BPOS	['"Business Productivity Online Standard"', 'Microsoft AND "B POS"']	pos	id	0.420233458281	post
+10747	MetricStream	['MetricStream', '"Metric Stream" AND GRC']	grc	ga	0.80078125	grc
+10746	eBRP Solutions	['eBRP']	ebrp	af	0.154240608215	ebrp
+10745	COOP Systems	['myCOOP']	mycoop	sv	1	Mycoop
+10744	Nominum	['Nominum']	nominum	la	0.98046875	names
+10743	Infoblox	['Infoblox']	infoblox	en	1	infoblox
+10742	Autonomy CAMM	['Autonomy AND CAMM', '"CA Message Manager"', 'iLumin', 'Assentor', '"Autonomy Message Manager"']	autonomy message manager	en	0.266413301229	autonomy message manager
+10741	Aggregate Knowledge	['"Aggregate Knowledge"', '"AK Platform"', '"Aggregate Knowledge" AND media']	media	en	0.657587528229	media
+10740	Homecare Homebase	['"Homecare Homebase"']	homebase	en	1	homebase
+453	TechExcel	['"Tech Excel"']	excel	en	0.630769252777	excel
+9067	Mentor Graphics	['"MentorGraphics"']	mentorgraphics	en	0.75	mentorgraphics
+10884	Tripp Lite	['"Tripp Lite"', 'TrippLite']	tripplite	en	1	tripplite
+10885	Powervar	['Powervar']	powervar	en	0.48046875	powervar
+10886	Liebert	['Liebert']	liebert	en	0.859375	liebert
+10880	Backblaze	['Backblaze']	backblaze	de	1	Backblaze
+10881	Livedrive	['Livedrive storage']	storage	en	1	storage
+10882	Cyphertite	['Cyphertite']	cyphertite	en	0.78125	cyphertite
+4845	ArcGIS	['"Arc GIS"']	gis	no	0.490196079016	Gis
+10446	Data Masons	['DataMasons']	datamasons	no	0.98046875	Datamason
+10888	Minuteman Power	['Minuteman AND UPS']	ups	en	0.824902713299	ups
+10889	Eaton	['"Eaton UPS"']	ups	en	0.824902713299	ups
+3563	IBM TotalStorage	['"IBM Total Storage"']	storage	en	1	storage
+7315	JBoss Enterprise Portal Platform	['"JBoss portal"']	portal	en	0.3501945436	portal
+7311	HP TransactionVision	['"Transaction Vision"']	vision	en	0.817120611668	vision
+7313	Microsoft System Center OpsMgr	['"Microsoft SCOM"', '"SCOM 2012"', '"SCOM 2007"', '"SCOM 2005"']	scom	de	0.278021067381	Scom
+10838	Juniper Networks MetaFabric	['MetaFabric']	metafabric	ja	1	Metafabric
+371	PKWARE	['SecureZip']	securezip	en	1	securezip
+8976	Infor XA	['"XA ERP"']	erp	nl	0.713178277016	Erp
+5304	Oracle VM	['VirtualBox']	virtualbox	en	0.604651153088	virtualbox
+1175	OpenBSD	['"Open BSD"']	bsd	id	0.677165329456	Bsd
+7138	IBM WebSphere Voice Response for AIX	['"IBM WVR"']	wvr	el	0.696647107601	Wvr
+391	Rackable Systems	['"SGI Rackable"', '"SGI Cloudrack"']	cloudrack	cs	0.531013250351	Cloudrack
+390	QuickBooks	['"QuickBooks"', '"Quick Books"']	books	en	0.98828125	books
+9010	Objectivity	['"Objectivity database"']	database	en	0.891472876072	database
+398	Remstar	['"Kardex Remstar"', 'KardexRemstar']	kardexremstar	en	1	kardexremstar
+7137	IBM WebSphere Virtual Enterprise	['IBM AND WVE']	wve	hmn	0.998729348183	wve
+6780	Oracle Fusion Supply Chain Management	['"Fusion SCM"']	scm	is	0.87890625	SCM
+9386	TeamDynamix	['"Team Dynamix"']	dynamix	en	0.94921875	dynamix
+5256	IBM DS8000	['IBM AND DS8xxx']	xxx	en	0.507936537266	xxx
+5254	Dell EMC Symmetrix VMAX	['EMC AND SRDF']	srdf	sk	0.720214724541	SRDF
+929	Oracle 12c	['"Oracle 12c"']	oracle	en	0.83011585474	oracle
+6662	Microsoft System Center Data Protection Manager	['"System Center DPM"', '"System Center Data Protection Manager"']	manager	en	0.813953459263	manager
+4724	Adobe Connect	['"AdobeConnect"']	adobeconnect	sk	0.548097670078	adobeconnect
+6489	IBM 3090	['OS390', '"OS 390"']	os	pt	0.7890625	the
+5316	Exact Macola	['Macola']	macola	en	1	macola
+6664	PHD Virtual	['"PHDVirtual"']	phdvirtual	gd	0.678717672825	phdvirtual
+10879	Topsy	['Topsy', 'Topsy AND social', 'Topsy AND twitter']	twitter	en	0.667984187603	twitter
+10878	McObject	['McObject', 'eXtremeDB']	extremedb	en	0.66015625	extremedb
+8806	A10 Networks	['A10 AND ADC', '"A10 Thunder"']	thunder	en	0.86274510622	thunder
+8800	Tibco ActiveSpaces	['Tibco AND "Active Spaces"']	spaces	en	1	spaces
+8802	Tibco RTView	['"RT View"']	view	en	1	view
+10871	Imperva	['Imperva']	imperva	en	0.98046875	imperva
+10870	Pro-face	['"Pro\\-face"', 'Proface']	proface	en	1	proface
+10873	Premiere Global Services	['"Premiere Global Services"', 'PGI', 'PGiMeet', 'GlobalMeet', 'iMeet']	imeet	sl	0.580392181873	imeet
+10872	IBM ISS	['"IBM ISS"', '"IBM Internet Security Systems"', 'BlackICE']	blackice	en	1	blackice
+10875	Dell EMC Smarts	['"EMC Smarts"']	smarts	en	1	smarts
+10877	Altibase	['Altibase']	altibase	en	1	altibase
+10614	SAS/SCL	['SASSCL']	sasscl	ha	0.987819373608	sasscl
+1138	Serena Business Manager	['Serena AND SBM']	sbm	en	1	sbm
+582	Epicor Prophet 21	['Prophet21']	prophet	en	0.9609375	prophet
+1131	SAS/IML	['SASIML']	sasiml	uz	0.999871790409	sasiml
+1130	SAS Business Intelligence	['"SAS\\/BI"']	bi	ku	0.276923090219	with a
+589	McAfee VirusScan	['"Virus Scan enterprise"']	enterprise	en	0.945098042488	enterprise
+4549	IBM Domino 7	['"Domino 7"']	domino	en	0.548638105392	domino
+920	Adobe Campaign	['"Adobe Campaign"']	campaign	en	1	campaign
+9117	LiveVox	['"Live Vox"']	vox	en	0.46875	vox
+242	Imany	['Revitas']	revitas	en	0.546511650085	revitas
+4628	Microsoft Bitlocker	['"bit locker"']	locker	en	0.747081696987	locker
+9440	StreamBase	['"Stream Base"']	base	en	0.436293423176	base
+411	SciQuest	['"Sci Quest"']	quest	en	0.828125	quest
+6639	Scale Computing	['"Scale Computing SAN"']	san	ja	0.421875	San
+1380	Siebel Contact Center	['"Siebel Call center"']	center	en	0.914728701115	center
+10905	SaltStack	['SaltStack', 'Halite AND UI']	ui	nl	0.213740453124	onion
+10904	Cisco WebEx Support Center	['"WebEx Support Center"', '"WebEx Remote Access"']	access	en	1	access
+10907	Cisco WebEx Weboffice	['WebEx AND Weboffice', 'Cisco AND Weboffice']	cisco	en	0.834645688534	cisco
+10906	AnsibleWorks	['"Ansible Works"']	works	en	1	works
+10901	RSupport	['RSupport']	rsupport	co	0.925829231739	RSUPPORT
+10900	NTR Cloud	['"NTR Cloud"', 'NTRGlobal', '"NTR Global"']	global	en	0.817120611668	global
+10903	RealVNC	['RealVNC']	realvnc	en	1	realvnc
+10902	TeamViewer	['TeamViewer']	teamviewer	vi	0.474903464317	Teamviewer
+1007	Symantec Whole Disk Encryption	['Symantec AND WDE']	wde	nl	0.45118367672	Wde
+291	LegaSuite	['"Lega Suite"']	suite	fr	0.509727597237	after
+10909	Lease Harbor	['"Lease Harbor"', 'LeaseHarbor', '"Harbor Flex"', 'HarborFlex']	harborflex	en	0.98828125	harborflex
+10908	Samsung SSD	['"Samsung SSD"', '"Samsung flash"']	flash	en	0.696850419044	flash
+517	Cisco VoIP	['CCVP']	ccvp	sl	0.481574803591	CCVP
+623	mySAP ERP	['"mySAPERP"']	mysaperp	tl	0.82040309906	mysaperp
+622	Microsoft SQL Server	['Microsoft AND SQLServer', '"MS SQLServer"']	ms	en	0.707509875298	ms
+620	NetApp V-Series	['NetApp AND "vseries"']	vseries	sl	0.566630482674	vseries
+627	Microsoft OneNote	['OneNote']	onenote	en	0.802325606346	onenote
+5039	SAP HANA	['"HANA SAP"']	sap	ca	0.395348846912	know
+9241	OneShield	['"One Shield" AND Dragon', '"One Shield" AND insurance']	insurance	en	1	insurance
+5035	SAP Business ByDesign	['"BusinessByDesign"', '"Business By Design"', '"sap BBD"']	bbd	lt	0.96875	BBD
+1229	Intuit QuickBase	['"Quick Base"']	base	en	0.436293423176	base
+10859	Blackberry 7	['"BES 7"', '"Blackberry 7"', 'Blackberry AND "enterprise server 7"']	server	en	0.716535449028	server
+175	IBM DemandTec	['"Demand Tec"']	tec	en	0.446640312672	tec
+4744	Altiris Asset Management Suite	['"Altiris AMS"']	ams	ar	0.98828125	Ams
+6921	PeopleSoft Global Consolidations	['"PeopleSoft Consolidations"']	consolidations	en	0.87890625	consolidations
+4941	HP ArcSight IdentityView	['ArcSight AND IdentityView', 'ArcSight AND "Identity View"']	view	en	1	view
+180	EasyLobby	['"Easy Lobby"']	lobby	en	0.764705896378	lobby
+9403	Silver Peak	['"Silver peak" AND WAN']	wan	ku	0.848249018192	Van
+10629	SOASTA	['CloudTest']	cloudtest	nl	0.942837536335	Cloud test
+6369	NetIQ Sentinel	['NetIQ AND Sentinel']	sentinel	en	0.96875	sentinel
+6368	Q1 Labs QRadar	['QRadar']	qradar	az	0.566620647907	qradar
+9407	SGI IRIX	['IRIX']	irix	en	1	irix
+4925	ServiceNow Project & Portfolio	['"ServiceNow Project"']	project	en	0.96875	project
+6367	Q1 Labs	['Q1Labs']	labs	en	0.626459121704	labs
+10625	HP Unified Functional Testing	['HP AND QTP', '"HP UFT"']	uft	de	0.98828125	The
+8590	Profound Logic Software	['ProfoundUI']	profoundui	en	1	profoundui
+10627	Parasoft	['SOATest', '"parasoft SOA Test"']	test	en	0.764705896378	test
+9339	HP ServiceCenter	['"HP Service Center"']	center	en	0.914728701115	center
+1125	SAS/Connect	['SASgraph']	sasgraph	gd	0.999993979931	sasgraph
+7354	Pivotal CRM	['PivotalCRM']	pivotalcrm	en	0.8515625	pivotalcrm
+9231	StoneRiver	['"Stone river" AND insurance', 'LifeSuite']	lifesuite	sm	0.999935030937	lifesuite
+8473	Omnitracs	['Omnitracs']	omnitracs	fi	0.368217051029	Omnitracs
+4669	Siemens OpenScape Office	['"Siemens Open Scape"']	scape	ro	0.7890625	escape
+868	HP Data Protector	['"HP DataProtector"']	dataprotector	no	0.6484375	Data protector
+861	HP DL360	['HP AND "DL 360"']	dl	fi	0.267441868782	Dl
+7212	Athenahealth	['"Athena health" AND billing']	billing	en	0.98046875	billing
+862	HP DL380	['HP AND "DL 380"']	dl	fi	0.267441868782	Dl
+10714	MeritDirect	['"Merit Direct"']	direct	en	0.7109375	direct
+10810	Check Point Pointsec	['Pointsec']	pointsec	en	1	pointsec
+947	Siebel Marketing Resource Management	['"Siebel MRM"']	mrm	en	1	mrm
+10495	ThreatMetrix	['"Threat Metrix"']	metrix	en	1	metrix
+8591	Quadrant Software	['FastFax', 'Formtastic']	formtastic	sv	0.409398198128	Formtastic
+10719	Landmark Software	['"Landmark Software"']	software	en	0.736000001431	software
+889	HP SiteScope	['HP AND "Site Scope"']	scope	en	1	scope
+5214	Software AG ARIS	['"Software AG" AND ARIS']	aris	en	0.722007751465	aris
+10574	SanDisk	['"San Disk"']	disk	en	0.669260680676	disk
+10575	Western Digital	['"Western Digital" AND SSD', '"Western Digital" AND flash']	flash	en	0.696850419044	flash
+9055	DataCAD	['"Data CAD"']	cad	ga	0.415384620428	what
+5218	AirWatch	['"Air Watch"']	watch	en	1	watch
+5219	MobileIron	['"Mobile iron"']	iron	en	0.945525288582	iron
+8848	SAP Treasury and Risk Management	['"SAP Treasury"']	treasury	en	1	treasury
+321	NEOGOV	['"neo gov"']	gov	en	0.843137264252	gov
+8773	SAS DataFlux	['SAS AND "Data Flux"']	flux	fr	0.53543305397	flux
+8847	Oracle WebLogic	['"WebLogic Platform"', '"Middleware WebLogic"']	middleware	en	0.96875	middleware
+777	Oracle Label Security	['"Oracle OLS"']	ols	tr	0.534883737564	Is
+758	Oracle Advanced Security	['"Oracle ASO"']	aso	tl	0.411290317774	dog
+771	Oracle Data Integrator Enterprise Edition	['ODIEE']	odiee	lv	0.999990999699	Odie
+772	Oracle Data Mining	['"Oracle ODM"']	odm	pt	0.478599220514	Odm
+7102	LexisNexis Concordance	['LexisNexis AND Concordance']	concordance	en	0.69921875	concordance
+7069	ICONICS	['ICONICS AND HMI', 'ICONICS AND SCADA']	scada	ro	0.890625	Drops
+4718	Adobe Acrobat Pro	['AcrobatPro']	acrobatpro	en	0.721568644047	acrobatpro
+10826	Level 3 Communications	['"Level 3 Communications"']	communications	en	0.921875	communications
+10827	Microsoft SQL Server Analysis Services	['Microsoft AND SSAS', '"SQL Server 2005 Analysis"', '"SQL Server Analysis Services"']	services	en	0.87109375	services
+10824	Oracle BigMachines	['BigMachines']	bigmachines	en	1	bigmachines
+10825	Apache Solr	['Apache AND Solr', 'Lucene AND Solr']	lucene	en	1	lucene
+10823	Sun Storage 6540	['StorageTek AND 6540']	and	en	1	and
+10820	Sun Storage 6140	['Storagetek AND 6140']	and	en	1	and
+10828	Attachmate	['Attachmate']	attachmate	en	1	attachmate
+6960	Parallels Virtuozzo Containers	['Parallels AND PVC', 'PVC AND virtualization']	virtualization	en	0.98828125	virtualization
+1269	IBM WebSphere Message Broker	['IBM AND "Integration Bus"', '"IBM WMB"']	wmb	hmn	0.988957345486	wmb
+6962	Microsoft System Center Virtual Machine Manager	['"VMM 2012"', '"VMM 2008"', '"Virtual Machine Manager 2008"', '"Virtual Machine Manager 2012"']	manager	en	0.813953459263	manager
+6965	IBM PowerVM	['"Power VM"']	vm	en	0.324110686779	vm
+1263	IBM WebSphere Business Modeler	['"IBM WBM"']	wbm	hmn	0.97345995903	wbm
+1262	IBM WebSphere Business Integration	['"IBM WBI"']	wbi	en	1	wbi
+1261	IBM WebSphere Application Server	['"IBM WAS"']	was	en	0.9296875	was
+1267	IBM Business Process Manager	['"IBM BPM"']	bpm	en	0.525096535683	bpm
+1266	IBM WebSphere Data Interchange	['"IBM WDI"']	wdi	id	0.921875	Wdi
+4674	Sun Servers	['"sun workstations"']	workstations	en	0.9609375	workstations
+4672	Sun SPARC T-Series Servers	['Sparc AND T5']	and	en	1	and
+4670	Siemens Hicom Trading E	['"Hicom Trading"']	trading	en	0.94921875	trading
+547	HP Blade Servers	['"HP Bladeserver"']	bladeserver	en	0.98828125	bladeserver
+10729	EasyVista	['EasyVista']	easyvista	en	0.55078125	easyvista
+10728	Cherwell Software	['Cherwell']	cherwell	en	1	cherwell
+5149	Sybase OpenSwitch	['Sybase AND "Open Switch"']	switch	en	1	switch
+10725	OpenStack	['OpenStack']	openstack	en	0.58984375	openstack
+10724	VMware NSX	['"VMware NSX"']	nsx	vi	0.701960802078	Nsx
+10727	Axios Systems	['Axios', 'Assyst']	assyst	en	1	assyst
+10726	Microsoft Commerce Server	['"Microsoft Commerce Server"', '"Microsoft Site Server"', '"Commerce Server 2000"', '"Commerce Server 2002"', '"Commerce Server 2007"', '"Commerce Server 2009"', '"Commerce Server 10"']	commerce server	en	0.173858597875	commerce server
+10721	Serengeti	['Serengeti']	serengeti	en	0.645669281483	serengeti
+10720	Bridgeway Software	['Bridgeway AND legal', 'eCounsel']	ecounsel	fy	0.91733944416	ecounsel
+10723	SimpliVity	['SimpliVity', 'OmniCube']	omnicube	la	1	omnicube
+10722	TyMetrix	['TyMetrix']	tymetrix	pl	0.963451325893	Tymetrix
+3401	Novell ZENworks Linux Management	['Novell AND ZLM']	zlm	sk	0.307816386223	ZLM
+6445	Tibco Jaspersoft	['"jasper soft"', 'JasperStudio', '"jasper report"']	report	en	1	report
+6910	SAP Syclo	['SAP AND "Work Manager Mobile"']	mobile	en	0.680769205093	mobile
+3407	SteelCentral NetPlanner	['Opnet AND "IT Guru"']	guru	id	0.474308311939	teacher
+127	CaseLogistix	['"Case Logistix"']	logistix	en	0.48046875	logistix
+9176	Propertyware	['"Property ware"']	ware	de	0.671875	would
+8535	Brick Street Software	['BrickStreet']	brickstreet	en	1	brickstreet
+6569	HP 3Com NBX 100	['NBX100']	nbx	ig	1	nbx
+3378	Salesforce.com Chatter	['Salesforce AND Chatter']	chatter	en	0.78125	chatter
+4879	Schlumberger Eclipse	['Schlumberger AND eclipse']	eclipse	en	0.778210103512	eclipse
+10758	Veeva Systems	['Veeva']	veeva	en	1	veeva
+10759	SeisSpace ProMAX	['SeisSpace', 'ProMAX AND Seismic']	seismic	en	0.96875	seismic
+4995	Sage 100	['MAS90', '"MAS 200"', 'Sage100']	sage	en	0.459143966436	sage
+10750	Novell GroupWise 7	['"GroupWise 7"']	groupwise	en	0.744186043739	groupwise
+10751	Novell GroupWise 8	['"GroupWise 8"']	groupwise	en	0.744186043739	groupwise
+10752	Novell GroupWise 2012	['"GroupWise 2012"']	groupwise	en	0.744186043739	groupwise
+10753	IBM Domino 5	['"Domino 5"']	domino	en	0.548638105392	domino
+10754	IBM Domino 6	['"Domino 6"']	domino	en	0.548638105392	domino
+10755	IBM Domino 8	['"Domino 8"']	domino	en	0.548638105392	domino
+10756	SAP Strategy Management	['"SAP SSM"']	ssm	ro	0.76953125	Ssm
+10757	ZL Technologies	['"ZL Technologies"', 'DirectExtract', 'ZL AND "Unified Archive"', 'ZipLip']	ziplip	co	0.31885010004	ziplip
+318	Nagios	['Nagio']	nagio	lt	0.984911680222	Nagy
+10536	Google Apps	['GoogleApps']	googleapps	en	0.596837937832	googleapps
+10537	Google Docs	['GoogleDocs']	googledocs	en	1	googledocs
+313	MicroStrategy	['"Micro Strategy"']	strategy	en	1	strategy
+10539	SourceFire	['"Source Fire"']	fire	en	0.86770427227	fire
+311	Micro Focus	['MicroFocus']	microfocus	en	1	microfocus
+9091	Basho Riak	['Basho']	basho	ja	1	Basho
+314	Mindjet	['"Mind jet"', '"Mind manager"']	manager	en	0.813953459263	manager
+10693	Layer 7	['"Layer 7 Technologies"', '"Layer 7 API"', '"Layer 7 gateway"', '"Layer 7 SOA"']	soa	pt	0.303149610758	It sounds
+7247	Google App Engine	['Google AND "AppEngine"']	appengine	en	1	appengine
+7246	Sage 50	['Sage50']	sage	en	0.459143966436	sage
+7242	IBM Tivoli Netcool/Impact	['Netcool AND Impact']	impact	en	0.899613916874	impact
+7240	Oracle Time and Labor	['"Oracle Time & Labor"']	labor	en	0.87890625	labor
+8884	Sage 100 Contractor	['Sage AND "Master Builder"', 'Sage AND Masterbuilder']	masterbuilder	en	0.6796875	masterbuilder
+10915	Treepodia	['Treepodia']	treepodia	sk	0.977933824062	treepodia
+8886	BuilderTREND	['"Builder TREND"']	trend	en	0.710424721241	trend
+5093	Salesforce.com Remedyforce	['"Remedy force"']	force	en	0.890625	force
+8882	Polycom RealPresence	['Polycom AND RPX']	rpx	en	1	rpx
+8883	Sage 300 Construction and Real Estate	['Sage AND Timberline', 'Sage AND CRE']	cre	en	0.44140625	cre
+368	Ping Identity	['"PingIdentity"']	pingidentity	et	1	pingidentity
+442	SurveyGold	['"Survey Gold"']	gold	en	0.918287932873	gold
+5156	Sybase RemoteWare	['"Remote Ware"']	ware	de	0.671875	would
+785	Oracle XML Publisher	['Oracle AND "XML Publisher"']	publisher	en	0.97637796402	publisher
+6675	Dot Hill	['DotHill']	dothill	zu	0.927105426788	dothill
+381	Proofpoint	['"Proof point"']	point	en	0.848249018192	point
+387	QualysGuard	['"Qualys Guard"']	guard	en	1	guard
+4880	Schlumberger GeoFrame	['GeoFrame']	geoframe	sw	1	geoframe
+7028	SAS/FSP	['SASFSP']	sasfsp	el	0.936000347137	Sasfsp
+9008	ParAccel	['"Par Accel"']	accel	en	0.98046875	accel
+4758	NetSuite SuiteCloud	['NetSuite AND "Suite cloud"', 'NetSuite AND "Suitecloud"']	suitecloud	ht	0.999750852585	suitecloud
+4759	NetSuite SuiteFlow	['NetSuite AND SuiteFlow', 'NetSuite AND "Suite Flow"']	flow	en	1	flow
+780	Oracle TimesTen	['Oracle AND "Times Ten"']	ten	pl	0.263779520988	this
+5245	Dell EMC MirrorView	['EMC AND "Mirror View"']	view	en	1	view
+4752	Microsoft System Center Configuration Manager	['"ConfigMgr 2012"', '"ConfigMgr 2007"', '"SCCM 2007"', '"SCCM 2012"']	sccm	en	1	sccm
+4754	NetSuite SuiteFlex	['NetSuite AND SuiteFlex', 'NetSuite AND "Suite Flex"']	flex	en	0.710424721241	flex
+4756	NetSuite SuiteScript	['NetSuite AND "Suite Script"']	script	en	0.758754849434	script
+5242	Dell EMC SourceOne	['EMC AND "Source One"']	one	en	0.98828125	one
+8817	SailPoint	['"Sail Point"', '"Identity IQ"']	iq	en	0.69921875	iq
+10868	Quantel	['Quantel']	quantel	en	0.76953125	quantel
+10869	Advantech	['Advantech']	advantech	en	0.7890625	advantech
+10862	Azteca Cityworks	['Cityworks']	cityworks	pl	0.992507219315	Cityworks
+10863	Jython	['Jython']	jython	en	1	jython
+10860	Blackberry 10	['"Blackberry 10"', '"BES 10"']	bes	ar	0.98046875	Bes
+10861	NetIQ VigilEnt	['Vigilent']	vigilent	ro	0.9296875	vigilant
+10866	Blackmagic Davinci Resolve	['"Davinci Resolve"']	resolve	en	0.921875	resolve
+10867	DVS Clipster	['DVS AND Clipster']	clipster	en	1	clipster
+10864	Lightspeed Systems	['"Lightspeed Systems" AND lab']	lab	en	0.823529422283	lab
+10865	MEDITECH	['MEDITECH']	meditech	en	0.747035562992	meditech
+578	Epicor DataFlo	['DataFlo AND ERP']	erp	nl	0.713178277016	Erp
+8743	Mitel Collaboration Advanced	['Mitel AND MCA']	mca	ms	0.671875	mca
+4630	LexisNexis Bridger Insight XG	['"LexisNexis Bridger"']	bridger	en	0.96875	bridger
+4637	LexisNexis OrderPoint	['Lexis AND "Order Point"']	point	en	0.848249018192	point
+7054	Axium	['Ajera']	ajera	sq	0.674616098404	Ajera
+6491	HP-UX	['"HPUX"']	hpux	en	1	hpux
+407	Sassafras	['"Sassafras K2"']	sassafras	en	0.98046875	sassafras
+7155	Iron Mountain	['IronMountain']	ironmountain	en	0.80859375	ironmountain
+10876	Oracle Customer Hub	['"Oracle Customer Hub"', '"Oracle CDH"']	cdh	fr	0.640625	Cdh
+10914	VideoBloom	['VideoBloom']	videobloom	en	0.40000000596	videobloom
+8490	OptumInsight	['LighthouseMD', '"Optum Insight"']	insight	en	0.98828125	insight
+10912	FormFast	['FormFast']	formfast	de	0.8203125	Formfast
+10913	Liveclicker	['Liveclicker']	liveclicker	en	1	liveclicker
+10910	Inflectra	['Inflectra', 'spiraTest', 'spiraPlan', 'KronoDesk']	kronodesk	ja	1	Kronodesk
+10911	TurnTo	['TurnTo']	turnto	nl	1	Turnto
+1036	HP Open VMS	['OpenVMS']	openvms	en	1	openvms
+1037	IBM Websphere MQ	['"IBM WMQ"']	wmq	bg	0.464076697826	Wmq
+500	Wonderware	['"Wonder ware"']	ware	de	0.671875	would
+630	Microsoft Visio	['"Visio 2013"', '"Visio 2010"', '"Visio 2007"', '"Visio 2003"', '"Visio 2002"']	visio	en	0.56704980135	visio
+5028	SAP Portfolio and Project Management	['"SAP Portfolio & Project"']	project	en	0.96875	project
+1210	ClickMobile	['"Click Mobile"']	mobile	en	0.680769205093	mobile
+1216	QlikTech	['"Qlik Tech"']	tech	en	0.807692289352	tech
+468	TriGeo SIM	['Solarwinds AND LEM', '"solarwinds Log"']	log	en	0.7890625	log
+10648	Oracle Mobile Supply Chain	['Oracle AND MSCA', 'Oracle AND "Mobile Supply Chain"']	chain	en	1	chain
+637	SAP Business Objects	['Cartesis']	cartesis	en	1	cartesis
+465	TrackWise	['"Track Wise" AND EQMS']	eqms	mt	0.866803824902	EQMS
+7299	IBM OpenPages	['"IBM Open Pages"', 'IBM AND OpenPages']	openpages	en	0.51953125	openpages
+10644	Oracle GlassFish	['"Glass fish"']	fish	en	1	fish
+10645	Oracle Grid Engine	['"GridEngine"']	gridengine	jw	0.99945884943	gridengine
+10676	SurveyGizmo	['"Survey Gizmo"']	gizmo	en	0.848249018192	gizmo
+6958	IBM Tivoli Netcool/Reporter	['Netcool AND reporter']	reporter	en	0.528735637665	reporter
+6522	Informatica Data Replication	['Information AND IDR']	idr	de	0.62109375	Idr
+6527	Informatica PowerExchange	['PowerExchange', 'Informatica AND PWX']	pwx	el	0.74215734005	Pwx
+6526	Informatica PowerCenter	['"PowerCenter 9"', '"PowerCenter 8"']	powercenter	en	1	powercenter
+164	DameWare	['"Dame Ware"']	ware	de	0.671875	would
+167	DataCert	['"Data Cert"', 'Corprasoft']	corprasoft	ga	0.98828125	corprasoft
+4686	Juniper Networks Junos	['JNCIA']	jncia	sk	0.835254669189	JNCIA
+6354	Symantec Security Information Manager	['"Symantec Siem"']	siem	en	0.30859375	siem
+6355	Symantec Athena	['Symantec AND Athena']	athena	en	0.543307065964	athena
+6352	SenSage	['Hexis']	hexis	en	1	hexis
+4935	ServiceMax	['"Service Max"']	max	en	0.49612402916	max
+6351	Quest ChangeAuditor	['Quest AND "Change Auditor"']	auditor	en	0.741176486015	auditor
+6663	Syncsort	['"sync sort"']	sort	en	0.858267724514	sort
+8667	Genesys Contact Center	['"Genesys CCA"', 'CCPulse']	ccpulse	gl	0.441324025393	ccpulse
+8668	Genesys SIP	['Genesys AND "Session Initiation Protocol"']	protocol	en	0.9296875	protocol
+5247	Dell EMC RSA Archer	['"Archer RSA"', '"eGRC Archer"']	egrc	la	0.96514570713	egrc
+9342	HP Connect-IT	['ConnectIT']	connectit	la	1	articulates
+4997	SalesLogix	['"sales logix"']	logix	en	1	logix
+9187	Miva Merchant	['Miva']	miva	en	0.9609375	miva
+3533	Dell DR4000 Disk Backup	['Dell DR4100']	dr	en	0.338521391153	dr
+5059	SAP Service Parts	['"SAP SPP"']	spp	en	0.687747061253	spp
+5056	SAP for Aerospace	['"SAP Aerospace"', '"SAP A&D"']	sap a d	en	0.142393633723	sap a d
+4757	NetSuite SuiteTalk	['NetSuite AND "Suite Talk"']	talk	en	0.98828125	talk
+5051	Software AG Adabas	['Adabas']	adabas	en	1	adabas
+5052	SAP Solution Manager	['"SAP ALM"', '"Solution Manager EHP"']	ehp	mi	0.248776435852	ehp
+7208	ADP AdvancedMD	['"Advanced MD"']	md	en	0.6484375	md
+879	HP Quality Center	['HP AND QualityCenter']	qualitycenter	en	0.722007751465	qualitycenter
+877	HP Project and Portfolio Management Center	['"HP Project & Portfolio"']	portfolio	en	0.7890625	portfolio
+6558	Siemens OpenScape Voice	['"Open Scape Voice"']	voice	en	0.94921875	voice
+7206	NueMD	['Nuesoft']	nuesoft	es	0.999999940395	Our suit
+10761	SDL Trados	['Trados AND localization', '"SDL Trados"', 'Trados AND Translator', '"Trados Studio"']	studio	en	0.536964952946	studio
+10760	Dragon NaturallySpeaking	['NaturallySpeaking', 'Dragon AND "Naturally Speaking"']	speaking	en	1	speaking
+10763	Lawtrac	['Lawtrac']	lawtrac	cy	0.999847531319	lawtrac
+10762	SDL BeGlobal	['BeGlobal', '"Language Weaver"']	weaver	en	0.434782594442	weaver
+10765	Dell PowerConnect	['Dell AND PowerConnect']	powerconnect	en	1	powerconnect
+10764	Cisco UC500	['Cisco AND UC500', 'Cisco AND "UC 500"', 'Cisco AND "UC 560"', 'Cisco AND "UC 540"', 'Cisco AND UC540', 'Cisco AND UC560']	uc	lv	0.662745118141	Others
+10767	Apteligent	['Crittercism']	crittercism	en	1	crittercism
+10766	IBM DCS3700	['DCS3700']	dcs	en	0.87109375	dcs
+10769	Kony	['Kony']	kony	en	0.599221765995	kony
+10768	HockeyApp	['HockeyApp']	hockeyapp	en	0.741176486015	hockeyapp
+4846	Arc/View	['ArcView']	arcview	en	0.98828125	arcview
+4847	Arc/Info	['ArcInfo']	arcinfo	en	1	arcinfo
+4843	Dynamic Graphics	['CoViz', '"Dynamic Graphics" AND geology']	geology	en	0.98828125	geology
+5143	Infor SoftBrands	['SoftBrands AND Epitome', '"SoftBrands hotel"', 'SoftBrands AND hotel']	softbrands and hotel	en	0.255204975605	softbrands and hotel
+649	SAP for Engineering, Construction, and Operations	['"SAP Engineering"']	engineering	en	0.98828125	engineering
+5203	Desire2Learn	['"Desire 2 Learn"']	learn	en	1	learn
+6344	LogLogic	['"log logic"']	logic	en	0.937007844448	logic
+9292	AVImark	['"AVI mark"']	mark	en	0.8984375	mark
+9293	Dentisoft	['"Denti soft"']	soft	en	0.83011585474	soft
+7334	NM Incite	['NMIncite']	nmincite	co	0.866237521172	nmincite
+9297	OfficeMate	['Eyefinity']	eyefinity	en	0.98828125	eyefinity
+9294	Eaglesoft	['Eaglesoft', '"Eagle soft" AND dent*', '"Eagle soft" AND "dent*"']	dent	en	0.645914375782	dent
+9298	LexisNexis Time Matters	['LexisNexis AND "TimeMatters"']	timematters	vi	0.408560305834	Timematters
+9299	HP ProCurve	['HP AND "Pro curve"']	curve	en	0.887159526348	curve
+354	OutlookSoft	['"Outlook Soft"']	soft	en	0.83011585474	soft
+8914	LogiXML	['"Logi XML"']	xml	en	0.608695626259	xml
+1174	FreeBSD	['"Free bsd"']	bsd	id	0.677165329456	Bsd
+801	McAfee (Unspecified Product)	['"Mc Afee"']	afee	mi	1	thousand
+4993	Sage 500	['Sage500', 'MAS500']	mas	pt	0.433070868254	but
+8856	Reval	['Reval AND risk', 'Reval AND financ*', 'Reval AND hedge']	hedge	en	0.918918907642	hedge
+805	Google Analytics	['GoogleAnalytics']	googleanalytics	en	1	googleanalytics
+358	PastPerfect	['"Past Perfect"']	perfect	en	0.918287932873	perfect
+214	FLEETMATE	['"fleet mate"']	mate	en	0.552941203117	mate
+210	Fidelity TouchPoint	['Fidelity AND TouchPoint', '"Webtone TouchPoint"']	webtone	so	0.908915042877	webtone
+762	Microsoft System Center	['Microsoft AND SystemCenter']	systemcenter	en	0.86770427227	systemcenter
+763	Oracle OLAP	['"OLAP Oracle"']	oracle	en	0.83011585474	oracle
+10883	Citrix XenMobile	['XenMobile']	xenmobile	gl	0.999275863171	xenmobile
+7110	KnowledgeTree	['"knowledge tree" AND content']	content	en	1	content
+4704	Polycom RMX Series	['RMX4000', 'RMX2000', 'Accordent']	accordent	fr	1	Grant
+4701	SpectraLink	['"Spectra link"']	link	en	0.65098041296	link
+7053	Sophos	['"SafeGuard Easy"', '"SafeGuard Encryption"', 'PureMessage']	puremessage	en	1	puremessage
+7050	F-Secure	['FSecure']	fsecure	co	0.713843107224	F-Secure
+1070	Microsoft Dynamics GP	['"GP 2013"', '"Great Plains 2010"']	plains	en	0.96875	plains
+1071	Microsoft Dynamics NAV	['"NAV 2013"', '"NAV 2009"']	nav	lv	0.58984375	are not
+10813	Amazon Redshift	['Amazon AND Redshift']	redshift	en	1	redshift
+10812	WinMagic	['WinMagic']	winmagic	tl	0.992651581764	winmagic
+10811	Dell Credant	['Credant']	credant	la	0.91015625	they
+1112	Quest ActiveRoles Server	['"Quest ARS"']	ars	ro	0.252964437008	Burned
+10817	IBM DS4300	['DS4300']	ds	pl	0.396887153387	Ds
+10816	IBM DS3400	['DS3400']	ds	pl	0.396887153387	Ds
+10815	IBM DS3200	['IBM AND DS3200']	ds	pl	0.396887153387	Ds
+10814	IBM DS5020	['DS5020']	ds	pl	0.396887153387	Ds
+281	KickApps	['"Kick Apps"']	apps	en	0.6796875	apps
+10819	Sun Storage 6180	['Storagetek AND 6180']	and	en	1	and
+10818	IBM DS4800	['DS4800', 'DS48xx']	xx	en	0.541176497936	xx
+6998	Thomson Reuters	['ThomsonReuters']	thomsonreuters	en	0.811764717102	thomsonreuters
+1092	LexisNexis	['"lexis nexis"', '"lexus nexis"', '"lexus nexus"', '"lexis nexus"']	lexis nexus	en	0.19584235549	lexis nexus
+8636	Cisco SMARTnet	['Cisco AND "SMART net"']	net	en	0.33984375	net
+6991	Meltwater	['"melt water" AND media']	media	en	0.657587528229	media
+4562	NetApp iSCSI SAN Storage Solution	['NetApp AND "iSCSI SAN"']	san	ja	0.421875	San
+6392	Parallels	['Plesk', 'Parallels AND virtual*']	virtual	en	0.715953290462	virtual
+4643	LexisNexis CounselLink	['"Counsel Link"']	link	en	0.65098041296	link
+6396	QuarkXPress	['"Quark XPress"']	xpress	en	0.596837937832	xpress
+4644	Dell SonicWALL	['"Sonic Wall"']	wall	en	0.97637796402	wall
+534	Adobe Experience Manager	['"Adobe AEM"']	aem	is	0.877952754498	AEM
+533	Cognos	['Congos']	congos	en	0.62890625	congos
+5147	Sybase SQL Anywhere	['Sybase AND "SQLAnywhere"']	sqlanywhere	en	0.918721914291	sqlanywhere
+5158	Novell BorderManager	['Novell AND "Border Manager"', 'Novell AND "BorderManager"']	bordermanager	en	1	bordermanager
+988	Riverbed Technology (Unspecified Product)	['"mazu networks"']	networks	en	1	networks
+10738	IBM Sterling Secure Proxy	['"Sterling Secure Proxy"']	proxy	en	0.80078125	proxy
+10739	IBM WebSphere Transformation Extender	['"WebSphere Transformation Extender"', '"IBM WTX"']	wtx	el	0.716708660126	Wtx
+10736	IBM Sterling B2B Integrator	['"Sterling B2B Integrator"']	integrator	en	0.960474312305	integrator
+10737	IBM Sterling File Gateway	['"Sterling File Gateway"']	gateway	en	0.836575865746	gateway
+10734	Thomson IP Manager	['"Thomson IP Manager"', '"Thomson IPManager"']	ipmanager	lb	0.508138239384	IPMANAGER
+10735	IBM Sterling Control Center	['IBM AND "Sterling Control Center"']	center	en	0.914728701115	center
+10732	LANDesk Service Desk	['"LANDesk Service Desk"']	desk	en	0.98828125	desk
+10733	SalesFUSION	['SalesFUSION']	salesfusion	en	0.956692934036	salesfusion
+10730	Hornbill	['Hornbill', 'Supportworks AND ITSM']	itsm	st	0.905621945858	itsm
+10731	IBM SmartCloud Control Desk	['"SmartCloud Control Desk"', 'IBM AND SCCD']	sccd	co	0.533743798733	SCCD
+8683	Cisco Security Manager	['Cisco AND CCSP']	ccsp	ca	0.742309629917	CCSP
+111	Brainshark	['"brain shark"']	shark	en	0.913725495338	shark
+10795	Kareo	['Kareo']	kareo	ceb	0.94140625	Kareo
+9140	CiscoView	['"Cisco View"']	view	en	1	view
+4800	Nortel DMS	['"DMS 250"', '"DMS 350"', '"DMS 500"']	dms	en	0.613899588585	dms
+4803	Nortel Meridian	['"Meridian PBX"']	pbx	en	0.833333313465	pbx
+6517	Informatica B2B Data Exchange	['"Informatica Data Exchange"']	exchange	en	0.976653695107	exchange
+429	SolarWinds (Unspecified Product)	['"solar winds" AND "network*"']	network	en	0.956692934036	network
+10793	ABELDent	['ABELDent']	abeldent	de	0.999947845936	Abeldent
+5283	Pearson MyMathLab	['"My Math Lab"']	lab	en	0.823529422283	lab
+913	Velocify	['Velocify']	velocify	en	0.37890625	velocify
+912	LeadFormix	['"Lead Formix"']	formix	la	0.874719977379	formix
+308	Metastorm	['"Meta storm"']	storm	en	0.921875	storm
+301	MapInfo	['MapMarker', 'MapXtreme']	mapxtreme	en	1	mapxtreme
+10783	Zenith Infotech	['"Zenith Infotech"']	infotech	en	0.80859375	infotech
+10782	Dell EMC Syncplicity	['Syncplicity']	syncplicity	cs	0.601603209972	Syncplicity
+10781	Druva	['Druva']	druva	lv	0.5390625	cornfield
+10780	Temenos	['"t24" AND banking']	banking	en	0.907692313194	banking
+10787	LLamasoft	['LLamasoft', '"Llama Soft"']	soft	en	0.83011585474	soft
+10786	HP WinRunner	['WinRunner']	winrunner	en	1	winrunner
+9319	Matrix42	['"Matrix 42"']	matrix	en	0.945098042488	matrix
+10784	HP Cloud Service Automation	['HP AND "Cloud Service Automation"', '"HP CSA"']	csa	en	0.62890625	csa
+9316	Sony Sound Forge	['SoundForge']	soundforge	en	0.578125	soundforge
+10789	HP SOA Systinet	['Systinet']	systinet	en	1	systinet
+10788	Tripwire IP360	['IP360']	ip	en	0.444881886244	ip
+8459	Demandware	['"Demand ware"']	ware	de	0.671875	would
+9310	RightScale	['"Right Scale"']	scale	en	0.96875	scale
+847	Greenplum Database	['"Green Plum"']	plum	en	0.937007844448	plum
+6426	Amazon AWS	['"Amazon cloud services"', '"Cloud AWS"', '"AWS cloud"', '"AWS Services"']	aws services	en	0.369110316038	aws services
+844	Dell EMC DiskXtender	['"Disk Xtender"']	xtender	en	0.578125	xtender
+8953	IBM StoredIQ	['"Stored IQ"']	iq	en	0.69921875	iq
+7274	Oracle Social Relationship Management	['"Oracle Social Relationship Management"', '"Oracle SRM"']	srm	vi	0.91015625	SRM
+5081	SAP Quality Management	['"SAP QM"']	qm	de	0.702380955219	Sqm
+7370	Dimension Data	['DimensionData']	dimensiondata	en	0.53543305397	dimensiondata
+5087	Sybase IQ	['sybaseIQ']	sybaseiq	en	0.885826766491	sybaseiq
+849	Dell EMC NetWorker	['EMC AND "Net Worker"']	worker	en	1	worker
+8890	BuilderMT	['"Builder MT"']	mt	en	0.434782594442	mt
+7426	FireEye	['"Fire Eye"']	eye	en	1	eye
+7422	IBM Unica Detect	['"IBM Opportunity Detection"']	detection	en	1	detection
+7420	IBM Unica Optimize	['"IBM Contact Optimization"']	optimization	en	0.87109375	optimization
+4998	Sage HRMS	['"Sage Abra"']	abra	es	0.52362203598	Open
+6603	IBM SmartCloud Enterprise	['"IBM Smart Cloud"']	cloud	en	0.763565897942	cloud
+9037	SyncBackPro	['"SyncBack Pro"']	pro	cs	0.633204638958	for
+7017	Amdocs Smart Client	['Amdocs AND "SmartClient"']	smartclient	en	1	smartclient
+9039	SmartSync	['"Smart Sync"']	sync	en	0.890625	sync
+10857	Blackberry 5	['"Blackberry 5"', '"BES 5"', 'Blackberry AND "enterprise server 5"']	server	en	0.716535449028	server
+10856	Sparx Systems	['"Sparx Systems"']	systems	en	0.98046875	systems
+10855	Troux	['Troux']	troux	en	1	troux
+10854	Qumu	['Qumu', 'Rimage']	rimage	en	1	rimage
+10853	Kontiki	['Kontiki']	kontiki	en	0.79766535759	kontiki
+10852	VBrick	['VBrick']	vbrick	ku	0.466277688742	vbrick
+10850	SourceFire ClamAV	['ClamAV']	clamav	en	0.599221765995	clamav
+9154	Jama Contour	['JamaContour']	jamacontour	fr	0.844043672085	Jamacontour
+4745	Symantec Mobile Management	['"Symantec MDM"']	mdm	en	0.6015625	mdm
+10858	Blackberry 6	['"Blackberry 6"', '"BES 6"', 'Blackberry AND "enterprise server 6"']	server	en	0.716535449028	server
+8821	Stibo Systems	['Stibo AND database', 'Stibo AND MDM']	mdm	en	0.6015625	mdm
+8824	HP ArcSight	['"Arc Sight"']	sight	en	1	sight
+5153	Sybase InfoMaker	['Sybase AND "Info Maker"']	maker	en	0.913725495338	maker
+569	BMC Remedy ITSM	['"Remedy ITSM"']	itsm	st	0.905621945858	itsm
+8778	Dell EMC EmailXtender	['"Email Xtender"']	xtender	en	0.578125	xtender
+5152	Sybase EAServer	['"EA Server"', 'EAServer']	easerver	en	1	easerver
+4897	Check Point	['"Check Point" AND CCSA', '"Check Point" AND CCSE']	ccse	hu	0.778590738773	CCSE
+563	Microsoft Live Meeting	['Microsoft AND LiveMeeting', 'PlaceWare']	placeware	en	1	placeware
+5154	Sybase PowerBuilder	['"Power Builder"']	builder	en	0.96875	builder
+5157	IBM FileNet P8	['FileNetP8']	filenetp	no	0.859375	Filenetp
+228	GuardianEdge	['"Guardian Edge"']	edge	en	1	edge
+226	Goldmine	['"Gold mine" AND CRM']	crm	en	0.8203125	crm
+985	PerTrac	['eVestment']	evestment	ca	0.806139647961	evestment
+7083	KIT digital	['Piksel']	piksel	id	0.37109375	Pixels
+7082	Cisco Show and Share	['Cisco AND "Show & Share"']	share	en	0.98046875	share
+7084	MediaPlatform	['MediaPlatform']	mediaplatform	en	0.284584969282	mediaplatform
+1022	Adobe Target	['omniture AND "Test & Target"', 'Adobe AND "Test & Target"', 'omniture AND "Test AND Target"']	omniture and test and target	en	0.325647979975	omniture and test and target
+1185	Infor ERP	['System21']	system	en	0.9296875	system
+1181	BRIO	['"brio report"', '"brio reports"', '"brio reporting"']	reporting	en	1	reporting
+8686	Oracle FLEXCUBE	['Oracle AND "FLEX CUBE"']	cube	en	0.778210103512	cube
+5029	SAP Product Lifecycle Management	['"SAP PLM"']	plm	ro	0.51953125	Plm
+7281	Microsoft Visual SourceSafe	['VisualSourceSafe']	visualsourcesafe	en	0.395348846912	visualsourcesafe
+606	NetApp OnCommand Suite	['"OnCommand Suite"', '"OnCommand Management"']	management	en	0.934108555317	management
+601	NetApp MetroCluster	['"Metro Cluster"']	cluster	en	0.853174626827	cluster
+1208	Click Software (Unspecified Product)	['ClickButler', 'ClickSHOUT']	clickshout	en	0.961240291595	clickshout
+1162	Aruba Networks (Unspecified Product)	['"Aruba WLAN"', '"Aruba 6"']	wlan	de	0.525096535683	wireless Internet access
+6492	HP Tru64	['"Tru 64"']	tru	vi	0.472440958023	minus
+10894	ArcMail	['ArcMail']	arcmail	ro	0.606301784515	Arcmail
+1201	Plex Online	['PlexOnline']	plexonline	sq	0.985738277435	Plexonline
+608	NetApp Raid-DP	['"RaidDP"']	raiddp	cy	0.999975025654	raiddp
+10674	SurveyMonkey	['"Survey Monkey"']	monkey	en	0.917322814465	monkey
+6949	IBM Tivoli Provisioning Manager	['"Tivoli Provisioning"']	provisioning	en	1	provisioning
+6466	StorageTek SL8500	['SL8500']	sl	bs	0.217898830771	etc.
+6943	IBM Tivoli Netcool Performance Manager	['Netcool AND proviso']	proviso	en	1	proviso
+8480	EncounterPRO	['"Encounter PRO"']	pro	cs	0.633204638958	for
+4695	Nortel Contivity	['"Contivity VPN"']	vpn	en	0.715953290462	vpn
+4694	Nortel Alteon	['Nortel AND Alteon', '"Alteon load"', '"Alteon server"']	server	en	0.716535449028	server
+6347	LogRhythm	['"Log Rhythm"']	rhythm	en	1	rhythm
+4696	Nortel Centillion	['Nortel AND Centillion ', '"Centillion 100"']	centillion	id	0.51171875	Centillion
+4929	ServiceNow CMS	['"ServiceNow Content Management"']	management	en	0.934108555317	management
+9429	DataStax	['"data stax"']	stax	en	1	stax
+8483	Practice Fusion	['PracticeFusion']	practicefusion	en	0.918287932873	practicefusion
+1115	Quest MessageStats	['"Quest Message Stats"']	stats	en	0.92549020052	stats
+1114	Quest Foglight	['"Foglight Application"', '"Foglight Administrator"', 'Quest AND "Fog light"']	light	en	1	light
+9421	LifeSize	['"Life Size" AND video']	video	en	0.5943775177	video
+9425	Clustrix	['ClustrixDB']	clustrixdb	en	1	clustrixdb
+9427	Couchbase	['"Couch base"']	base	en	0.436293423176	base
+4588	RingCentral	['"Ring Central"']	central	en	0.76953125	central
+4990	PowerDMS	['"Power DMS"']	dms	en	0.613899588585	dms
+5167	Novell Open Enterprise Server	['"Novell OES"']	oes	cy	0.9296875	there
+9359	Microsoft Visual Studio	['"VisualStudio"', '"Visual Studio 2005"', '"Visual Studio 2012"', '"Visual Studio 2010"', '"Visual Studio 2008"']	studio	en	0.536964952946	studio
+4991	Sage Accpac	['Accpac']	accpac	en	1	accpac
+5284	Pearson LearningStudio	['LearningStudio']	learningstudio	en	1	learningstudio
+7234	Orion Network Configuration Manager	['Solarwinds AND Orion']	orion	en	0.602316617966	orion
+8555	GT Nexus	['GTNexus']	gtnexus	la	0.996057868004	gtnexus
+5047	SAP Data Migration	['"SAP Data Migration"']	migration	en	0.882352948189	migration
+5046	SAP Data Integrator	['SAP AND "DataIntegrator"']	dataintegrator	sv	0.609375	Data integrator
+5045	SAP Data Services	['SAP AND DataServices']	dataservices	en	0.883720934391	dataservices
+5044	SAP NetWeaver	['"NetWeaver PI"', '"NetWeaver 2004"', '"SAP Net Weaver"']	weaver	en	0.434782594442	weaver
+5042	SAP Visual Intelligence	['Lumira']	lumira	en	1	lumira
+5041	SAP Crystal Reports	['"CrystalReports"']	crystalreports	en	0.98828125	crystalreports
+7239	Microsoft Virtual Server	['"MS Virtual Server"']	server	en	0.716535449028	server
+6469	StorageTek SL48	['SL48']	sl	bs	0.217898830771	etc.
+8999	IFS Metrix	['Metrix']	metrix	en	1	metrix
+8997	SAP Field Service	['"SAP Field Service"']	service	en	0.843137264252	service
+6549	NEC UNIVERGE 3C	['SV8100', 'SV8500']	sv	sv	0.307392984629	Sv
+10772	Oracle WebCenter Imaging	['"oracle webcenter imaging"', '"Oracle IPM"', '"Oracle Imaging AND Process"']	process	en	1	process
+10773	Iasta	['Iasta']	iasta	gd	0.99999409914	iasta
+10770	TRUSTe	['Truste AND privacy', 'Truste AND security', '"TRUSTe EU"', '"Familiarity with TRUSTe"', '"TRUSTe Safe"']	safe	en	0.98046875	safe
+10771	Epicor Vista	['"Epicor Vista"', '"Vista ERP"']	erp	nl	0.713178277016	Erp
+10777	HP Service Automation Visualizer	['"Service Automation Visualizer"']	visualizer	en	1	visualizer
+10774	Zycus	['Zycus']	zycus	pl	0.999252974987	Zycus
+10775	BravoSolution	['BravoSolution']	bravosolution	en	1	bravosolution
+4585	SugarSync	['"sugar sync"']	sync	en	0.890625	sync
+10778	Backbase	['Backbase']	backbase	en	1	backbase
+10779	SAP NetWeaver Portal	['"NetWeaver Portal"']	portal	en	0.3501945436	portal
+5258	IBM DS5000	['DS5xxx', 'DS5100', 'DS5300']	xxx	en	0.507936537266	xxx
+4583	Hightail	['Hightail AND file']	file	en	0.83984375	file
+4999	Sage Fixed Assets	['"Sage FAS"']	fas	ca	0.247104242444	you do

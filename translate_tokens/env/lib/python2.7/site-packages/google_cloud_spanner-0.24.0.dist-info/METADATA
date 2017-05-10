@@ -1,0 +1,42 @@
+Metadata-Version: 2.0
+Name: google-cloud-spanner
+Version: 0.24.0
+Summary: Python Client for Cloud Spanner
+Home-page: https://github.com/GoogleCloudPlatform/google-cloud-python
+Author: Google Cloud Platform
+Author-email: jjg+google-cloud-python@google.com
+License: Apache 2.0
+Platform: Posix; MacOS X; Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet
+Requires-Dist: gapic-google-cloud-spanner-admin-database-v1 (>=0.15.0,<0.16dev)
+Requires-Dist: gapic-google-cloud-spanner-admin-instance-v1 (>=0.15.0,<0.16dev)
+Requires-Dist: gapic-google-cloud-spanner-v1 (>=0.15.0,<0.16dev)
+Requires-Dist: google-cloud-core (<0.25dev,>=0.24.0)
+Requires-Dist: grpcio (>=1.2.0,<2.0dev)
+
+Python Client for Cloud Spanner
+===============================
+
+    Python idiomatic client for `Cloud Spanner`_.
+
+.. _Cloud Spanner: https://googlecloudplatform.github.io/google-cloud-python/latest/spanner-usage.html
+
+
+Quick Start
+-----------
+
+.. code-block:: console
+
+    $ pip install --upgrade google-cloud-spanner
+
+

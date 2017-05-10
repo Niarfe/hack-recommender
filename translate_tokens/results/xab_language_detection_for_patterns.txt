@@ -1,0 +1,627 @@
+product_id	product_name	original pattern	token and separated token	detected_language	confidence_score	translated_language 
+3557	IBM Storwize Unified Storage Disk System	['Storwize']	storwize	en	1	storwize
+3556	IBM System Storage Disk Systems	['"IBM System Storage"', '"IBM Disk Systems"']	systems	en	0.98046875	systems
+3555	Dell PowerVault TL4000 Tape Library	['Dell AND TL4000', 'PowerVault AND TL4000', '"TL4000 Tape Library"']	library	en	1	library
+3498	Dell PowerEdge R210 II Rack Server	['"PowerEdge R210 ll"', '"Dell R210 II"', '"PowerEdge R210ll"', '"Dell R210II"']	ii	ro	0.41015625	Ii
+3499	Dell PowerEdge R210 Rack Server	['"PowerEdge R210"', '"Dell R210"']	dell	en	0.4296875	dell
+3559	IBM Scale Out Network Attach Storage (SONAS)	['IBM AND SONAS', 'SONAS AND "Storage Solution"']	solution	en	0.890625	solution
+819	Red Hat (Unspecified Product)	['"red hat"']	hat	de	0.611764729023	Has
+3497	Dell PowerEdge R200 Rack Server	['"PowerEdge R200"', '"Dell R200"']	dell	en	0.4296875	dell
+1252	Barracuda Spam & Virus Firewall	['"Barracuda Spam"']	spam	en	0.625984251499	spam
+1261	IBM WebSphere Application Server	['"WebSphere Application Server"']	server	en	0.716535449028	server
+3492	Dell PowerEdge M620 Blade Server	['"PowerEdge M620"', '"Dell M620"']	dell	en	0.4296875	dell
+3493	Dell PowerEdge M710HD Blade Server	['"PowerEdge M710HD"', '"Dell M710HD"']	dell	en	0.4296875	dell
+1069	VersionOne	['VersionOne']	versionone	en	0.68503934145	versionone
+1061	Autonomy Qfiniti	['"Qfiniti"']	qfiniti	it	0.415022373199	Quelled
+1060	OpenText Optimost	['"Optimost"']	optimost	fi	0.463320463896	Optimost
+1063	Autonomy Virage	['"Virage"']	virage	fr	0.9609375	turn
+1065	Microsoft Dynamics AX	['"MicrosoftDynamics AX"', '"MSDynamics AX"']	msdynamics	hmn	0.999995589256	msdynamics
+1064	Autonomy WorkSite	['"Autonomy WorkSite"']	worksite	en	1	worksite
+1066	Rally Software	['"Rally Software"', 'Rally AND "ALM"']	alm	da	0.594594597816	Alm
+3484	Dell EqualLogic PS6500 Series SAN Storage	['Dell AND PS6500', 'EqualLogic AND PS6500', '"PS6500 Series" AND "SAN Storage"', '"PS6500 Series SAN Storage"']	ps series san storage	en	0.193972498178	ps series san storage
+1087	Cisco Aggregation Services Routers	['Cisco AND "Aggregation Services Routers"']	routers	en	0.91015625	routers
+1086	Cisco Integrated Services Routers	['Cisco AND "integrated services Routers"', 'Cisco AND "ISR"']	isr	en	0.747081696987	isr
+1084	Cisco Edge Routers	['"Cisco Edge Routers"']	routers	en	0.91015625	routers
+1082	Cisco Routers	['"Cisco Routers"']	routers	en	0.91015625	routers
+1081	CollabNet Lab Management	['CollabNet AND "Lab Management"']	management	en	0.934108555317	management
+1080	CollabNet TeamForge	['CollabNet AND teamforge']	teamforge	en	1	teamforge
+1120	SAS Cloud Analytics	['"SAS Solutions ondemand"']	ondemand	en	1	ondemand
+1121	SAS Data Integration	['"SAS Data Integration"']	integration	en	0.882352948189	integration
+1122	SAS ETL	['"SAS ETL"']	etl	sv	0.76953125	Etl
+1123	SAS Forecast Server	['"SAS Forecast Server"']	server	en	0.716535449028	server
+1124	SAS/AF	['"SAS\\/AF"', '"SAS \\/AF"', '"SAS\\/ AF"', '"SAS AF"']	af	da	0.83984375	of
+1125	SAS/Connect	['"SAS\\/Connect"', '"SAS \\/Connect"', '"SAS\\/ Connect"', '"SAS Connect"']	connect	en	1	connect
+1089	ADP Payroll	['"ADP Payroll"']	payroll	en	0.976653695107	payroll
+1127	SAS/GRAPH	['"SAS\\/GRAPH"', '"SAS\\/ GRAPH"', '"SAS \\/GRAPH"', '"SAS GRAPH"']	graph	en	0.94921875	graph
+4655	Dell SecureWorks	['SecureWorks']	secureworks	en	0.96875	secureworks
+4654	NETGEAR ReadyNAS	['ReadyNAS']	readynas	en	1	readynas
+4657	HP LEFTHAND P4000	['"HP LEFTHAND"']	lefthand	en	1	lefthand
+4656	HP EVA	['"HP EVA"']	eva	en	0.233201578259	eva
+4651	NETGEAR	['"Netgear"']	netgear	en	0.578125	netgear
+4558	NetApp FAS Series Storage Systems	['"NetApp FAS"']	fas	ca	0.247104242444	you do
+4652	NETGEAR ProSafe	['"NETGEAR ProSafe"']	prosafe	no	0.6015625	Prosafe
+4556	HP Tape Libraries	['"HP tape libraries"']	libraries	en	1	libraries
+4557	NetApp Storage Systems	['"NetApp Storage"']	storage	en	1	storage
+4554	HP StorageWorks Enterprise Virtual Array	['StorageWorks']	storageworks	en	0.874509811401	storageworks
+4555	HP Disk Array Storage Systems	['"HP Disk Arrays"', '"HP Arrays"']	hp arrays	en	0.195285081863	hp arrays
+4552	HP Storage Systems	['"HP storage"']	storage	en	1	storage
+4553	HP Tape Drives	['"HP tape"']	tape	en	0.890625	tape
+4550	IBM System p Server	['IBM AND "system p"']	system	en	0.9296875	system
+4551	HP ProLiant Scalable Systems	['"Proliant Scalable Systems"']	systems	en	0.98046875	systems
+3386	Altair HyperCrash	['HyperCrash']	hypercrash	en	0.98046875	hypercrash
+3387	Altair MotionView	['MotionView']	motionview	en	0.909090936184	motionview
+3384	Altair HyperView	['HyperView']	hyperview	en	0.8203125	hyperview
+3385	Altair HyperGraph	['HyperGraph']	hypergraph	en	1	hypergraph
+3382	Altair PBS Pro	['"PBS Pro"']	pro	cs	0.633204638958	for
+3373	ADP Desking	['"ADP Desking"']	desking	en	1	desking
+3380	Salesforce.com Jigsaw	['Jigsaw']	jigsaw	en	0.805447459221	jigsaw
+3381	Altair Hyperworks	['Hyperworks']	hyperworks	vi	0.53125	Hyperworks
+3389	Altair RADIOSS	['RADIOSS']	radioss	en	0.298449605703	radioss
+1018	Adobe Digital Marketing Suite	['Adobe AND "Digital Marketing Suite"']	suite	fr	0.509727597237	after
+1019	Adobe SearchCenter+	['"SearchCenter"']	searchcenter	en	1	searchcenter
+1014	Brightcove	['Brightcove']	brightcove	en	1	brightcove
+1015	Ooyala	['ooyala']	ooyala	en	1	ooyala
+1016	Kaltura	['kaltura']	kaltura	en	1	kaltura
+1012	Yardi	['Yardi']	yardi	en	0.529182851315	yardi
+1013	VMware Mobile Virtualization Platform	['"VMware Mobile Virtualization Platform"', '"VM ware Mobile Virtualization Platform"']	ware	de	0.671875	would
+1236	Cisco Switches	['"Cisco Switches"']	switches	en	0.98828125	switches
+1237	Apple (Unspecified Product)	['"apple products"']	products	en	1	products
+1339	CA NetQoS ReporterAnalyzer	['"ReporterAnalyzer"', '"Reporter Analyzer"', '"netqos reporter"']	netqos	en	1	netqos
+1338	CA NetQoS SuperAgent	['NetQoS AND "super agent"', 'superagent']	superagent	en	1	superagent
+1335	CA Customer Experience Manager (CEM)	['"ca cem"', '"ca customer experience manager"', '"wily cem"', '"wily customer experience manager"']	wily customer experience manager	en	0.286560714245	wily customer experience manager
+1334	CA IntroScope	['"CA interscope"', '"Wily interscope"', '"Wily IntroScope"', '"CA IntroScope"']	ca introscope	en	0.334066092968	ca introscope
+1337	CA NetQoS NetVoyant	['netvoyant']	netvoyant	ku	1	netvoyant
+1336	CA Application Performance Management (APM)	['"ca apm"', '"ca application performance"']	performance	en	0.945098042488	performance
+1331	Compuware Uniface	['uniface']	uniface	en	1	uniface
+1330	Changepoint	['Changepoint']	changepoint	en	1	changepoint
+1333	CA Wily (Assurance Suite)	['CA AND "Assurance suite"']	suite	fr	0.509727597237	after
+1332	Compuware Covisint	['covisint']	covisint	en	1	covisint
+3552	Dell PowerVault RD1000 Removable Disk Storage	['Dell AND RD1000', 'PowerVault AND RD1000']	powervault	en	0.73046875	powervault
+1241	Pivotal Tracker	['"Pivotal Tracker"']	tracker	en	0.838461518288	tracker
+1240	Mantis	['Mantis']	mantis	en	0.859375	mantis
+1243	Psion Teklogix	['teklogix']	teklogix	en	1	teklogix
+1242	FogBugz	['FogBugz']	fogbugz	en	0.98046875	fogbugz
+1245	Birst	['Birst']	birst	is	0.859375	published
+1244	Acer	['acer']	acer	en	0.452755898237	acer
+438	StrongView	['"Strong Mail"']	mail	en	0.44140625	mail
+1249	Autodesk Maya	['"Autodesk Maya"']	maya	en	0.443137258291	maya
+1248	Autodesk Inventor	['"Autodesk Inventor"']	inventor	en	0.747081696987	inventor
+3452	Dell PowerEdge C5220 Rack Server	['"PowerEdge C5220"', '"Dell C5220"']	dell	en	0.4296875	dell
+3453	Dell PowerEdge C6100 Rack Server	['"PowerEdge C6100"', '"Dell C6100"']	dell	en	0.4296875	dell
+3450	Dell PowerEdge C2100 Rack Server	['"PowerEdge C2100"', '"Dell C2100"']	dell	en	0.4296875	dell
+3451	Dell PowerEdge C5125 Rack Server	['"PowerEdge C5125"', '"Dell C5125"']	dell	en	0.4296875	dell
+3456	Dell PowerEdge C6220 Rack Server	['"Dell C6220"']	dell	en	0.4296875	dell
+3457	Dell EqualLogic Compellent Storage Center	['"Compellent Storage"', '"EqualLogic Compellent"', '"Dell compellent"']	dell	en	0.4296875	dell
+3454	Dell PowerEdge C6105 Rack Server	['"PowerEdge C6105"', '"Dell C6105"']	dell	en	0.4296875	dell
+3455	Dell PowerEdge C6145 Rack Server	['"PowerEdge C6145"', '"Dell C6145"']	dell	en	0.4296875	dell
+3513	Dell PowerEdge R805 Rack Server	['"PowerEdge R805"', '"Dell R805"']	dell	en	0.4296875	dell
+3458	Dell EqualLogic FS7500 Networked Storage	['EqualLogic AND FS7500', 'Dell AND FS7500']	dell	en	0.4296875	dell
+3459	Dell EqualLogic PS4100 Series Arrays	['EqualLogic AND PS4100', 'Dell AND PS4100', 'PS4100 AND "Network Storage"', 'PS4100 AND "Networked Storage"', '"PS4100 Series Arrays"']	arrays	en	0.9609375	arrays
+1210	ClickMobile	['clickmobile']	clickmobile	en	1	clickmobile
+3516	Dell PowerEdge T100 Tower Server	['"PowerEdge T100"', '"Dell T100"']	dell	en	0.4296875	dell
+3515	Dell PowerEdge R910 Rack Server	['"PowerEdge R910"', '"Dell R910"']	dell	en	0.4296875	dell
+3514	Dell PowerEdge R905 Rack Server	['"PowerEdge R905"', '"Dell R905"']	dell	en	0.4296875	dell
+3508	Dell PowerEdge R715 Rack Server	['"PowerEdge R715"', '"Dell R715"']	dell	en	0.4296875	dell
+3509	Dell PowerEdge R720 Rack Server	['"PowerEdge R720"', '"Dell R720"']	dell	en	0.4296875	dell
+94	Autodesk AutoCAD	['"auto cad"']	cad	ga	0.415384620428	what
+4588	RingCentral	['RingCentral']	ringcentral	en	0.98046875	ringcentral
+995	Symantec Deployment Solution	['Symantec AND "Deployment Solution"']	solution	en	0.890625	solution
+1316	IBM Tape Systems TS3500	['TS3500']	ts	en	0.490196079016	ts
+554	IBM BladeCenter Server Architechure	['IBM AND HS20', 'IBM AND HS21', 'IBM AND HS22', 'IBM AND HS40', 'IBM AND js12', 'IBM AND "HS 40"', 'IBM AND "js 12"']	js	sl	0.503937005997	js
+1315	IBM Tape Systems	['"IBM Tape"']	tape	en	0.890625	tape
+4619	Cisco Unified Customer Voice Portal	['"Cisco Unified Customer Voice Portal"']	portal	en	0.3501945436	portal
+4618	Cisco Unified Contact Center Express	['"Cisco Unified Contact Center Express"']	express	en	0.76953125	express
+1314	Oracle Tape Storage	['"StorageTek"', '"Storage Tek"']	tek	tr	0.44140625	single
+3538	Dell PowerVault DL Disk Backup	['"Dell DL"']	dl	fi	0.267441868782	Dl
+4611	Verint Nextiva	['"Verint Nextiva"']	nextiva	en	1	nextiva
+1313	Sun StorEdge	['"StorEdge"']	storedge	en	0.80859375	storedge
+4613	Nice Systems	['"Nice Systems"']	systems	en	0.98046875	systems
+3507	Dell PowerEdge R620 Rack Server	['"PowerEdge R620"', '"Dell R620"']	dell	en	0.4296875	dell
+4615	Nice Call Recording	['"Nice Call Recording"']	recording	en	1	recording
+4614	Nice SmartCenter	['"NICE SmartCenter"']	smartcenter	en	1	smartcenter
+4617	Cisco Unified Contact Center Enterprise	['"Cisco Unified Contact Center Enterprise"']	enterprise	en	0.945098042488	enterprise
+1312	SUN SPARC Servers	['Sun AND sparc']	sparc	en	0.890625	sparc
+1050	Brocade Network Advisor	['"Brocade network advisor"']	advisor	en	0.98828125	advisor
+1198	Plex Systems (Unspecified Product)	['"Plex Systems"']	systems	en	0.98046875	systems
+1052	Brocade Fabric OS	['"fabric OS"']	os	pt	0.7890625	the
+1053	Brocade (Unspecified Product)	['Brocade']	brocade	en	0.96875	brocade
+1054	Brocade Routers	['"brocade Routers"']	routers	en	0.91015625	routers
+1311	NetApp FC SAN Storage Solution	['"NetApp FC SAN"', '"NetApp Fibre Channel SAN"']	channel	en	0.937743186951	channel
+1056	Autonomy IDOL Connectors	['Autonomy AND IDOL']	idol	en	0.521568655968	idol
+1191	Infor Optiva	['"optiva"']	optiva	en	1	optiva
+1059	Autonomy Livesite	['autonomy AND "livesite"']	livesite	en	0.6796875	livesite
+1193	Infor Supply Chain Management (SCM)	['"Infor Supply Chain"', '"Infor SCM"', '"Infor10 SCM"', '"Infor10 Supply Chain"']	scm	is	0.87890625	SCM
+1192	Infor Hansen	['Infor AND hansen']	hansen	da	0.33590734005	Hansen
+1195	Infor CloudSuite	['Infor AND "cloudsuite"']	cloudsuite	en	0.98828125	cloudsuite
+1194	Infor Workbrain	['"workbrain"']	workbrain	en	0.982680141926	workbrain
+4616	Nice Workforce Management	['"NICE IEX"']	iex	la	0.62109375	iex
+1278	IBM Tivoli Access Manager	['"Tivoli Access Manager"']	manager	en	0.813953459263	manager
+1176	CentOS	['"CentOS"', '"Cent OS"']	os	pt	0.7890625	the
+1175	OpenBSD	['"OpenBSD"']	openbsd	en	0.8203125	openbsd
+1174	FreeBSD	['"FreeBSD"']	freebsd	en	0.747081696987	freebsd
+1172	Hitachi Software	['"Hitachi software"']	software	en	0.736000001431	software
+1171	Hitachi Data Discovery	['"Hitachi Data Discovery"']	discovery	en	0.945525288582	discovery
+1170	Hitachi NAS Storage System	['"Hitachi NAS"']	nas	pt	0.26953125	In the
+1270	IBM WebSphere ILOG JRules	['"WebSphere ILOG JRules"']	jrules	en	0.62109375	jrules
+1272	IBM DB2 Database Server for Linux, UNIX, and Windows (UDB)	['"db2 for linux"']	linux	en	0.529880464077	linux
+1273	IBM DB2 Connect	['"DB2 Connect"']	connect	en	1	connect
+1275	IBM SPSS Data Collection	['"SPSS Data Collection"']	collection	en	0.91015625	collection
+1276	IBM SPSS Modeler	['"SPSS Modeler"']	modeler	en	0.55078125	modeler
+1178	MongoDB	['"MongoDB"', '"Mongo DB"']	db	hu	0.56809335947	db
+513	Cisco Catalyst Switches	['"Catalyst Switches"']	switches	en	0.98828125	switches
+1055	Autonomy iManage	['"iManage"']	imanage	en	1	imanage
+1285	IBM Tivoli Directory Integrator (TDI)	['"Tivoli Directory Integrator"']	integrator	en	0.960474312305	integrator
+1284	IBM Tivoli Configuration Manager	['"Tivoli Configuration Manager"']	manager	en	0.813953459263	manager
+1287	Amazon CloudFront	['CloudFront']	cloudfront	en	1	cloudfront
+4668	Siemens APOGEE	['"siemens APOGEE"']	apogee	en	1	apogee
+1280	IBM Tivoli Application Dependency Discovery Manager	['"Tivoli Application"', 'TADDM']	taddm	cy	0.89511269331	taddm
+1283	IBM Tivoli Composite Application Manager (ITCAM)	['"Tivoli composite application"', 'ITCAM']	itcam	la	0.727965772152	itcam
+1282	IBM Tivoli Asset Management for IT	['"Tivoli Asset"']	asset	en	0.941860437393	asset
+4664	Dell EMC VNX	['"EMC VNX"']	vnx	la	0.999496340752	vnx
+4666	Nimble CS-Series	['"Nimble CS"']	cs	en	0.468253970146	cs
+1289	Amazon DynamoDB	['DynamoDB']	dynamodb	en	0.515503883362	dynamodb
+4661	NetApp FAS6000	['"NetApp FAS6000"']	fas	ca	0.247104242444	you do
+4662	NetApp FAS3100	['"NetApp FAS3100"']	fas	ca	0.247104242444	you do
+514	Cisco Firewalls	['"Cisco Firewalls"', '"Cisco ios Firewalls"']	ios	en	0.380392163992	ios
+1058	Autonomy Open Deploy	['"Open Deploy"']	deploy	en	1	deploy
+1190	Infor Human Resource Management (HRM)	['"Infor Human Resource Management"', '"Infor HRM"', '"Infor10 HRM"']	hrm	sv	0.51953125	Hrm
+684	Avaya IP Deskphones	['"Avaya IP Phone*"']	phone	en	0.956692934036	phone
+1304	IBM z/OS Operating System	['"z\\/OS"']	os	pt	0.7890625	the
+1305	IBM z/VSE Operating System	['"z\\/VSE"']	vse	sl	0.687747061253	all
+1306	IBM z/VM Operating System	['"z\\/VM"']	vm	en	0.324110686779	vm
+1307	IBM z/TPF Operating System	['"Z\\/TPF"']	tpf	de	0.255762428045	Tpf
+1300	Siebel Customer Relationship Management (CRM)	['"Siebel CRM"']	crm	en	0.8203125	crm
+1302	IBM System z Mainframe	['"IBM System z"', '"z9 mainframes"', 'zEnterprise', 'z114', 'z196']	z	pl	0.56809335947	from
+1303	IBM System z software	['"System z software"']	software	en	0.736000001431	software
+1309	Experian CheetahMail	['CheetahMail', '"Cheetah Mail"']	mail	en	0.44140625	mail
+3416	SunGard Aligne	['sungard AND Aligne']	aligne	fr	1	Aligned
+3417	SunGard Ambit	['sungard AND Ambit']	ambit	en	0.859375	ambit
+3414	SunGard AvantGard	['AvantGard']	avantgard	ca	0.301960796118	vanguard
+3415	SunGard AddVantage	['AddVantage']	addvantage	en	0.857304155827	addvantage
+3412	SunGard (Unspecified Product)	['Sunguard']	sunguard	en	1	sunguard
+3413	SunGard Plus 360	['Sungard AND "Plus 360"']	plus	fr	0.79766535759	more
+3410	Riverbed Modeler	['"OPNET Modeler"']	modeler	en	0.55078125	modeler
+3411	Riverbed SteelCentral	['"Cascade Shark"']	shark	en	0.913725495338	shark
+3418	SunGard Asset Arena	['"Asset Arena"']	arena	en	0.48828125	arena
+3419	SunGard Global Plus	['"Global Plus"']	plus	fr	0.79766535759	more
+27	Shoretel (Unspecified Product)	['ShoreTel AND "IP Phones"']	phones	en	1	phones
+4586	Egnyte	['Egnyte']	egnyte	hu	0.891408920288	egnyte
+1371	IBM AIX	['"IBM AIX"']	aix	fr	0.687747061253	Aix
+1370	HP Rackmount Carrier Grade Server	['"HP Rackmount"']	rackmount	en	1	rackmount
+1373	IBM System i Midrange Computing Server	['"IBM System i"', '"IBM iSeries"']	iseries	en	0.875486373901	iseries
+1372	IBM i (formerly known as i5/OS)	['"IBM i5"', '"i5\\/OS"', '"i5OS"']	os	pt	0.7890625	the
+1375	Dell PowerEdge R710 Rack Server	['poweredge AND R710', '"PowerEdge R710"', '"Dell R710"']	dell	en	0.4296875	dell
+1374	Dell PowerEdge R610 Rack Server	['poweredge AND R610', 'Dell AND R610', '"R610 Rack Server"', '"R610 Server"']	r server	en	0.132348909974	r server
+1377	Dell PowerEdge M710 Blade Server	['"poweredge M710"', '"dell M710"']	dell	en	0.4296875	dell
+1376	Dell PowerEdge R810 Rack Server	['poweredge AND R810', 'Dell AND R810', '"R810 Rack Server"', '"R810 Server"']	r server	en	0.132348909974	r server
+1379	IBM Server	['"IBM Server"']	server	en	0.716535449028	server
+1378	Dell PowerEdge M910 Blade Server	['"PowerEdge M910"', '"Dell M910"']	dell	en	0.4296875	dell
+3496	Dell PowerEdge M915 Blade Server	['"PowerEdge M915"', '"Dell M915"']	dell	en	0.4296875	dell
+1228	Microsoft TFS	['"Microsoft TFS"', '"MS TFS"']	ms	en	0.707509875298	ms
+3562	IBM Storage Area Network (SAN)	['"IBM Storage Area Network"', '"IBM SAN"']	san	ja	0.421875	San
+3563	IBM TotalStorage	['TotalStorage']	totalstorage	en	1	totalstorage
+3560	IBM System Storage Tape Drives	['"IBM Tape Drives"']	drives	en	0.887159526348	drives
+3561	IBM System Storage Tape Libraries	['"IBM Tape Libraries"']	libraries	en	1	libraries
+3566	IBM LTO Ultrium Data Cartridges	['"IBM LTO"', 'IBM AND "LTO Ultrium"']	ultrium	en	0.86770427227	ultrium
+3567	Dell Kace System Management Appliances	['"Dell Kace"']	kace	bs	0.6796875	tubs
+3564	IBM Network Attached Storage (NAS)	['"IBM Network Attached Storage"', '"IBM NAS"']	nas	pt	0.26953125	In the
+3565	IBM N Series Arrays	['IBM AND "N Series"', 'IBM AND "NSeries"']	nseries	en	0.80078125	nseries
+3568	Dell KACE K1000 Systems Management Appliance	['dell AND k1000', 'KACE AND K1000', '"K1000 Appliance"']	appliance	en	0.9609375	appliance
+3569	Dell KACE K2000 Systems Management Appliance	['Dell AND K2000', 'KACE AND K2000', '"K2000 Appliance"']	appliance	en	0.9609375	appliance
+4612	Verint	['Verint']	verint	en	0.87890625	verint
+3494	Dell PowerEdge M805 Blade Server	['"PowerEdge M805"', '"Dell M805"']	dell	en	0.4296875	dell
+1139	Serena ChangeMan ZMF	['"ChangeMan ZMF"']	zmf	pl	0.412298500538	Zmf
+1138	Serena Business Manager	['"Serena Business Manager"']	manager	en	0.813953459263	manager
+1133	SAS/STAT	['"SAS\\/STAT"', '"SAS\\/ STAT"', '"SAS \\/STAT"', '"SAS STAT"']	stat	ro	0.424710422754	state
+1131	SAS/IML	['"SAS\\/IML"', '"SAS\\/ IML"', '"SAS \\/IML"', '"SAS IML"']	iml	ga	0.41015625	vols
+1130	SAS Business Intelligence	['"SAS Business Intelligence"']	intelligence	en	0.91015625	intelligence
+1137	Serena ChangeMan	['"Serena ChangeMan"']	changeman	en	0.9296875	changeman
+1136	Serena (Unspecified Product)	['Serena']	serena	en	0.347490340471	serena
+1135	SAS Marketing	['"SAS Marketing"']	marketing	en	0.686046540737	marketing
+1134	SAS Base	['"SAS Base"', '"Base SAS"', '"SAS\\/Base"', '"SAS\\/ Base"', '"SAS \\/Base"']	base sas	it	0.218377992511	Base sas
+4620	Cisco Unified IP Interactive Voice Response	['"Cisco Unified IP Interactive Voice Response"']	response	en	1	response
+4621	Cisco Unified Workforce Optimization	['"Cisco Unified Workforce Optimization"']	optimization	en	0.87109375	optimization
+4623	Cisco Unified Contact Center Hosted	['"Cisco Unified Contact Center Hosted"']	hosted	en	1	hosted
+1179	OrientDB	['"OrientDB"']	orientdb	en	0.383399218321	orientdb
+4626	IBM Maximo	['"IBM Maximo"']	maximo	es	0.436507940292	maximum
+4628	Microsoft Bitlocker	['"Microsoft Bitlocker"']	bitlocker	en	0.636363625526	bitlocker
+4629	LexisNexis Accurint	['Accurint']	accurint	en	1	accurint
+4547	Adobe Recommendations	['"Adobe Recommendations"']	recommendations	en	1	recommendations
+4546	Adobe Genesis	['"Adobe Genesis"']	genesis	en	0.856031119823	genesis
+3391	Altair OptiStruct	['OptiStruct']	optistruct	fi	1	Optistruct
+3390	Altair AcuSolve	['AcuSolve']	acusolve	la	0.315405905247	acusolve
+3393	Altair MotionSolve	['MotionSolve']	motionsolve	en	0.909090936184	motionsolve
+3392	Altair HyperStudy	['HyperStudy']	hyperstudy	en	0.91015625	hyperstudy
+3395	NetScout Sniffer Analysis	['"Sniffer Analysis"']	analysis	en	1	analysis
+3394	NetScout nGenius	['NGenius']	ngenius	jw	0.749277472496	ngenius
+3397	Riverbed Steelhead	['Riverbed AND Steelhead']	steelhead	en	1	steelhead
+3399	Novell GroupWise	['GroupWise']	groupwise	en	0.744186043739	groupwise
+3398	NetScout (Unspecified Product)	['NetScout']	netscout	en	1	netscout
+1009	VMware Storage Appliance	['"VMware Storage Appliance"']	appliance	en	0.9609375	appliance
+1008	Tibco Spotfire	['spotfire']	spotfire	en	1	spotfire
+1007	Symantec Whole Disk Encryption	['Symantec AND "Whole Disk Encryption"']	encryption	en	1	encryption
+1006	Veritas Volume Replicator	['Symantec AND "Volume Replicator"']	replicator	en	0.98828125	replicator
+1005	Symantec Universal Server	['Symantec AND "Universal Server"']	server	en	0.716535449028	server
+1004	Veritas	['"veritas"']	veritas	en	0.486381322145	veritas
+1003	Veritas NetBackup	['Symantec AND "net backup"', 'Symantec AND "netbackup"']	netbackup	en	0.94921875	netbackup
+1002	Veritas InfoScale Storage	['Symantec AND "Storage Foundation"']	foundation	en	0.96875	foundation
+1348	CA LISA	['"CA LISA"', '"ITKO LISA"']	itko	hr	0.8515625	anyone
+1128	SAS Enterprise	['"SAS Enterprise"']	enterprise	en	0.945098042488	enterprise
+1225	Apple iPad	['"ipad"']	ipad	en	0.525691688061	ipad
+1224	Apple MacBook Air	['"MacBook Air"', '"Mac Book Air"']	book	en	1	book
+1221	Apple MacBook Pro	['"MacBook Pro"', '"Mac Book Pro"']	book	en	1	book
+1220	Apple Mac Pro	['"Mac Pro"', 'MacPro']	macpro	en	1	macpro
+1340	CA Virtual Assurance	['"ca virtual assurance"']	assurance	fr	0.51953125	insurance
+1341	CA Spectrum	['"ca spectrum"']	spectrum	en	0.98046875	spectrum
+1343	CA GigaStor	['GigaStor']	gigastor	en	1	gigastor
+1344	ERwin Modeling	['"CA ERwin"']	erwin	en	0.328125	erwin
+1345	Arcserve UDP	['ARCserve']	arcserve	en	0.470588237047	arcserve
+1347	CA SiteMinder	['"ca siteminder"', '"ca site minder"']	minder	nl	0.83984375	less
+977	PeopleSoft eCompensation	['Peoplesoft AND "eCompensation"']	ecompensation	fr	0.805431842804	Ecompensation
+976	PeopleSoft eBenefits	['Peoplesoft AND "eBenefits"']	ebenefits	en	0.998903393745	ebenefits
+975	PeopleSoft Directory Interface	['Peoplesoft AND "directory interface"']	interface	en	0.856031119823	interface
+973	PeopleSoft Deal Management	['Peoplesoft AND "deal management"']	management	en	0.934108555317	management
+972	PeopleSoft CRM	['"PeopleSoft CRM"']	crm	en	0.8203125	crm
+979	PeopleSoft Enterprise Performance Management (EPM)	['Peoplesoft AND "Enterprise Performance Management"']	management	en	0.934108555317	management
+978	PeopleSoft eDevelopment	['Peoplesoft AND "eDevelopment"']	edevelopment	en	1	edevelopment
+3526	Dell PowerEdge T710 Tower Server	['"PowerEdge T710"', '"Dell T710"']	dell	en	0.4296875	dell
+3527	Dell PowerVault NX200 Network Attached Storage	['"PowerVault NX200"', '"Dell NX200"', '"NX200 Network Attached Storage"', '"NX200 NAS"']	nas	pt	0.26953125	In the
+3524	Dell PowerEdge T610 Tower Server	['"PowerEdge T610"', '"Dell T610"']	dell	en	0.4296875	dell
+3525	Dell PowerEdge T620 Tower Server	['"PowerEdge T620"', '"Dell T620"']	dell	en	0.4296875	dell
+3522	Dell PowerEdge T410 Tower Server	['"PowerEdge T410"', '"Dell T410"']	dell	en	0.4296875	dell
+1126	SAS/ETS	['"SAS\\/ETS"', '"SAS \\/ETS"', '"SAS\\/ ETS"', '"SAS ETS"']	ets	ca	0.752895772457	are you
+3520	Dell PowerEdge T300 Tower Server	['"PowerEdge T300"', '"Dell T300"']	dell	en	0.4296875	dell
+3521	Dell PowerEdge T310 Tower Server	['"PowerEdge T310"', '"Dell T310"']	dell	en	0.4296875	dell
+1088	ADP (Unspecified Product)	['ADP']	adp	en	0.66015625	adp
+1227	Apple iPhone	['iPhone']	iphone	en	0.51372551918	iphone
+3529	Dell PowerVault NX3000 Network Attached Storage	['"PowerVault NX3000"', '"Dell NX3000"', '"NX3000 Network Attached Storage"', '"NX3000 NAS"']	nas	pt	0.26953125	In the
+3449	Dell PowerEdge C1100 Rack Server	['"PowerEdge C1100"', '"Dell C1100"']	dell	en	0.4296875	dell
+3448	Dell PowerEdge 860 Rack Server	['"PowerEdge 860"', '"dell 860"']	dell	en	0.4296875	dell
+3445	Dell PowerEdge 830 Tower Server	['"poweredge 830"', '"dell 830"']	dell	en	0.4296875	dell
+3444	Dell PowerEdge 800 Tower Server	['"poweredge 800"']	poweredge	en	0.80859375	poweredge
+3447	Dell PowerEdge 850 Rack Server	['"PowerEdge 850"', '"dell 850"']	dell	en	0.4296875	dell
+3446	Dell PowerEdge 840 Tower Server	['"poweredge 840"', '"dell 840"']	dell	en	0.4296875	dell
+3441	Dell PowerEdge 6800 Tower Server	['"poweredge 6800"', '"dell 6800"']	dell	en	0.4296875	dell
+3440	Dell PowerEdge 2970 Rack Server	['"poweredge 2970"', '"dell 2970"']	dell	en	0.4296875	dell
+3443	Dell PowerEdge 6950 Rack Server	['"poweredge 6950"', '"dell 6950"']	dell	en	0.4296875	dell
+3442	Dell PowerEdge 6850 Rack Server	['"poweredge 6850"', '"dell 6850"']	dell	en	0.4296875	dell
+1226	Apple iPod	['ipod']	ipod	en	0.587786257267	ipod
+885	HP Server Automation	['"HP SA"']	sa	ro	0.198443576694	saddle
+884	HP Real User Monitor	['"HP real user"', '"HP BAC"', '"HP RUM"']	rum	sv	0.5390625	room
+4663	Dell EMC CLARiiON CX	['"CLARiiON CX"']	cx	en	0.464566916227	cx
+4659	NetApp FAS3200	['"NetApp FAS3200"']	fas	ca	0.247104242444	you do
+4658	HP MSA	['"HP MSA"']	msa	id	0.8984375	Msa
+774	Oracle Database	['"Oracle RDBMS"', 'ORDBMS']	ordbms	ca	0.136777222157	Ordbms
+74	Mac OS	['"MacOS"']	macos	de	0.541176497936	Macos
+3359	Dell EMC SAN (Storage Area Network)	['"EMC SAN"']	san	ja	0.421875	San
+3383	Altair HyperMesh	['HyperMesh']	hypermesh	en	1	hypermesh
+1043	Brocade Switches	['"brocade switches"']	switches	en	0.98828125	switches
+1042	Solaris 7	['"Solaris Version 7"', '"Solaris 7"', 'Solaris7']	version	en	0.787401556969	version
+1041	Solaris 11	['"Solaris 11"', 'Solaris11', '"Solaris 9 to 11"', '"Solaris 8 to 11"', '"Solaris Version 11"', '"Solaris 7 to 11"']	version	en	0.787401556969	version
+1040	Solaris 10	['"Solaris 10"', 'Solaris10', '"Solaris 9 to 10"', '"Solaris 8 to 10"', '"Solaris Version 10"', '"Solaris 7 to 10"']	version	en	0.787401556969	version
+1047	Brocade MLX Series Routers	['"brocade mlx"']	mlx	en	1	mlx
+1046	Brocade NetIron Switches	['"netiron"']	netiron	en	1	netiron
+1045	Brocade TurboIron Switches	['"turboIron"']	turboiron	en	1	turboiron
+1044	Brocade FastIron Switches	['"FastIron"']	fastiron	en	1	fastiron
+1049	Brocade DCX Backbone Family	['"Brocade DCX"']	dcx	en	1	dcx
+1048	Brocade ServerIron ADX Series	['"brocade ADX"']	adx	gl	0.9609375	aDX
+3523	Dell PowerEdge T605 Tower Server	['"PowerEdge T605"', '"Dell T605"']	dell	en	0.4296875	dell
+1142	Ricoh (Unspecified Product)	['Ricoh']	ricoh	en	0.50579148531	ricoh
+1143	Ricoh Production Print Solutions	['"Ricoh production"']	production	en	0.890625	production
+1146	Ricoh Infoprint	['RICOH AND infoprint']	infoprint	en	0.859375	infoprint
+1147	Serena PVCS Version Manager	['"Serena PVCS"', '"Serena Version Manager"']	manager	en	0.813953459263	manager
+1144	Ricoh Pro C900	['RICOH AND "c900"']	and	en	1	and
+1145	Ricoh Pro C901 Graphic Arts Edition	['RICOH AND "c901"']	and	en	1	and
+1263	IBM WebSphere Business Modeler	['"WebSphere Business Modeler"']	modeler	en	0.55078125	modeler
+1262	IBM WebSphere Business Integration	['"WebSphere Business Integration"']	integration	en	0.882352948189	integration
+1148	Serena Service Manager	['"Serena Service Manager"']	manager	en	0.813953459263	manager
+3495	Dell PowerEdge M905 Blade Server	['"PowerEdge M905"', '"Dell M905"']	dell	en	0.4296875	dell
+1267	IBM Business Process Manager	['"IBM Business Process Manager"']	manager	en	0.813953459263	manager
+1266	IBM WebSphere Data Interchange	['"WebSphere Data Interchange"']	interchange	en	0.98046875	interchange
+1265	IBM WebSphere Commerce	['"WebSphere Commerce"']	commerce	en	0.554263591766	commerce
+3491	Dell PowerEdge M610 Blade Server	['"PowerEdge M610"', '"Dell M610"']	dell	en	0.4296875	dell
+4570	Avaya Interaction Center	['"Avaya Interaction"']	interaction	en	0.948818922043	interaction
+4571	Avaya Aura Call Center Elite	['"Avaya Call Center Elite"', '"Call Center Elite"']	call center elite	en	0.225626409054	call center elite
+4572	Avaya Proactive Contact	['Avaya AND "Proactive Contact"']	contact	en	0.83984375	contact
+4573	Avaya Aura Experience Portal	['Aura AND "Experience Portal"']	portal	en	0.3501945436	portal
+4574	Interactive Intelligence Customer Interaction Center (CIC)	['"Interactive Intelligence" AND "CIC"']	cic	hu	0.330708652735	kitty
+4575	Interactive Intelligence Interaction Recorder	['"Interaction recorder"', '"Interactive Intelligence" AND Recorder']	and	en	1	and
+4576	Interactive Intelligence Interaction Dialer	['"Interactive Intelligence" AND Dialer', '"Interaction Dialer"']	interaction	en	0.948818922043	interaction
+4577	Genesys CIM Platform	['"Genesys CIM"']	cim	bs	0.241106718779	as soon as
+4578	Genesys Inbound Voice	['Genesys AND "Inbound Voice"', '"Genesys Inbound"']	genesys inbound	en	0.288385659456	genesys inbound
+4579	Genesys Outbound Voice	['Genesys AND "Outbound Voice"', '"Genesys Outbound"']	genesys outbound	en	0.333219051361	genesys outbound
+692	VMware Data Recovery	['"VM ware Data Recovery"']	recovery	en	1	recovery
+690	VMware Capacity Planner	['"VM ware Capacity Planner"']	planner	en	0.9296875	planner
+4673	Sun SPARC M-Series Servers	['Sparc AND "m series"']	series	en	0.911196887493	series
+4672	Sun SPARC T-Series Servers	['Sparc AND "t series"']	series	en	0.911196887493	series
+4671	Siemens HiPath	['"HiPath"']	hipath	en	0.55859375	hipath
+547	HP Blade Servers	['"BL Servers"']	servers	en	0.937743186951	servers
+1317	Quantum Tape Libraries	['"Quantum Tape"', '"Quantum Scalar"', '"Quantum SuperLoader"']	superloader	en	1	superloader
+994	Symantec Critical System Protection	['Symantec AND "Critical System Protection"']	protection	en	0.8203125	protection
+997	Symantec Ghost Solution Suite	['"Ghost Solution Suite"']	suite	fr	0.509727597237	after
+996	Symantec Endpoint Protection	['"Symantec Endpoint Protection"']	protection	en	0.8203125	protection
+991	StayinFront	['StayinFront']	stayinfront	en	1	stayinfront
+990	Sage CRM	['"Sage CRM"', '"Sage Customer Relationship Management"']	management	en	0.934108555317	management
+993	Veritas InfoScale Availability	['"symantec cluster server"', '"Veritas cluster server"']	veritas	en	0.486381322145	veritas
+992	Veritas Backup Exec	['symantec AND "Backup Exec"']	exec	en	0.957198441029	exec
+999	Symantec PureDisk	['"NetBackup PureDisk"', '"Net Backup PureDisk"']	backup	en	0.787401556969	backup
+1319	Sun Fire Server Systems	['"Sun Fire"']	fire	en	0.86770427227	fire
+1318	Sun x86 Server Systems	['"Sun x86"']	sun	en	0.669260680676	sun
+3403	Novell Sentinel	['"Novell Sentinel"']	sentinel	en	0.96875	sentinel
+3402	Novell ZENworks	['ZENworks']	zenworks	en	0.578125	zenworks
+3405	SteelCentral Transaction Analyzer	['"AppTransaction Xpert"']	xpert	en	0.62890625	xpert
+3404	Novell Identity Manager	['"Novell Identity Manager"']	manager	en	0.813953459263	manager
+3407	SteelCentral NetPlanner	['"IT Guru Network Planner"', '"OPNET IT Guru"']	opnet	nl	0.741069197655	Open
+3406	SteelCentral AppInternals	['"AppInternals Xpert"']	xpert	en	0.62890625	xpert
+3409	OPNET IT Sentinel	['"IT Sentinel"']	sentinel	en	0.96875	sentinel
+3408	SteelCentral NetMapper	['"NetMapper"']	netmapper	fy	0.853498280048	netmapper
+1023	Adobe SiteCatalyst	['"SiteCatalyst"']	sitecatalyst	en	1	sitecatalyst
+1022	Adobe Target	['"Test&Target"']	target	en	0.9296875	target
+1380	Siebel Contact Center	['"siebel Contact Center"']	center	en	0.914728701115	center
+1029	Oracle Asset Lifecycle Management	['"Oracle ALM"']	alm	da	0.594594597816	Alm
+3372	IFS Applications	['"IFS Applications"', '"IFS ERP"']	erp	nl	0.713178277016	Erp
+3370	Amazon Elastic Load Balancing	['"Elastic Load Balancing"']	balancing	en	0.98046875	balancing
+3474	Dell EqualLogic PS4110 Series Arrays	['Dell AND PS4110', 'Equallogic AND PS4110']	equallogic	en	1	equallogic
+3475	Dell EqualLogic PS4110E Networked Storage	['Dell AND PS4110E', '"Dell EqualLogic" AND PS4110E', 'PS4110E AND "Network Storage"', 'PS4110E AND "Networked Storage"', '"PS4110E iSCSI Array"']	array	en	0.87209302187	array
+3476	Dell EqualLogic PS4110X Networked Storage	['Dell AND PS4110X', 'EqualLogic AND PS4110X']	equallogic	en	1	equallogic
+3477	Dell EqualLogic PS4110XV Networked Storage	['Dell AND PS4110XV', 'EqualLogic AND PS4110XV', 'PS4110XV AND "Network Storage"', 'PS4110XV AND "Networked Storage"', '"PS4110XV iSCSI Array"']	array	en	0.87209302187	array
+3470	Dell EqualLogic PS6100X Networked Storage	['Dell AND PS6100X', 'EqualLogic AND PS6100X']	equallogic	en	1	equallogic
+3471	Dell EqualLogic PS6100XS Networked Storage	['Dell AND PS6100XS', 'EqualLogic AND PS6100XS', 'PS6100XS AND "Network Storage"', 'PS6100XS AND "Networked Storage"', '"PS6100XS Array"']	array	en	0.87209302187	array
+3473	Dell EqualLogic PS6110 Series Arrays	['Dell AND PS6110', 'EqualLogic AND PS6110']	equallogic	en	1	equallogic
+3478	Dell EqualLogic PS6110E Networked Storage	['Dell AND PS6110E', 'EqualLogic AND PS6110E', 'PS6110E AND "Network Storage"', 'PS6110E AND "Networked Storage"', '"PS6110E iSCSI Array"']	array	en	0.87209302187	array
+3479	Dell EqualLogic PS6110S Networked Storage	['Dell AND PS6110S', '"Dell EqualLogic" AND PS6110S', 'PS6110S AND "Network Storage"', 'PS6110S AND "Networked Storage"', '"PS6110S iSCSI Array"']	array	en	0.87209302187	array
+1238	Microsoft Exchange	['"Microsoft Exchange"', '"MS Exchange"']	ms	en	0.707509875298	ms
+1239	Bugzilla	['Bugzilla']	bugzilla	en	0.828125	bugzilla
+782	Microsoft Hyper-V Server	['"Microsoft Hyper\\-v"']	hyper	en	0.625954210758	hyper
+4633	LexisNexis Risk Management Solutions	['"LexisNexis Risk Management"']	management	en	0.934108555317	management
+4632	LexisNexis InsurQuote	['"InsurQuote"']	insurquote	fr	1	Insurrection
+4631	LexisNexis InstantID	['"InstantID"']	instantid	en	0.653543293476	instantid
+4630	LexisNexis Bridger Insight XG	['"Bridger Insight"']	insight	en	0.98828125	insight
+4637	LexisNexis OrderPoint	['LexisNexis AND OrderPoint']	orderpoint	nl	0.618677020073	Order points
+4636	LexisNexis LienGuard	['LienGuard']	lienguard	fy	0.989673554897	lienguard
+4635	LexisNexis IVR On Demand	['"IVR On Demand"']	demand	en	0.98828125	demand
+4634	LexisNexis eCrash	['eCrash']	ecrash	en	0.999996066093	ecrash
+1160	Deltek Sema4	['"sema4"']	sema	tr	0.3501945436	schema
+4639	LexisNexis Advance	['"Lexis Advance"']	advance	en	1	advance
+4638	LexisNexis RESOLT LE	['RESOLT']	resolt	ca	1	solved
+1161	Lenovo ThinkCentre	['"ThinkCentre"']	thinkcentre	en	0.536964952946	thinkcentre
+3364	Dell PowerEdge M600 Blade Server	['"poweredge m600"', '"Dell M600"']	dell	en	0.4296875	dell
+3365	Dell PowerEdge M605 Blade Server	['"poweredge m605"', '"dell m605"']	dell	en	0.4296875	dell
+3366	Dell PowerEdge R900 Rack Server	['poweredge AND R900', '"PowerEdge R900"', '"Dell R900"']	dell	en	0.4296875	dell
+3360	Dell EMC Control Center	['"EMC Control Center"']	center	en	0.914728701115	center
+3362	Dell PowerEdge 1950 Rack Server	['"Poweredge 1950"', '"dell 1950"']	dell	en	0.4296875	dell
+3363	Dell PowerEdge 2900 Tower Server	['"poweredge 2900"', '"dell 2900"', '"2900 Tower Server"', '"2900 Server"']	server	en	0.716535449028	server
+1038	Solaris 8	['"Solaris 8"', 'Solaris8', '"Solaris Version 8"']	version	en	0.787401556969	version
+1039	Solaris 9	['"Solaris 9"', 'Solaris9', '"Solaris Version 9"']	version	en	0.787401556969	version
+1032	Oracle Manufacturing	['"Oracle Manufacturing"']	manufacturing	en	1	manufacturing
+1033	Oracle Procurement	['"Oracle Procurement"']	procurement	en	1	procurement
+1030	Oracle E-Business	['"Oracle E Business"', '"Oracle Ebusiness"']	ebusiness	en	0.859375	ebusiness
+1031	Oracle ERP	['"Oracle ERP"', '"Oracle Enterprise Resource Planning"']	planning	en	0.97637796402	planning
+1036	HP Open VMS	['"Open VMS"', '"VAX\\-11\\/VMS"', '"VAX\\/VMS"']	vax	sv	0.741176486015	wax
+1037	IBM Websphere MQ	['"websphere MQ"', '"web sphere MQ"']	sphere	en	1	sphere
+1034	Oracle Product Lifecycle Management	['"Oracle PLM"', '"Oracle Product Lifecycle Management"']	management	en	0.934108555317	management
+1035	Oracle Supply Chain Management	['"Oracle Supply Chain Management"', '"Oracle SCM"']	scm	is	0.87890625	SCM
+1212	Borland Caliber	['"Borland Caliber"', '"CaliberRM"']	caliberrm	en	1	caliberrm
+1213	Borland StarTeam	['"StarTeam"']	starteam	en	0.618677020073	starteam
+1359	Sun Blade Server Systems	['sun AND "blade server"']	server	en	0.716535449028	server
+1358	IBM ProtecTIER	['ProtecTIER']	protectier	en	1	protectier
+1216	QlikTech	['QlikView', '"Qlik View"']	view	en	1	view
+1214	Borland Silk	['"Borland Silk"', '"Silkperformer"', '"Silkcentral"', '"Silktest"']	silktest	en	1	silktest
+1215	Borland VisiBroker	['"VisiBroker"']	visibroker	en	1	visibroker
+1168	Hitachi Adaptable Modular Storage	['hitachi AND "Adaptable Modular Storage"']	storage	en	1	storage
+1218	Apple Mac Mini	['"Mac Mini"', '"MacMini"']	macmini	so	1	macmini
+1219	Apple iMac	['"iMac"']	imac	en	0.609375	imac
+1355	IBM Mainframe	['"IBM Mainframe"']	mainframe	en	0.926070034504	mainframe
+1354	OpTier Always-on APM	['optier']	optier	nl	1	Optician
+1169	Hitachi Content Platform	['"hitachi content platform"']	platform	en	0.906614780426	platform
+964	PeopleSoft Asset Management	['Peoplesoft AND "Asset Management"']	management	en	0.934108555317	management
+965	PeopleSoft Benefits Administration	['"Peoplesoft Benefits Administration"']	administration	en	0.831372559071	administration
+966	PeopleSoft Billing	['"Peoplesoft billing"']	billing	en	0.98046875	billing
+967	PeopleSoft Campus Solutions	['"peoplesoft Campus solution"', '"peoplesoft Campus solutions"']	solutions	en	0.87890625	solutions
+961	PeopleSoft Academic Advisement	['peoplesoft AND "Academic Advisement"']	advisement	en	1	advisement
+1129	SAS Analytics	['"SAS Analytics"']	analytics	en	0.618677020073	analytics
+969	PeopleSoft Cash Management	['Peoplesoft AND "cash management"']	management	en	0.934108555317	management
+1106	Canon ImagePress C7010VP	['C7010VP']	vp	fi	0.43137255311	Vp
+1104	Canon ImagePress	['imagePress']	imagepress	en	1	imagepress
+1105	Canon ImagePress C1	['"ImagePress C1"']	imagepress	en	1	imagepress
+1100	Canon Oce Varioprint Production Equipment	['"varioprint"']	varioprint	en	1	varioprint
+1101	Canon Oce Varioprint 110	['"VarioPrint 110"']	varioprint	en	1	varioprint
+1108	Canon Oce Varioprint 135	['"VarioPrint 135"']	varioprint	en	1	varioprint
+3531	Dell PowerVault NX3500	['"PowerVault NX3500"', 'Dell NX3500']	dell	en	0.4296875	dell
+3530	Dell PowerVault NX3100 Network Attached Storage	['"PowerVault NX3100"', '"Dell NX3100"', '"NX3100 Network Attached Storage"', '"NX3100 NAS"']	nas	pt	0.26953125	In the
+3533	Dell DR4000 Disk Backup	['Dell AND DR4000']	dr	en	0.338521391153	dr
+3535	Dell Network Attached Storage (NAS)	['"Dell Network Attached Storage"', '"Dell NAS"']	nas	pt	0.26953125	In the
+3537	Dell PowerVault 124T Tape Automation	['"PowerVault 124T"', '"Dell 124T"']	dell	en	0.4296875	dell
+3539	Dell PowerVault FC SAN	['"Dell FC SAN"', 'PowerVault AND MD3600f', 'Dell AND MD3600f', '"MD3600f Storage Arrays"']	arrays	en	0.9609375	arrays
+1090	ADP HR	['"ADP HR"']	hr	en	0.633204638958	hr
+1091	Apache Hadoop	['Hadoop']	hadoop	en	0.96875	hadoop
+3438	Dell PowerEdge 2850 Rack Server	['"poweredge 2850"', '"dell 2850"']	dell	en	0.4296875	dell
+3439	Dell PowerEdge 2950 Rack Server	['"poweredge 2950"', '"dell 2950"', '"2950 Rack Server"', '"2950 Server"']	server	en	0.716535449028	server
+3430	HP Operations Orchestration	['"HP OO"', '"Operations Orchestration"']	orchestration	en	0.890625	orchestration
+877	HP Project and Portfolio Management Center	['"HP PPMC"', '"HP PPM"']	ppm	en	0.69921875	ppm
+3434	Dell PowerEdge 1900 Tower Server	['"Poweredge 1900"', '"dell 1900"']	dell	en	0.4296875	dell
+3435	Dell PowerEdge 1955 Blade Server	['"Poweredge 1955"', '"dell 1955"', '"1955 Blade Server"', '"1955 Server"']	server	en	0.716535449028	server
+4592	Netage Solutions	['Netage AND CRM', 'Dynamo AND CRM', 'Netage']	dynamo	en	0.459143966436	dynamo
+4593	MARS CRM	['MARS AND CRM']	crm	en	0.8203125	crm
+4590	8x8, Inc.	['8x8']	x	en	0.560784339905	x
+4591	Fonality	['Fonality']	fonality	mt	0.599429488182	Fonality
+4596	Huawei BSS	['"Huawei BSS"']	bss	en	0.94140625	bss
+4597	Huawei	['Huawei']	huawei	en	0.51153844595	huawei
+4594	Ceridian	['Ceridian']	ceridian	en	1	ceridian
+4595	Cisco Unified Communications Manager (CallManager)	['"Cisco Unified Communications Manager"', 'CallManager']	callmanager	en	1	callmanager
+4598	Avaya Voice Portal	['"Avaya Voice Portal"']	portal	en	0.3501945436	portal
+3483	Dell EqualLogic PS6110XV Networked Storage	['Dell AND PS6110XV', 'EqualLogic AND PS6110XV', 'PS6110XV AND "Network Storage"', 'PS6110XV AND "Networked Storage"', '"PS6110XV iSCSI Array"']	array	en	0.87209302187	array
+1247	Autodesk 3ds Max	['"3ds MAX"', '"Autodesk 3ds"']	autodesk	en	0.66015625	autodesk
+3485	Dell EqualLogic PS6500E iSCSI SAN Storage	['Dell AND PS6500E', 'EqualLogic AND PS6500E', 'PS6500E AND "SAN Storage"']	storage	en	1	storage
+1150	Drupal	['drupal']	drupal	en	0.792156875134	drupal
+3486	Dell EqualLogic PS6500X iSCSI SAN Storage	['Dell AND PS6500X', 'EqualLogic AND PS6500X', 'PS6500X AND "SAN Storage"']	storage	en	1	storage
+3545	Dell PowerVault MD1200 Direct Attached Storage Array	['PowerVault AND MD1200', 'Dell AND MD1200']	dell	en	0.4296875	dell
+3546	Dell PowerVault MD1220 Direct Attached Storage Array	['PowerVault MD1220', 'Dell MD1220']	dell	en	0.4296875	dell
+3547	Dell PowerVault MD3200 SAS Storage Array	['Dell AND MD3200', 'PowerVault AND MD3200', '"MD3200 Storage Arrays"']	arrays	en	0.9609375	arrays
+3540	Dell PowerVault iSCSI	['"PowerVault iSCSI SAN"', '"Dell iSCSI SAN"']	dell	en	0.4296875	dell
+3541	Dell PowerVault LTO	['PowerVault AND "LTO\\-3\\-080"', 'Dell AND "LTO\\-3\\-080"', '"LTO\\-3\\-080" AND "Tape Drive"', 'PowerVault AND "LTO3\\-080"', 'Dell AND "LTO3\\-080"', '"LTO3\\-080" AND "Tape Drive"']	drive	en	0.926070034504	drive
+3548	Dell PowerVault MD3220 SAS Storage Array	['Dell AND MD3220']	md	en	0.6484375	md
+3549	Dell PowerVault ML6000	['Dell AND ML6010', 'PowerVault AND ML6010', '"ML6010 Tape Library"']	library	en	1	library
+4564	Hitachi SAN Storage System	['"hitachi san"']	san	ja	0.421875	San
+1078	CollabNet ScrumWorksPro	['ScrumWorks']	scrumworks	sn	0.999993562698	scrumworks
+1079	CollabNet Subversion	['CollabNet AND Subversion']	subversion	en	0.821705400944	subversion
+1077	Atlassian JIRA Capture	['"JIRA\\/Bonfire"', '"JIRA\\/ Bonfire"']	bonfire	en	1	bonfire
+1074	Atlassian Confluence	['Atlassian AND confluence']	confluence	en	0.921875	confluence
+1075	Atlassian Bamboo	['Atlassian AND Bamboo']	bamboo	en	0.937743186951	bamboo
+1072	Atlassian Greenhopper	['Greenhopper']	greenhopper	en	1	greenhopper
+1073	Atlassian JIRA	['JIRA']	jira	ku	0.727626442909	jira
+1070	Microsoft Dynamics GP	['"Microsoft Dynamics GP"', '"MicrosoftDynamics GP"', '"MS Dynamics GP"', '"MSDynamics GP"']	msdynamics	hmn	0.999995589256	msdynamics
+1071	Microsoft Dynamics NAV	['"Microsoft Dynamics NAV"', '"MicrosoftDynamics NAV"', '"MS Dynamics NAV"', '"MSDynamics NAV"']	msdynamics	hmn	0.999995589256	msdynamics
+1112	Quest ActiveRoles Server	['"ActiveRoles Server"']	server	en	0.716535449028	server
+3489	Dell EqualLogic Networked Storage	['EqualLogic']	equallogic	en	1	equallogic
+3488	Dell EqualLogic PS6510X Networked Storage	['Dell AND PS6510X', 'EqualLogic AND PS6510X', 'PS6510X AND "Network Storage"', 'PS6510X AND "Networked Storage"']	networked	en	1	networked
+1096	Canon Multifunction Devices	['"Canon Multifunction Devices"']	devices	en	1	devices
+1097	Canon Digital Production Printers	['Canon AND "Digital Production Printers"']	printers	en	0.9609375	printers
+1159	Deltek FMS	['"Deltek FMS"']	fms	is	0.48828125	FMS
+1158	Deltek Advantage	['"Deltek Advantage"']	advantage	en	1	advantage
+1092	LexisNexis	['LexisNexis']	lexisnexis	en	0.921875	lexisnexis
+3481	Dell EqualLogic PS6110XS Networked Storage	['Dell AND PS6110XS', 'EqualLogic AND PS6110XS', 'PS6110XS AND "Network Storage"', 'PS6110XS AND "Networked Storage"', '"PS6110XS iSCSI Array"']	array	en	0.87209302187	array
+3480	Dell EqualLogic PS6110X Networked Storage	['Dell AND "PS6110X Networked Storage"', 'EqualLogic AND PS6110X', 'PS6110X AND "Network Storage"', 'PS6110X AND "Networked Storage"', '"PS6110X iSCSI Array"']	array	en	0.87209302187	array
+1157	Lenovo ThinkPad	['"ThinkPad"']	thinkpad	en	0.671875	thinkpad
+1156	Lenovo (Unspecified Product)	['lenovo']	lenovo	en	0.439688712358	lenovo
+1151	Deltek Vision	['"deltek Vision"']	vision	en	0.817120611668	vision
+1099	Canon Production Printers	['canon AND "production printers"']	printers	en	0.9609375	printers
+3487	Dell EqualLogic PS6510E Networked Storage	['Dell AND PS6510E', 'EqualLogic AND PS6510E', 'PS6510E AND "Network Storage"', 'PS6510E AND "Networked Storage"']	networked	en	1	networked
+1152	Deltek Vision CRM	['"vision CRM"']	crm	en	0.8203125	crm
+4563	Hitachi iSCSI Storage	['"hitachi iSCSI"']	iscsi	en	0.8203125	iscsi
+4562	NetApp iSCSI SAN Storage Solution	['"NetApp iSCSI"']	iscsi	en	0.8203125	iscsi
+4560	NetApp SAN	['"NetApp SAN"']	san	ja	0.421875	San
+4567	Oracle Fusion	['"Oracle Fusion"', '"Fusion Middleware"']	middleware	en	0.96875	middleware
+1118	Quest Recovery Manager	['"Quest Recovery Manager"']	manager	en	0.813953459263	manager
+4569	IBM WebSphere Cast Iron	['"Websphere Cast Iron"', '"IBM Cast Iron"', '"Websphere CastIron"', '"IBM CastIron"', '"cast iron" AND developer', 'castiron AND developer']	castiron and developer	en	0.433894515038	castiron and developer
+4568	Oracle Transportation Management	['"Oracle Transport Management"', '"Oracle Transportation Management"', '"Oracle OTM"']	otm	bg	1	Otm
+4648	Barracuda Message Archiver	['"Barracuda Message Archiver"']	archiver	fr	0.3984375	archive
+4649	Barracuda Backup	['"Barracuda Backup Service"']	service	en	0.843137264252	service
+4642	LexisNexis CaseMap	['"LexisNexis CaseMap"']	casemap	en	0.490196079016	casemap
+4640	LexisNexis Practice Advisor	['"Lexis Practice Advisor"']	advisor	en	0.98828125	advisor
+4641	LexisNexis atVantage	['atVantage']	atvantage	is	0.986170709133	atvantage
+4647	Barracuda Link Balancer	['"Barracuda Link Balancer"']	balancer	en	0.669260680676	balancer
+4644	Dell SonicWALL	['"SonicWALL"']	sonicwall	en	0.721568644047	sonicwall
+1297	Sage Peachtree Quantum	['"Peachtree Quantum"']	quantum	en	0.859375	quantum
+1051	Brocade DCFM	['"Brocade DCFM"']	dcfm	cy	0.181740134954	dcfm
+1322	Responsys	['Responsys']	responsys	en	0.674418628216	responsys
+1323	Responsys Interact	['"Responsys Interact"']	interact	en	1	interact
+988	Riverbed Technology (Unspecified Product)	['"riverbed technologies"']	technologies	en	0.87890625	technologies
+1321	Silverpop	['Silverpop', '"Silver pop"']	pop	en	0.674509823322	pop
+1326	HP Integrity Servers	['"HP Integrity"']	integrity	en	1	integrity
+1325	HP ProLiant	['"HP ProLiant"']	proliant	en	0.761904776096	proliant
+1328	Compuware Gomez	['compuware AND gomez', '"gomez APM"', '"compuware APM"', '"compuware vantage"', '"gomez vantage"']	gomez vantage	ro	0.145734995604	Gomez vantage
+1329	Compuware (Unspecified Product)	['compuware']	compuware	en	0.94921875	compuware
+986	JBoss ESB	['"JBoss ESB"']	esb	is	0.94921875	EU
+987	JBoss Seam Framework	['"JBoss Seam"']	seam	en	0.98828125	seam
+985	PerTrac	['PerTrac']	pertrac	lt	0.9296875	pertrac
+1256	Barracuda Load Balancer	['"Barracuda Load Balancer"']	balancer	en	0.669260680676	balancer
+1257	Citrix AppDNA	['AppDNA', '"App DNA"']	dna	pl	0.190661475062	gout
+1254	Barracuda Web Application Firewall	['"Barracuda Web Application Firewall"']	firewall	en	0.702702701092	firewall
+919	Mosaic CRM	['"Mosaic CRM"']	crm	en	0.8203125	crm
+1253	Barracuda Web Filter	['"Barracuda Web Filter"']	filter	en	0.764705896378	filter
+1250	Autodesk Revit	['"Autodesk Revit"']	revit	en	0.554263591766	revit
+1251	Barracuda Networks (Unspecified Product)	['"Barracuda Networks"']	networks	en	1	networks
+1259	Citrix CloudStack	['"Citrix cloudstack"']	cloudstack	en	1	cloudstack
+3519	Dell PowerEdge T110 Tower Server	['"PowerEdge T110"', '"Dell T110"']	dell	en	0.4296875	dell
+3518	Dell PowerEdge T110 ll Tower Server	['"PowerEdge T110 ll"', '"PowerEdge T110ll"', '"Dell T110 ll"', '"Dell T110ll"']	dell	en	0.4296875	dell
+3467	Dell EqualLogic PS6100 Series Arrays	['Dell AND PS6100', 'EqualLogic AND PS6100']	equallogic	en	1	equallogic
+3466	Dell EqualLogic PS6010XVS Networked Storage	['Dell AND PS6010XVS', 'EqualLogic AND PS6010XVS', 'PS6010XVS AND "Network Storage"', 'PS6010XVS AND "Networked Storage"', '"PS6010XVS array"']	array	en	0.87209302187	array
+3465	Dell EqualLogic PS6010XV Networked Storage	['Dell AND PS6010XV', 'EqualLogic AND PS6010XV', 'PS6010XV AND "Network Storage"', 'PS6010XV AND "Networked Storage"', '"PS6010XV array"']	array	en	0.87209302187	array
+3464	Dell EqualLogic PS6010X Networked Storage	['Dell AND PS6010X', 'EqualLogic AND PS6010X', 'PS6010X AND "Network Storage"', 'PS6010X AND "Networked Storage"', '"PS6010X array"']	array	en	0.87209302187	array
+3463	Dell EqualLogic PS6010E Networked Storage	['Dell AND PS6010E', 'EqualLogic AND PS6010E', 'PS6010E AND "Network Storage"', 'PS6010E AND "Networked Storage"', '"PS6010E Array"']	array	en	0.87209302187	array
+3461	Dell EqualLogic PS4100X Networked Storage	['Dell AND PS4100X', 'EqualLogic AND PS4100X']	equallogic	en	1	equallogic
+3460	Dell EqualLogic PS4100E Networked Storage	['Dell AND PS4100E', 'EqualLogic AND PS4100E']	equallogic	en	1	equallogic
+3500	Dell PowerEdge R300 Rack Server	['"PowerEdge R300"', '"Dell R300"']	dell	en	0.4296875	dell
+3501	Dell PowerEdge R310 Rack Server	['PowerEdge AND R310', 'Dell AND R310', '"R310 Rack Server"', '"R310 Server"']	r server	en	0.132348909974	r server
+3502	Dell PowerEdge R410 Rack Server	['"PowerEdge R410"', '"Dell R410"']	dell	en	0.4296875	dell
+3503	Dell PowerEdge R415 Rack Server	['"PowerEdge R415"', '"Dell R415"']	dell	en	0.4296875	dell
+3504	Dell PowerEdge R510 Rack Server	['"PowerEdge R510"', '"Dell R510"']	dell	en	0.4296875	dell
+3505	Dell PowerEdge R515 Rack Server	['"PowerEdge R515"', '"Dell R515"']	dell	en	0.4296875	dell
+3469	Dell EqualLogic PS6100S Networked Storage	['Dell AND PS6100S', 'EqualLogic AND PS6100S']	equallogic	en	1	equallogic
+3468	Dell EqualLogic PS6100E Networked Storage	['Dell AND PS6100E', 'EqualLogic AND PS6100E', 'PS6100E AND "Network Storage"', 'PS6100E AND "Networked Storage"', '"PS6100E Array"']	array	en	0.87209302187	array
+3511	Dell PowerEdge R815 Rack Server	['"PowerEdge R815"', '"Dell R815"']	dell	en	0.4296875	dell
+3510	Dell PowerEdge R720XD Rack Server	['"PowerEdge R720XD"', '"Dell R720XD"']	dell	en	0.4296875	dell
+3517	Dell PowerEdge T105 Tower Server	['Dell AND T105', '"T105 Server"']	server	en	0.716535449028	server
+1320	ExactTarget	['ExactTarget', '"Exact Target"']	target	en	0.9296875	target
+989	Sage (Unspecified Product)	['Sage']	sage	en	0.459143966436	sage
+3570	Microsoft Lync	['"MS Lync"', 'Microsoft AND Lync']	and	en	1	and
+3528	Dell PowerVault NX300 Network Attached Storage	['"PowerVault NX300"', '"Dell NX300"', '"NX300 Network Attached Storage"', '"NX300 NAS"']	nas	pt	0.26953125	In the
+754	Oracle 11g Enterprise Edition	['Oracle11g']	oracle	en	0.83011585474	oracle
+4608	Cicero	['"Cicero xm"']	xm	en	0.609375	xm
+4609	Ciboodle	['Ciboodle']	ciboodle	jw	1	ciboodle
+4606	Pega Case Management	['"Pega Case Management"']	management	en	0.934108555317	management
+4607	Jacada	['Jacada']	jacada	en	1	jacada
+4604	Pega CRM	['"Pega CRM"']	crm	en	0.8203125	crm
+4605	Pega Decision Management	['"Pega Decision Management"']	management	en	0.934108555317	management
+4602	Corizon	['Corizon']	corizon	eo	0.280414909124	garlic sausage
+4603	Pega BPM	['"Pega BPM"', '"Pega Business Process Management"', '"Pegasystems BPM"']	pegasystems	en	1	pegasystems
+4600	Microsoft Customer Care Framework	['"Microsoft CCF"', '"Customer Care Framework"', '"Microsoft Framework"']	microsoft framework	en	0.223189860582	microsoft framework
+1025	Adobe Insight	['"adobe insight"']	insight	en	0.98828125	insight
+1024	Adobe Discover	['"Adobe Discover"']	discover	en	1	discover
+1026	Omniture Data Warehouse	['"omniture data warehouse"']	warehouse	en	0.937007844448	warehouse
+1020	Adobe Audience Manager	['"AudienceManager"']	audiencemanager	en	0.7890625	audiencemanager
+1188	Infor Infinium	['infor AND infinium']	infinium	en	1	infinium
+1189	Infor Human Capital Management (HCM)	['"Infor HCM"', '"Infor Human Capital Management"', '"Infor10 HCM"']	management	en	0.934108555317	management
+1186	Infor Syteline	['SyteLine']	syteline	en	1	syteline
+1187	Infor Financial Management	['"infor financial management"']	management	en	0.934108555317	management
+1184	Infor Enterprise Asset Management (EAM)	['"infor EAM"', '"Infor Enterprise Asset Management"']	management	en	0.934108555317	management
+1185	Infor ERP	['"Infor ERP"', '"Infor Enterprise Resource Planning"', '"infor10 erp"', '"Infor10 Enterprise Resource Planning"']	planning	en	0.97637796402	planning
+1182	Infor CRM	['"Infor CRM"']	crm	en	0.8203125	crm
+1028	Cornerstone Ondemand	['"cornerstone on demand"', '"cornerstone ondemand"', '"cornerstone talent Management"']	management	en	0.934108555317	management
+1180	CouchDB	['"CouchDB"', '"Couch DB"']	db	hu	0.56809335947	db
+1181	BRIO	['"hyperion Brio"', '"Brio EPM"']	epm	en	1	epm
+1164	Aruba Mobility Controller	['"Aruba Mobility Controller"']	controller	en	0.890625	controller
+1165	Hitachi Virtual Storage Platform (VSP)	['"hitachi virtual storage platform"', 'hitachi AND VSP']	vsp	lv	0.94921875	NAP
+1166	Aruba AirWave Network Management	['"Aruba AirWave"']	airwave	en	0.76171875	airwave
+1167	Aruba OS	['"Aruba OS"']	os	pt	0.7890625	the
+1209	ClickSchedule	['"clickschedule"', '"click schedule"']	schedule	en	1	schedule
+1208	Click Software (Unspecified Product)	['"click software"', 'clickSoftware']	clicksoftware	en	0.961240291595	clicksoftware
+1162	Aruba Networks (Unspecified Product)	['"aruba networks"']	networks	en	1	networks
+1205	Asus	['"Asus"']	asus	en	0.368217051029	asus
+1204	Dell PowerEdge Servers	['"poweredge servers"', '"Dell Poweredge"']	dell	en	0.4296875	dell
+1207	Apriso FlexNet	['"Apriso FlexNet"']	flexnet	en	1	flexnet
+1206	Apriso (Unspecified Product)	['"Apriso"']	apriso	en	1	apriso
+1201	Plex Online	['"Plex Online"']	online	en	0.603921592236	online
+1200	Plex ERP	['"Plex ERP"']	erp	nl	0.713178277016	Erp
+1203	Kaspersky Anti-Virus	['"Kaspersky Anti\\-Virus"']	virus	en	0.565217375755	virus
+1202	Kaspersky (Unspecified Product)	['"Kaspersky"', '"Kaspersky Lab"']	lab	en	0.823529422283	lab
+1211	Borland Software (Unspecified Product)	['"Borland"']	borland	en	0.859375	borland
+959	Oracle WebCenter Portal	['Oracle AND "Web Center"']	center	en	0.914728701115	center
+958	Oracle Unified Content Management (UCM)	['Oracle AND UCM']	ucm	pl	0.246622756124	Ucm
+637	SAP Business Objects	['"SAP BO"']	bo	sl	0.30859375	will
+955	Oracle Stellent	['Stellent AND Oracle']	oracle	en	0.83011585474	oracle
+957	Oracle Teleservice	['"Oracle Teleservice"']	teleservice	en	1	teleservice
+1110	Canon Printers	['"canon printers"']	printers	en	0.9609375	printers
+1298	Sage Peachtree Complete	['"Peachtree Complete"']	complete	en	0.94921875	complete
+1299	ShoreTel Communicator	['"ShoreTel Communicator"']	communicator	en	1	communicator
+1115	Quest MessageStats	['Quest AND "MessageStats"']	messagestats	en	1	messagestats
+1114	Quest Foglight	['Quest AND "Foglight"']	foglight	en	1	foglight
+1117	Quest Migration Manager	['"Quest Migration Manager"']	manager	en	0.813953459263	manager
+1116	Quest TOAD	['"Quest Toad"']	toad	en	0.51171875	toad
+1119	Quest Shareplex	['Shareplex']	shareplex	en	0.71875	shareplex
+1293	Amazon Cloudwatch	['Cloudwatch']	cloudwatch	en	1	cloudwatch
+1291	Amazon ElastiCache	['ElastiCache']	elasticache	en	0.526717543602	elasticache
+1296	Amazon AWS CloudFormation	['CloudFormation']	cloudformation	en	0.5390625	cloudformation
+1351	CA Project Portfolio Management (PPM)	['"CA ppm"']	ppm	en	0.69921875	ppm
+1295	Amazon AWS Elastic Beanstalk	['"Elastic Beanstalk"']	beanstalk	en	1	beanstalk
+3428	AppDynamics	['AppDynamics']	appdynamics	hmn	0.999998092651	appdynamics
+3423	SunGard Loanet	['Loanet']	loanet	fy	0.999998867512	Loanet
+3422	SunGard Kiodex	['Kiodex']	kiodex	sw	0.872655630112	MODEX
+3421	SunGard Investran	['Investran']	investran	en	0.665354311466	investran
+3420	SunGard InvesTier	['InvesTier']	investier	en	0.665354311466	investier
+3427	New Relic	['"New Relic"', 'NewRelic']	newrelic	pl	0.603937625885	Newrelic
+3425	SunGard ZaiNet	['ZaiNet']	zainet	it	0.9296875	Zainet
+3424	SunGard Relius	['Relius']	relius	la	0.999005675316	relius
+1366	HP ProLiant BL Series Blade Servers	['ProLiant AND BL', 'ProLiant AND "Blade Servers"']	servers	en	0.937743186951	servers
+1367	HP ProLiant ML Tower Servers	['ProLiant AND ML', 'ProLiant AND "Tower Servers"']	servers	en	0.937743186951	servers
+4589	Nextiva	['Nextiva']	nextiva	en	1	nextiva
+4583	Hightail	['YouSendIt']	yousendit	en	1	yousendit
+1360	Sun Netra Server Systems	['Netra']	netra	id	0.83984375	Net
+4585	SugarSync	['SugarSync']	sugarsync	vi	0.5390625	Sugarsync
+4584	ShareFile	['ShareFile']	sharefile	en	0.98828125	sharefile
+4582	Dropbox	['Dropbox']	dropbox	en	0.505928874016	dropbox
+4581	Microsoft Enterprise CAL Suite	['"Enterprise CAL"']	cal	ca	0.416988402605	need
+4580	Genesys Workforce Management	['"Genesys Workforce"']	workforce	en	1	workforce
+1368	HP Integrity Superdome Servers	['HP AND Superdome']	superdome	en	0.98828125	superdome
+1369	HP Integrity Nonstop Servers	['"HP Integrity NonStop"', '"HP NonStop Integrity"']	hp nonstop integrity	en	0.176984071732	hp nonstop integrity

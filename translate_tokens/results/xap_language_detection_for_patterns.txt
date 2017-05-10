@@ -1,0 +1,484 @@
+product_id	product_name	original pattern	token and separated token	detected_language	confidence_score	translated_language 
+15906	Paychex Flex	['"via Paychex Flex"', '"Paychex Flex" system', '"Paychex Flex" Software', '"Paychex Flex" payroll']	payroll	en	0.976653695107	payroll
+15907	BrightPay	['BrightPay Payroll']	payroll	en	0.976653695107	payroll
+14676	AppLift	['AppLift']	applift	mt	0.80595511198	applift
+15905	ADP RUN	['"ADP RUN"']	run	en	0.968503952026	run
+15391	ABB Decathlon	['"ABB\'s Decathlon"', '"ABB Decathlon"', '"Decathlon DCIM"']	dcim	en	1	dcim
+15903	ActivityHD	['activityhd']	activityhd	en	0.609375	activityhd
+15900	Adver-Online HROffice	['"HROffice Recruitment"']	recruitment	en	0.949806928635	recruitment
+15548	Grovo	['Grovo', '"grovo platform"']	platform	en	0.906614780426	platform
+15466	Azalead	['Azalead', '"with Azalead"']	with	en	1	with
+8903	Microsoft Dynamics SL	['"Solomon IV"']	iv	en	0.565217375755	iv
+15612	NCR Counterpoint	['"Counterpoint POS"', '"NCR Counterpoint"']	ncr	en	0.948818922043	ncr
+15613	eWorkOrders	['eWorkOrders']	eworkorders	af	0.999984681606	eworkorders
+15610	Azzier CMMS	['Azzier']	azzier	mt	0.659968793392	azzier
+15611	HCSS Equipment360	['Equipment360']	equipment	en	0.98046875	equipment
+15614	FastMaint CMMS	['FastMaint CMMS']	cmms	en	1	cmms
+15615	Fiix CMMS	['Fiix CMMS', '"Maintenance Assistant CMMS"']	assistant	en	0.9296875	assistant
+15619	iOFFICE	['iOFFICE space', 'iOFFICE facilit*']	facilit	en	1	facilit
+12700	Akamai CDN	['Octoshape']	octoshape	en	1	octoshape
+15759	UL OHM	['"ehs sustainability" OHM']	ohm	en	0.474308311939	ohm
+15758	Office Practicum	['"Office Practicum" EMR', '"Office Practicum" EHR']	ehr	de	0.96875	Honest
+15753	CollaborateMD	['CollaborateMD']	collaboratemd	en	0.616600811481	collaboratemd
+15752	athenaClinicals	['AthenaClinicals']	athenaclinicals	en	0.5390625	athenaclinicals
+15751	Viewpoint Vista	['"Viewpoint Vista"']	vista	es	0.291338592768	view
+15750	UDA ConstructionSuite	['ConstructionSuite']	constructionsuite	en	0.548638105392	constructionsuite
+15757	MedicsPremier	['MedicsPremier', '"Advanced Data Systems" AND EHR', '"Advanced Data Systems" AND EMR']	emr	tr	0.76171875	Order
+15756	InSync Healthcare	['"InSync Healthcare"']	healthcare	en	1	healthcare
+15755	Insight EMR	['"Clinicient EMR"', '"Insight EMR"']	insight	en	0.98828125	insight
+15754	Canvas Solutions	['"Canvas mobile apps"']	apps	en	0.6796875	apps
+15854	Cisco UCS Manager	['"Cisco UCS Manager"', 'Cisco "UCS Manager"']	manager	en	0.813953459263	manager
+15855	Lenovo Flex System Blade Servers	['Implements "Lenovo Flex system"', '"IBM Blade Servers"', 'Experience "IBM blade servers"']	experience	en	1	experience
+15857	Unspecified Data Management Platform	['"Data Management Platform"']	platform	en	0.906614780426	platform
+15850	Cryptzone	['Cryptzone']	cryptzone	en	0.828125	cryptzone
+15851	Ayasdi	['Ayasdi']	ayasdi	so	0.998789787292	ayasdi
+15852	Huawei Server	['"Huawei Server platform"', '"FusionServer"']	fusionserver	en	0.575875461102	fusionserver
+15858	Unspecified Demand Side Platform	['"Demand Side Platform"']	platform	en	0.906614780426	platform
+15537	CourseGenius	['CourseGenius']	coursegenius	en	0.94140625	coursegenius
+15536	Configio	['Configio']	configio	en	0.665354311466	configio
+15535	Capabiliti	['Qustn LMS', 'Capabiliti LMS']	capabiliti	en	0.94140625	capabiliti
+15534	BlueVolt	['BlueVolt']	bluevolt	hi	0.999280631542	Bluevolt
+15533	BIStrainer	['BIStrainer']	bistrainer	sl	0.23046875	bistrainer
+15532	Aktiv Mind LMS	['Aktiv LMS']	lms	en	1	lms
+15531	Accord LMS	['"Accord LMS"']	lms	en	1	lms
+15530	Vacancy Filler Recruitment	['"Vacancy Filler" recruitment']	recruitment	en	0.949806928635	recruitment
+15924	EmmiEngage	['EmmiEngage', 'Emmi Engage']	engage	en	0.80078125	engage
+15925	SMARTworks EffectiveResponse	['SMARTworks EffectiveResponse']	effectiveresponse	en	0.901960790157	effectiveresponse
+15920	InsideSales.com C9	['InsideSales C9']	insidesales	en	0.976653695107	insidesales
+15489	ONLYOFFICE	['ONLYOFFICE CRM']	crm	en	0.8203125	crm
+15539	BrainCert	['BrainCert']	braincert	en	1	braincert
+15538	Didacte	['Didacte learn*']	learn	en	1	learn
+15488	NetResults	['NetResults']	netresults	en	1	netresults
+15582	Brightspace	['"Brightspace Implementation"', '"brightspace analytics"']	analytics	en	0.618677020073	analytics
+15583	Oracle Database Appliance	['"Oracle Database Appliance"']	appliance	en	0.9609375	appliance
+15580	WizIQ LMS	['WizIQ LMS']	lms	en	1	lms
+15581	SuccessFactors Learning	['"SuccessFactors Learning"']	learning	en	1	learning
+15586	PTC Windchill PDMLink	['PDMLink']	pdmlink	en	1	pdmlink
+15587	Cartasite	['Cartasite']	cartasite	es	0.62109375	Cartaite
+15584	Level 3 Vyvx	['Vyvx video']	video	en	0.5943775177	video
+15585	StreamZilla	['StreamZilla']	streamzilla	en	0.84980237484	streamzilla
+15588	Sauce Labs	['SauceLabs', '"Sauce Labs"']	labs	en	0.626459121704	labs
+15589	Rainforest QA	['"Rainforest QA"', 'RainforestQA']	rainforestqa	en	0.96875	rainforestqa
+9255	Foundation Software	['"Foundation Software" construction']	construction	en	0.87109375	construction
+15403	Clicktools	['Clicktools']	clicktools	en	0.5390625	clicktools
+15402	GetFeedback	['GetFeedback']	getfeedback	en	0.997265160084	getfeedback
+15401	Xplenty	['Xplenty']	xplenty	ru	0.772977590561	Xplenty
+15407	The Trade Desk	['TheTradeDesk', '"The Trade Desk" advertising']	advertising	en	1	advertising
+15406	TIBCO Service Performance Manager	['TIBCO "Service Performance Manager"']	manager	en	0.813953459263	manager
+15405	Tibco FTL	['"Tibco FTL"']	ftl	en	0.98046875	ftl
+15409	A1 Tracker	['"A1 Tracker"']	tracker	en	0.838461518288	tracker
+15408	Helpjuice	['Helpjuice']	helpjuice	nl	0.999536931515	Help juice
+14520	Upwork	['"Elance-oDesk"', 'Upwork collaboration']	collaboration	en	0.7890625	collaboration
+12124	Base CRM	['"Base CRM experience"', '"Utilize Base CRM"', '"via BASE CRM"', '"using Base CRM"', '"online tools like Base CRM"']	like	en	0.98828125	like
+12088	MessageGears	['MessageGears']	messagegears	en	0.669260680676	messagegears
+11946	ScaleEngine	['ScaleEngine']	scaleengine	nl	0.999458193779	Scale engine
+15658	Internap CDN	['"Internap CDN"']	cdn	en	0.6796875	cdn
+11348	WhosOn	['WhosOn AND chat']	chat	en	0.563706576824	chat
+15869	Property Cloud Manager	['"Property Cloud Manager"']	manager	en	0.813953459263	manager
+15864	Quicken Rental Property Manager	['"Quicken Rental Property Manager"']	manager	en	0.813953459263	manager
+15861	Red Hat OpenStack	['"Red Hat OpenStack"']	openstack	en	0.58984375	openstack
+15860	SpiraTeam	['SpiraTeam']	spirateam	bg	0.98828125	I was screaming
+15862	WebHR	['"in WebHR"', '"to WebHR"']	to	en	0.864341080189	to
+15448	ScreenConnect	['ScreenConnect']	screenconnect	en	0.964705884457	screenconnect
+15818	MineralTree	['MineralTree', '"Mineral Tree"']	tree	en	1	tree
+15819	Corcentric	['Corcentric', 'COR360']	cor	pt	0.772549033165	color
+8936	iQmetrix	['rq4', '"rq retail management"']	management	en	0.934108555317	management
+11865	Turn	['"turn marketing"', '"turn dmp"', '"Turn DataMine"', '"turn dsp"', '"datamine analytics"']	analytics	en	0.618677020073	analytics
+15811	Snowflake Data Warehouse	['"Snowflake Data Warehouse"']	warehouse	en	0.937007844448	warehouse
+15812	Paymode X	['"Paymode X"']	paymode	en	0.897384703159	paymode
+15813	KwikTag	['KwikTag']	kwiktag	ht	0.999999940395	kwiktag
+15814	Beanworks	['Beanworks']	beanworks	yo	0.96823489666	beanworks
+15815	Yooz	['Yooz']	yooz	so	0.998899936676	yooz
+15816	Nvoicepay	['Nvoicepay']	nvoicepay	en	0.999930143356	nvoicepay
+15817	Bill.com	['"Bill.com"']	com	pt	0.86770427227	with
+15780	iVend Retail	['iVend Retail']	retail	en	0.957198441029	retail
+15781	Lavu iPad POS	['Lavu POS']	pos	id	0.420233458281	post
+15782	Lightspeed Retail	['"Lightspeed POS"', '"Lightspeed Retail"']	retail	en	0.957198441029	retail
+15783	Maitre'D POS	['"Maitre\'D POS"']	pos	id	0.420233458281	post
+15784	PaySimple	['PaySimple']	paysimple	tl	0.869062900543	PaySimple
+15785	PHP Point Of Sale	['"PHP Point Of Sale"']	sale	en	0.8984375	sale
+15786	PointOS	['PointOS']	pointos	ja	0.98046875	Pointos
+15787	Primaseller	['Primaseller']	primaseller	es	0.645669281483	Prime minister
+15788	RepairDesk	['RepairDesk POS']	pos	id	0.420233458281	post
+15789	RetailSTAR	['RetailSTAR']	retailstar	en	0.96875	retailstar
+15667	Liquid Web DNS	['"Liquid Web DNS"']	dns	en	0.439688712358	dns
+1177	Fedora	['"Fedora Commons"', '"Fedora repository"']	repository	en	0.94140625	repository
+15446	Salesforce Community Cloud	['Salesforce "Community Cloud"', 'SFDC "Community Cloud"']	sfdc	cy	0.359123051167	sfdc
+15445	Rosmiman IWMS	['Rosmiman']	rosmiman	el	0.999994635582	Rosmiman
+15444	Rollbar	['Rollbar help']	help	en	1	help
+15443	RepairShopr	['RepairShopr']	repairshopr	en	1	repairshopr
+15442	Quip	['Quip helpdesk', 'Quip "help desk"', '"Quip helpdesk"', '"Quip help desk"']	desk	en	0.98828125	desk
+15441	Pulseway	['Pulseway']	pulseway	en	1	pulseway
+15440	Planio	['Planio']	planio	la	1	Planio
+13940	Polaris Associates	['"Orbit Analytics"', 'Polaris "Reporting Workbench"']	workbench	en	0.937743186951	workbench
+15449	ServiceBridge	['ServiceBridge']	servicebridge	en	0.73828125	servicebridge
+9116	DialogTech	['DialogTech']	dialogtech	en	0.5	dialogtech
+14564	LiveChatInc	['LiveChatInc']	livechatinc	en	0.420233458281	livechatinc
+15568	Wisetail LMS	['"Wisetail LMS"']	lms	en	1	lms
+15569	WorkRamp	['WorkRamp']	workramp	en	0.96875	workramp
+15564	SmarterU	['SmarterU']	smarteru	en	0.609375	smarteru
+15565	TalentLMS	['"Talent LMS"', 'TalentLMS']	talentlms	en	0.571428596973	talentlms
+15566	Udutu LMS	['Udutu LMS']	lms	en	1	lms
+15567	Whatfix	['Whatfix']	whatfix	en	1	whatfix
+15560	Mindflash	['Mindflash', '"mindflash online training"', '"Mindflash Trainings"', '"Mindflash platform"', '"via MindFlash"', '"through MindFlash"', 'Mindflash training', 'Mindflash LMS']	lms	en	1	lms
+15561	Path LMS	['"Path LMS"']	lms	en	1	lms
+15562	ScriptoPro	['ScriptoPro']	scriptopro	en	0.766536951065	scriptopro
+14568	Pixeleze	['Pixeleze']	pixeleze	es	0.91015625	Pixeleze
+1287	Amazon CloudFront	['"Amazon CDN"']	cdn	en	0.6796875	cdn
+11652	DataDirect Networks	['ES14KX', 'ES7KX', 'ES12KX']	kx	en	0.733333349228	kx
+15890	Active Collab	['"activ collab"']	collab	en	1	collab
+133	Cezanne	['"Cezanne HR"']	hr	en	0.633204638958	hr
+15893	Wagepoint	['Wagepoint']	wagepoint	lb	0.780079722404	dare Statement
+15894	Square Payroll	['"payroll using Square"']	square	en	0.976653695107	square
+7385	Square, Inc.	['"Square Register"', '"square wallet"']	wallet	en	0.98046875	wallet
+15896	QuickBooks Payroll	['QuickBooks Payroll']	payroll	en	0.976653695107	payroll
+15361	Altify	['"The TAS Group"']	group	en	1	group
+12821	Gusto	['"Gusto payroll"']	payroll	en	0.976653695107	payroll
+405	Saba	['"saba application"']	application	en	0.890625	application
+12178	Autopilot	['"Autopilot helpdesk"', 'autopilothq']	autopilothq	es	0.574803173542	Autopilothq
+11836	Ligatus	['Ligatus Native']	native	en	0.976653695107	native
+11900	Intuit Mint	['"Intuit Mint"']	mint	hu	0.91015625	as
+15418	BOSS Support Central	['BOSS "Support Central"']	central	en	0.76953125	central
+15419	CAFM Explorer	['"CAFM Explorer"']	explorer	en	0.666666686535	explorer
+15744	RedTeam Software	['RedTeam constru*']	constru	pt	0.68235296011	Construct
+15745	Relatics	['Relatics']	relatics	en	0.683397710323	relatics
+15746	SmartContractor	['SmartContractor']	smartcontractor	en	0.366795361042	smartcontractor
+15747	Snappii	['Snappii']	snappii	en	1	snappii
+15740	JOBPOWER	['JOBPOWER']	jobpower	en	0.600523531437	jobpower
+15741	NoteVault	['NoteVault']	notevault	mg	1	notevault
+15629	MVP Plant	['"MVP Plant"', 'MVPPlant']	mvpplant	sm	0.339420616627	mvpplant
+15628	MicroMain	['MicroMain']	micromain	en	0.848249018192	micromain
+15627	MEX Maintenance	['MEX CMMS', '"MEX Maintenance"']	maintenance	en	0.94140625	maintenance
+15626	Maxpanda	['Maxpanda']	maxpanda	la	0.999191641808	maxpanda
+15625	MAPCON	['MAPCON']	mapcon	en	1	mapcon
+15624	ManWinWin	['ManWinWin']	manwinwin	el	0.507278263569	Manwinwin
+15623	Loc8	['Loc8']	loc	ro	0.926070034504	place
+15749	UDA ConstructionOnline	['ConstructionOnline']	constructiononline	en	0.548638105392	constructiononline
+15621	ManagerPlus	['ManagerPlus']	managerplus	en	0.92549020052	managerplus
+15620	Joblogic	['Joblogic']	joblogic	en	1	joblogic
+15895	Sage Payroll	['"Sage Payroll"']	payroll	en	0.976653695107	payroll
+15410	Antavo Loyalty	['Antavo']	antavo	lt	0.99413394928	antavo
+15411	Assembla	['"using Assembla"']	assembla	ca	0.828125	looks
+15821	FinancialForce PSA	['FinancialForce PSA', 'FinancialForce "Professional Services Automation"']	automation	en	0.906614780426	automation
+15820	Nexus Systems	['"nexus systems"']	systems	en	0.98046875	systems
+15823	ZTE	['"ZTE optical"', '"ZTE GPON"', '"ZTE EPON"', '"ZTE OLT"', '"ZTE C300"', '"ZTE C220"', '"ZTE WDM"', '"ZTE ONT"', '"ZTE sdh"', '"ZTE ZXR10"', '"ZTE router"', '"ZTE DSLAM"']	dslam	ar	0.350608885288	Dslam
+15822	Arris International	['"Arris Network"', '"Arris Optical"', 'Arris BPON', 'Arris "Passive Optical"', '"Arris GPON"']	gpon	ceb	0.534155666828	GPON
+15825	Viptela	['Viptela']	viptela	zu	0.437190949917	viptela
+15824	Zhone Technologies	['"Zhone ONT"', '"Zhone GPON"', '"Zhone OLT"', '"Zhone DSLAM"']	dslam	ar	0.350608885288	Dslam
+15827	Velocloud	['Velocloud']	velocloud	ca	0.999999880791	velocloud
+15826	Versa Networks	['FlexVNF', '"Versa Analytics"', '"Versa Director"', '"Versa Networks"']	networks	en	1	networks
+15829	Tellabs	['"Tellabs 1000"', '"Tellabs OLT"', '"Tellabs Panorama"', '"Tellabs 1100"']	panorama	sq	0.220472440124	Panorama
+15520	Talenthire	['Talenthire']	talenthire	en	0.571428596973	talenthire
+15521	APS Payroll	['"APS Payroll"']	payroll	en	0.976653695107	payroll
+15522	Kortivity	['Kortivity']	kortivity	nl	0.322079449892	Kortivity
+15523	Vultus Recruit	['Vultus Recruit']	recruit	en	1	recruit
+15524	mindSCOPE CURA	['mindSCOPE CURA']	cura	it	0.665354311466	care
+15525	SCOUT Recruit	['"SCOUT Recruit"', '"SCOUT Recruit" recruitment']	recruitment	en	0.949806928635	recruitment
+15526	iCIMS Recruit	['"iCIMS Recruit"']	recruit	en	1	recruit
+15527	HireCentric	['HireCentric']	hirecentric	ro	0.654925405979	Hirecentric
+15483	icomplete CRM	['icomplete CRM']	crm	en	0.8203125	crm
+15529	Brightmove Recruiting	['Brightmove Recruiting']	recruiting	en	0.98828125	recruiting
+15481	Gopher Leads	['"Gopher Leads"']	leads	en	1	leads
+15480	GoldVision CRM	['GoldVision']	goldvision	en	0.94921875	goldvision
+15487	Marketing 360	['"Marketing 360"']	marketing	en	0.686046540737	marketing
+15486	LeadByte	['LeadByte']	leadbyte	fy	0.999927997589	leadbyte
+15485	Lead Capsule	['"Lead Capsule"']	capsule	en	0.71875	capsule
+15484	InStream CRM	['InStream CRM']	crm	en	0.8203125	crm
+15897	PaymentEvolution	['PaymentEvolution', '"Payment Evolution software"']	software	en	0.736000001431	software
+11080	EdgeCast	['"EdgeCast CDN"']	cdn	en	0.6796875	cdn
+15555	JoomlaLMS	['JoomlaLMS']	joomlalms	en	0.722007751465	joomlalms
+15554	iSpring Suite	['"iSpring Suite"']	suite	fr	0.509727597237	after
+15557	LearningCart	['LearningCart']	learningcart	en	1	learningcart
+15556	LearnerNation	['LearnerNation']	learnernation	en	1	learnernation
+15551	INTUO Learn	['INTUO']	intuo	eo	1	intuition
+15550	Inquisiq LMS	['Inquisiq']	inquisiq	en	0.55078125	inquisiq
+15553	iSpring Learn LMS	['"iSpring Learn"', 'iSpring LMS']	lms	en	1	lms
+15552	Iridize	['Iridize']	iridize	el	1	Iridize
+15414	AssetCloud	['AssetCloud']	assetcloud	en	0.83984375	assetcloud
+15415	BarScan	['BarScan help', 'BarScan asset', 'BarScan Inventory']	inventory	en	1	inventory
+15416	BlueFolder	['BlueFolder help']	help	en	1	help
+15417	Bornevia	['Bornevia']	bornevia	no	1	Bornevia
+15559	LearnUpon	['LearnUpon']	learnupon	en	1	learnupon
+15558	LearningStone	['LearningStone']	learningstone	en	1	learningstone
+15412	Asset Panda	['"Asset Panda"', 'AssetPanda']	assetpanda	la	0.999957442284	assetpanda
+15413	Asset Track	['"Asset Track" Jolly', '"Asset Track" "helpdesk"', '"Asset Track" "help desk"']	desk	en	0.98828125	desk
+15563	SkyPrep	['SkyPrep']	skyprep	ca	0.754598557949	skyprep
+15922	Spreadsheet Server	['"Spreadsheet Server"', '"Spreadsheet Server a plus"']	plus	fr	0.79766535759	more
+11338	Avangate	['Avangate commerce']	commerce	en	0.554263591766	commerce
+15923	Oracle Business Intelligence Discoverer	['"Oracle Business Intelligence Discoverer"', 'Oracle "Business Intelligence Discoverer"', '"Oracle Discoverer"']	oracle discoverer	en	0.271308630705	oracle discoverer
+7218	gMed	['gMed EHR', 'gGastro', 'gMed Gastr*']	gastr	en	1	gastr
+6401	IBM Spectrum Protect	['IBM "Spectrum Protect"']	protect	en	1	protect
+12984	Avention	['Avention sales', 'Avention OneSource']	onesource	en	1	onesource
+15878	ResMan	['ResMan property', 'ResMan multifamily']	multifamily	en	1	multifamily
+15876	Condo Manager	['"Condo Manager Pro"']	pro	cs	0.633204638958	for
+15701	NetFacilities	['NetFacilities']	netfacilities	en	0.973295271397	netfacilities
+15874	TrueRent	['TrueRent']	truerent	la	0.810915052891	truerent
+15703	Azure CDN	['"Azure CDN"']	cdn	en	0.6796875	cdn
+15872	SimplifyEm	['SimplifyEm']	simplifyem	en	0.71875	simplifyem
+15873	Tenant File	['"Tenant File management system"', '"using Tenant File"', 'TenantFile Software']	software	en	0.736000001431	software
+15870	TenantCloud	['TenantCloud']	tenantcloud	en	0.747081696987	tenantcloud
+15871	LandlordTracks	['LandlordTracks']	landlordtracks	en	1	landlordtracks
+12041	UltraDns	['UltraDns']	ultradns	es	0.389105051756	Ultradns
+15779	iConnect POS	['"iConnect POS"']	pos	id	0.420233458281	post
+15778	Gotmerchant.com	['"Gotmerchant.com"']	com	pt	0.86770427227	with
+15775	EBizCharge	['EBizCharge']	ebizcharge	bg	0.999997377396	Ebizcharge
+15774	Clover POS	['"Clover POS"']	pos	id	0.420233458281	post
+12048	Ascentium Commerce Server	['Ascentium Commerce']	commerce	en	0.554263591766	commerce
+15776	Epos Now	['"Epos Now"', 'EposNow']	eposnow	sl	0.989273607731	eposnow
+15771	Bindo POS	['"Bindo POS System"']	system	en	0.9296875	system
+15770	CerTek Artisan	['CerTek Artisan']	artisan	en	0.71875	artisan
+15773	Cin7	['CIn7']	cin	tr	0.764705896378	China
+15772	Cash Register Express	['"Cash Register Express"']	express	en	0.76953125	express
+11410	Yottaa	['Yottaa']	yottaa	fi	1	To stay
+10826	Level 3 Communications	['"Level 3 CDN"']	cdn	en	0.6796875	cdn
+15450	Shelf.io	['"Shelf.io"']	io	it	0.823529422283	I
+15451	SherpaDesk	['SherpaDesk']	sherpadesk	en	0.87109375	sherpadesk
+15452	Sifter	['Sifter help', '"bug tracker" sifter']	tracker	en	0.838461518288	tracker
+15453	SMART Service Desk	['"SMART Service Desk"']	desk	en	0.98828125	desk
+15454	Smartsupp	['Smartsupp']	smartsupp	en	0.795275568962	smartsupp
+15455	SpiraTest	['SpiraTest']	spiratest	bg	0.98828125	Spiratest
+15456	Tagove	['Tagove']	tagove	bs	0.96875	tags
+15457	Teamwork Desk	['"Teamwork Desk"']	desk	en	0.98828125	desk
+15458	Tele-Support HelpDesk	['"Tele-Support HelpDesk"']	helpdesk	en	0.532818555832	helpdesk
+15459	Userlike	['Userlike']	userlike	en	1	userlike
+15519	Namely	['"Namely Applicant tracking"', '"Namely ATS"']	ats	lt	0.662745118141	Answer
+15518	Crelate Talent	['"Crelate Talent"']	talent	en	0.652509629726	talent
+13407	Shiftboard	['shiftboard nurs*']	nurs	en	0.87890625	nurs
+15511	Intelifi Emerge	['Intelifi Emerge']	emerge	en	0.779922783375	emerge
+15510	You Don't Need a CRM	['"You Don\'t Need a CRM"']	crm	en	0.8203125	crm
+15513	iSmartRecruit	['iSmartRecruit']	ismartrecruit	en	0.5390625	ismartrecruit
+15512	TriSys Recruitment	['TriSys Recruitment']	recruitment	en	0.949806928635	recruitment
+15515	SmartSearch	['SmartSearch']	smartsearch	en	1	smartsearch
+15514	Exelare	['Exelare']	exelare	sv	0.597447276115	Exelare
+15516	ApplicantPRO	['ApplicantPRO']	applicantpro	en	0.841269850731	applicantpro
+14476	FunctionFox	['FunctionFox']	functionfox	en	0.859375	functionfox
+15479	Google G Suite	['"Google G Suite"']	suite	fr	0.509727597237	after
+8439	Cisco UCS Servers	['"Cisco UCS Blades"', '"Cisco UCS Series Blade Servers"']	servers	en	0.937743186951	servers
+15425	GoCodes	['GoCodes']	gocodes	gl	0.816737651825	gocodes
+15424	Front Desk	['"front desk software"']	software	en	0.736000001431	software
+15427	Honey Help Desk	['Honey HelpDesk', 'Honey "Help Desk"', '"Honey HelpDesk"', '"Honey Help Desk"']	desk	en	0.98828125	desk
+15426	Help Sumo	['"Help Sumo"']	sumo	en	0.232283458114	sumo
+15421	Commusoft	['Commusoft']	commusoft	st	0.52210688591	commusoft
+15420	Cayzu	['Cayzu']	cayzu	so	0.90063470602	cayzu
+15423	EZOfficeInventory	['EZOfficeInventory']	ezofficeinventory	gl	0.999991774559	ezofficeinventory
+15422	Deskero	['Deskero']	deskero	eu	0.989342868328	deskero
+15429	ITRP	['ITRP ITSM']	itsm	st	0.905621945858	itsm
+15428	iSupport Software	['"iSupport Software"']	software	en	0.736000001431	software
+12389	Akamai RUM	['"Akamai RUM"']	rum	sv	0.5390625	room
+11022	Mongoose Metrics	['dialoguetech']	dialoguetech	en	0.5	dialoguetech
+12384	Viafoura	['Viafoura']	viafoura	el	1	Viafoura
+4971	Logic Software Easy Projects	['"Easy Projects software"']	software	en	0.736000001431	software
+4972	Genius Inside	['"Genius Inside"']	inside	en	1	inside
+15887	Meisterplan	['meisterplan']	meisterplan	de	0.956692934036	Masterplan
+15886	Priority Matrix	['"priority matrix software"', '"Priority Matrix" Appfluence']	appfluence	co	0.987990677357	appfluence
+15885	Projectplace	['"Projectplace software"']	software	en	0.736000001431	software
+11804	AudienceScience	['AudienceScience']	audiencescience	en	0.7890625	audiencescience
+15884	RationalPlan	['Rationalplan']	rationalplan	en	1	rationalplan
+15883	Cisco Firepower NGFW	['Firepower NGFW']	ngfw	cy	0.999969422817	ngfw
+15882	Taskworld	['Taskworld']	taskworld	en	1	taskworld
+15223	Lone Wolf Real Estate	['"Access to Lone Wolf"', '"lone wolf real estate"']	estate	en	0.94140625	estate
+15222	Forcepoint	['Forcepoint security']	security	en	0.98828125	security
+830	ASP.NET	['"asp net"']	net	en	0.33984375	net
+15881	Todoist	['todoist']	todoist	pt	0.999992728233	Allist
+15880	Wimi	['"Wimi project"']	project	en	0.96875	project
+8880	Avaya IP Office	['"Knowledge of IP Office"', '"IP Office 500"', '"Avaya IP Office products and implementations"', '"avaya ip office"', '"ip office"']	avaya ip office	en	0.200119912624	avaya ip office
+15763	SoftClinic	['SoftClinic']	softclinic	nl	0.8984375	Softclinic
+11939	Instart Logic	['"Instart Logic"', 'InstartLogic']	instartlogic	fr	0.51171875	Instartlogic
+11937	Highwinds	['HighWinds CDN']	cdn	en	0.6796875	cdn
+11935	ChinaCache	['ChinaCache']	chinacache	pl	0.87890625	Chinacache
+11934	Cedexis	['Cedexis']	cedexis	la	0.999999880791	CEDEX
+15731	B2W Track	['"B2W Track"']	track	en	1	track
+15730	Acculynx	['Acculynx']	acculynx	la	0.999806165695	acculynx
+15733	BuildTools	['BuildTools construction']	construction	en	0.87109375	construction
+15732	BuildingBlok	['BuildingBlok']	buildingblok	en	1	buildingblok
+15735	eSUB	['eSUB', 'eSUB contract*', 'eSUB construc*']	construc	ro	0.674418628216	Construction
+15734	e-Builder Enterprise	['"e-Builder Enterprise"']	enterprise	en	0.945098042488	enterprise
+15737	HCSS HeavyJob	['HeavyJob']	heavyjob	lt	0.460904300213	heavyjob
+15736	GenieBelt	['GenieBelt']	geniebelt	nl	0.553384780884	Geniebelt
+15739	iSqFt	['iSqFt']	isqft	la	0.954632520676	isqft
+15738	iAuditor	['iAuditor SafetyCulture', 'iAuditor Safety']	safety	en	1	safety
+15889	Freedcamp	['freedcamp']	freedcamp	lb	0.329299032688	heartening camp
+15888	Pelago Intervals	['Pelago Intervals']	intervals	en	0.98828125	intervals
+15929	Advisory Board iRound for Patient Experience	['iRound "Patient Experience"', '"Patient Experience Advisory Board"']	board	en	0.98828125	board
+15832	Iskratel	['SI3000', 'Iskratel GPON', '"ATS SI3000"']	ats	lt	0.662745118141	Answer
+15833	FiberHome	['"FONST 1000"', '"FONST 3000"', 'FONST3000', 'FONST1000', 'CiTrans FiberHome', 'OTNM2000']	otnm	bg	0.501252472401	Otnm
+15830	Talari Networks	['talari APN']	apn	id	0.251968502998	Apn
+15831	Ciena 6500	['"Ciena 6500"']	ciena	en	0.55078125	ciena
+15836	Cisco ONS 15252	['ONS 15252']	ons	nl	0.631372570992	US
+15837	Cisco ONS 15216	['ONS 15216']	ons	nl	0.631372570992	US
+15834	KEYMILE	['Keymile XMP1', 'KEYMILE MileGate', 'Keymile UMUX', 'Keymile UNEM']	unem	pt	0.98046875	Unite
+15835	Cisco ONS 15327	['ONS 15327']	ons	nl	0.631372570992	US
+14288	Guru CMMS	['"Guru CMMS"']	cmms	en	1	cmms
+15839	Cisco ONS 15600	['ONS 15600', '"ONS 15600"']	ons	nl	0.631372570992	US
+15447	SapphireIMS	['SapphireIMS']	sapphireims	en	0.844961225986	sapphireims
+15942	SONIFI Health	['SONIFI patient', 'SONIFI Health']	health	en	1	health
+15940	RealPage OneSite	['"RealPage OneSite"', 'OneSite multifamily', '"OneSite property"']	property	en	1	property
+15941	Veriato	['Veriato monitoring']	monitoring	en	0.945525288582	monitoring
+15946	Salesforce Identity	['"Salesforce Identity"']	identity	en	1	identity
+15944	GetWellNetwork	['"Works on GetWellNetwork"']	getwellnetwork	lb	0.89657586813	getwellnetwork
+15945	IBM Cloud Identity Service	['"IBM Cloud Identity Service"']	service	en	0.843137264252	service
+15877	ProLease	['"Real Estate" Prolease']	prolease	fy	0.97549778223	ProLease
+15875	Property Matrix	['PropertyMatrix', '"Property Matrix"']	matrix	en	0.945098042488	matrix
+1356	Limelight CDN	['Limelight Content Delivery', '"Worked with Limelight Networks"']	networks	en	1	networks
+15469	CallProof	['CallProof']	callproof	en	0.561042547226	callproof
+15468	BPMonline	['BPMonline']	bpmonline	ga	0.999995350838	bpmonline
+15544	eLeap LMS	['eLeap LMS']	lms	en	1	lms
+15545	Elucidat	['Elucidat']	elucidat	ro	1	Elucidated
+15542	Edvance360	['Edvance360']	edvance	bg	0.933348953724	Edvance
+15543	Epignosis	['Epignosis']	epignosis	la	0.982455193996	epignosis
+15540	Edsby	['Edsby']	edsby	sk	0.532140016556	EDSB
+15541	EduBrite	['EduBrite']	edubrite	bg	0.831906676292	Edubrite
+15461	XWiki	['XWiki']	xwiki	en	1	xwiki
+15460	Vision Helpdesk	['"Vision Helpdesk"']	helpdesk	en	0.532818555832	helpdesk
+15463	Accelo CRM	['"Accelo CRM"']	crm	en	0.8203125	crm
+15462	Yonyx	['Yonyx']	yonyx	xh	0.987968981266	onyx
+15465	AeroLeads	['AeroLeads']	aeroleads	el	1	Aeroleads
+15464	AddressTwo	['AddressTwo']	addresstwo	en	0.98828125	addresstwo
+15467	Benchmark CRM	['"benchmark crm"']	crm	en	0.8203125	crm
+15549	iCohere Unified Learning	['iCohere']	icohere	ig	0.999963700771	icohere
+12100	Intercom	['"Intercom CRM"', 'Intercom "live chat"', '"Intercom helpdesk"', 'Intercom "support ticketing"']	ticketing	en	0.841698825359	ticketing
+15571	ASAP LMS	['"ASAP LMS"']	lms	en	1	lms
+15494	Qwilr	['Qwilr']	qwilr	mt	0.890265643597	qwilr
+15495	ReachEdge	['ReachEdge']	reachedge	en	1	reachedge
+15496	Reply CRM	['"Reply CRM"']	crm	en	0.8203125	crm
+15497	Repsly CRM	['Repsly CRM']	crm	en	0.8203125	crm
+15490	PayPanther	['PayPanther']	paypanther	en	0.984984099865	paypanther
+15491	Pepperi	['Pepperi']	pepperi	en	0.9609375	pepperi
+15492	Pobuca	['Pobuca']	pobuca	ru	0.783520281315	Pobuca
+15493	ProClass	['ProClass']	proclass	en	0.55078125	proclass
+15498	SendPulse	['SendPulse']	sendpulse	no	0.52937155962	Send pulse
+15499	Sharpen CRM	['"Sharpen CRM"', '"Sharpen Contact Center"']	center	en	0.914728701115	center
+15579	Travitor Pro	['"Travitor Pro"']	pro	cs	0.633204638958	for
+14282	Facilities Management eXpress	['"Facilities Management eXpress"']	express	en	0.76953125	express
+15578	Qintil	['Qintil']	qintil	sq	0.955811142921	Qintil
+14109	Datalogix	['Datalogix DMP']	dmp	en	1	dmp
+12214	MovingImage24	['MovingImage24']	movingimage	en	1	movingimage
+15849	Iatric Security Audit Manager	['Iatric "Security Audit Manager"', '"Iatric SAM"']	sam	bs	0.375494062901	himself
+15848	CompliancePro	['CompliancePro']	compliancepro	en	0.76953125	compliancepro
+15843	Ericsson Marconi OMS	['"Marconi OMS"', '"OMS 1600" optical', '"OMS 1200" optical', '"OMS 800" optical', '"OMS 3200" optical']	optical	en	1	optical
+15842	Ericsson MHL 3000	['Ericsson MHL 3000', 'Marconi "MHL 3000"']	marconi	it	0.4609375	Marconi
+15841	Ericsson SPO 1400	['Ericsson SPO 1400', 'Ericsson SPO 1410', 'Ericsson SPO 1460']	spo	sq	0.383399218321	Spo
+15840	Cisco ONS 15530	['ONS 15530']	ons	nl	0.631372570992	US
+15847	Aegify	['Aegify']	aegify	cy	0.999814271927	aegify
+15846	Huawei WDM	['"Huawei WDM"']	wdm	en	1	wdm
+15845	Huawei OSN 8800	['Huawei OSN8800', 'Huawei "OSN 8800"', '"OptiX OSN 8800"']	optix	en	1	optix
+15844	Huawei OSN 1800	['Huawei "OSN 1800"', 'Huawei "OSN1800"']	osn	bg	0.51171875	Osn
+15838	Cisco ONS 15540	['ONS 15540']	ons	nl	0.631372570992	US
+15601	IBM Power5	['IBM Power5']	power	en	0.98828125	power
+15600	Dell PowerEdge R630 Rack Server	['"PowerEdge R630"', '"Dell R630"', 'R630XD']	xd	es	0.242063492537	Xd
+15603	Facebook At Work	['"Facebook At Work"']	work	en	1	work
+15602	IBM Power6	['IBM Power6']	power	en	0.98828125	power
+15605	Square Appointments	['"Square Appointments"']	appointments	en	1	appointments
+15604	Rancher Labs	['"Rancher Labs"']	labs	en	0.626459121704	labs
+15607	Booker Software	['"Booker Software"']	software	en	0.736000001431	software
+15606	Zen Planner	['ZenPlanner', '"Zen Planner"']	planner	en	0.9296875	planner
+15609	AyaNova	['AyaNova']	ayanova	sn	0.641073346138	he is
+15608	xMatters	['AlarmPoint', 'xMatters', 'xmatter', '"alarm point"']	point	en	0.848249018192	point
+15768	TherapyNotes	['TherapyNotes']	therapynotes	en	0.810810804367	therapynotes
+15769	Tri-Technical AIMsi	['AIMsi']	aimsi	ga	0.997247159481	aimsi
+15766	Therabill	['Therabill']	therabill	en	1	therabill
+15767	TheraNest	['TheraNest']	theranest	sq	0.98828125	Theranest
+12074	SimpleCart	['SimpleCart']	simplecart	en	0.600000023842	simplecart
+15762	Square POS	['"Square POS"']	pos	id	0.420233458281	post
+11789	Incapsula	['Incapsula']	incapsula	it	1	Encapsulates
+15760	Practice Pro	['"Practice Pro" EMR', '"Practice Pro" EHR', '"Practice Pro" "physical therapy"', '"PT Practice Pro"']	pt	ro	0.5	Pt
+15761	Vitera Intergy EHR	['"Intergy ehR"']	ehr	de	0.96875	Honest
+15933	Rocket Matter	['"Rocket Matter"']	matter	en	1	matter
+15932	Smokeball	['Smokeball']	smokeball	ht	1	smokeball
+15930	Oneview Healthcare	['Oneview "point of care"']	care	ro	0.6484375	which
+15936	Dell Boomi	['"Dell Boomi"', '"Integration Platform Boomi"']	platform	en	0.906614780426	platform
+15935	Mule ESB	['"Mule ESB"', '"Mulesoft ESB"']	mulesoft	da	0.8370475173	Mulesoft
+15934	Cloud Elements	['"API Integration platform" "Cloud Elements"', '"Cloud Elements"']	cloud elements	en	0.254296213388	cloud elements
+15939	RealPage YieldStar	['"RealPage" "YieldStar"', 'YieldStar']	yieldstar	en	1	yieldstar
+15508	WeSuite	['WeSuite']	wesuite	sm	0.999540150166	wesuite
+15509	Wintac	['Wintac CRM', 'Wintac Field']	field	en	1	field
+15502	Tilkee	['Tilkee']	tilkee	so	0.999462425709	tilkee
+15503	Tracks	['"Buildtracks.com"', '"Tracks CRM"', 'Buildtracks CRM']	buildtracks crm	en	0.389574974775	buildtracks crm
+15500	Stitch Labs	['"Stitch Labs"']	labs	en	0.626459121704	labs
+15501	Streak CRM	['"Streak CRM"']	crm	en	0.8203125	crm
+15506	W3B CRM	['"W3B CRM"']	crm	en	0.8203125	crm
+15507	Waypoint Software	['"Waypoint Software"']	software	en	0.736000001431	software
+15504	uberVU	['uberVU', 'uberVU "social marketing"', 'uberVU "social media"', 'uberVU "digital strategy"']	strategy	en	1	strategy
+15505	vCita	['vCita']	vcita	pt	0.998874485493	Vcita
+15591	Seismic	['"Seismic sales Enablement"']	enablement	en	1	enablement
+15590	Bigtincan	['Bigtincan']	bigtincan	en	1	bigtincan
+15593	Yardi PAYscan	['Yardi PAYscan']	payscan	en	1	payscan
+15592	Yardi Genesis2	['Yardi Genesis2']	genesis	en	0.856031119823	genesis
+15595	Yardi Investment Management	['"Yardi Investment Management"']	management	en	0.934108555317	management
+15594	Yardi ABF	['Yardi "Advanced Budgeting"', 'Yardi ABF']	abf	de	0.618677020073	From
+15597	Motorola AXS2200	['AXS2200']	axs	en	1	axs
+15596	Yardi Orion	['Yardi Orion']	orion	en	0.602316617966	orion
+15599	Dell PowerEdge R730 Rack Server	['R730XD', '"PowerEdge R730"', '"Dell R730"']	dell	en	0.4296875	dell
+15598	Motorola AXSvision	['AXSvision']	axsvision	uz	0.999684989452	axsvision
+15436	NABD	['NABD help', 'NABD helpdesk', '"NABD System"']	system	en	0.9296875	system
+15437	Noveldesk	['Noveldesk']	noveldesk	ca	0.44921875	noveldesk
+15434	LiveHelpNow	['LiveHelpNow']	livehelpnow	en	1	livehelpnow
+15435	Logikcull	['Logikcull']	logikcull	sv	0.74180150032	Logic cull
+15432	KnowledgeOwl	['KnowledgeOwl']	knowledgeowl	en	1	knowledgeowl
+15433	Lessonly	['Lessonly']	lessonly	en	1	lessonly
+15430	Jitbit	['Jitbit']	jitbit	en	1	jitbit
+15431	KBPublisher	['KBPublisher']	kbpublisher	mt	0.998838961124	kbpublisher
+15438	OneSoft Connect	['"OneSoft Connect"', 'onesft']	onesft	lb	0.336232364178	onesft
+15439	Panopta	['Panopta']	panopta	cs	0.383399218321	Panopta
+14516	WorkflowMax	['WorkflowMax']	workflowmax	en	0.921875	workflowmax
+15482	GreenRope CRM	['GreenRope CRM']	crm	en	0.8203125	crm
+12047	AppointmentPlus	['AppointmentPlus']	appointmentplus	en	0.98046875	appointmentplus
+15722	SchoolDude	['"School Dude"', 'SchoolDude']	schooldude	en	0.957198441029	schooldude
+15891	WebPay	['WebPay']	webpay	fi	1	Webpay
+15721	RASTRAC	['RASTRAC']	rastrac	lv	0.347490340471	rastrac
+15726	AssetPoint TabWare	['AssetPoint', 'TabWare']	tabware	mi	1	tabware
+15727	Gridium Tikkit	['Tikkit', 'Gridium']	gridium	la	1	Grids
+15724	ServiceChannel	['ServiceChannel']	servicechannel	en	0.73828125	servicechannel
+15725	SS-CMMS	['"SS-CMMS"']	cmms	en	1	cmms
+15898	BenefitMall PayFocus	['"PayFocus Pro"']	pro	cs	0.633204638958	for
+15899	KashFlow	['Kashflow']	kashflow	sq	0.989289283752	Kashflow
+15728	Tofino Software	['"Tofino Software"', 'Tofino CMMS']	cmms	en	1	cmms
+15729	TrackAbout	['TrackAbout']	trackabout	en	0.87109375	trackabout
+15777	GiftLogic	['GiftLogic']	giftlogic	st	0.357043594122	giftlogic
+15742	Paskr	['Paskr']	paskr	ht	0.445101320744	paskr
+10851	Python	['"python architect"', '"python language"', '"python developer"', '"python software"']	software	en	0.736000001431	software
+15743	ProContractor	['ProContractor']	procontractor	pt	0.794573664665	Protractor
+15806	MicroBiz POS	['"Microbiz POS"']	pos	id	0.420233458281	post
+15805	MyTime Scheduler	['"MyTime Scheduler"']	scheduler	en	0.94921875	scheduler
+15804	POS Prophet Systems	['"POS Prophet"']	prophet	en	0.9609375	prophet
+15802	retailcloud	['retailcloud']	retailcloud	en	0.96875	retailcloud
+15801	Vend POS	['"Vend POS"']	pos	id	0.420233458281	post
+15800	Windward System Five	['"Windward System Five"']	five	en	1	five
+15748	Synchro PRO	['"Synchro PRO"']	pro	cs	0.633204638958	for
+15528	TargetRecruit	['TargetRecruit']	targetrecruit	en	0.918287932873	targetrecruit
+15622	Landport	['"Landport Systems"', 'Landport Facility']	facility	en	1	facility
+15797	STORIS	['STORIS Furniture']	furniture	en	0.96875	furniture
+15796	Springboard Retail	['"Springboard Retail"']	retail	en	0.957198441029	retail
+15795	Shopkeep POS	['"Shopkeep POS"']	pos	id	0.420233458281	post
+15794	Sapaad	['Sapaad']	sapaad	ceb	0.543058097363	sapaad
+15793	Runit Systems	['"Runit Systems"']	systems	en	0.98046875	systems
+15792	RQ Retail	['"iQmetrix POS"', '"RQ POS"', '"RQ Retail"']	retail	en	0.957198441029	retail
+15791	RICS Software	['"RICS POS"', '"RICS Software"']	software	en	0.736000001431	software
+15790	Revel iPad POS	['"Revel iPad POS"', '"Revel POS"']	revel pos	en	0.162590518594	revel pos
+15799	Visual Retail Plus	['"Visual Retail Plus"']	plus	fr	0.79766535759	more
+15798	talech POS	['talech POS']	pos	id	0.420233458281	post
+15384	Achievers	['"Achievers platform"']	platform	en	0.906614780426	platform
+15385	NetFlow Analyzer	['"ManageEngine" "NetFlow Analyzer"', '"traffic analysis" "using NetFlow"']	using	en	1	using
+15573	Convergence LMS	['"Convergence LMS"']	lms	en	1	lms
+15572	Canvas LMS	['"Canvas LMS"']	lms	en	1	lms
+15478	Freshsales	['Freshsales']	freshsales	en	0.58984375	freshsales
+15570	Administrate LMS	['"Administrate LMS"']	lms	en	1	lms
+15577	ProProfs	['ProProfs learn*']	learn	en	1	learn
+15576	Matrix LMS	['"Matrix LMS"']	lms	en	1	lms
+15575	LatitudeLearning	['LatitudeLearning']	latitudelearning	en	0.638888895512	latitudelearning
+15574	GoConqr	['GoConqr']	goconqr	es	0.474497973919	Goconqr
+15472	ContactConnect	['ContactConnect']	contactconnect	en	0.669260680676	contactconnect
+15473	Contactually	['Contactually CRM']	crm	en	0.8203125	crm
+15470	Close.io	['"Close.io"']	io	it	0.823529422283	I
+15471	Conrep CRM	['Conrep CRM']	crm	en	0.8203125	crm
+15476	eWayCRM	['"eWay CRM"']	crm	en	0.8203125	crm
+15477	Fieldbook CRM	['Fieldbook CRM']	crm	en	0.8203125	crm
+15474	CRM Unlimited	['"CRM Unlimited"']	unlimited	en	0.98046875	unlimited
+15475	CRMsoftwares.com	['"CRMsoftwares.com"']	com	pt	0.86770427227	with
+8595	Zayo	['Zayo']	zayo	zu	0.290196090937	its
+9359	Microsoft Visual Studio	['"Visual Studio 2017"']	studio	en	0.536964952946	studio
+15928	CipherHealth Orchid	['CipherHealth Orchid', 'CipherHealth "patient experience"']	experience	en	1	experience
+15546	eSSential LMS	['"eSSential LMS"']	lms	en	1	lms
+15547	Firmwater LMS	['Firmwater LMS']	lms	en	1	lms
+15371	C#	['C# Microsoft', 'language "C#"', 'Programmer "C#"', '"C#" Software']	software	en	0.736000001431	software
+15370	Microsoft Visual Basic	['"VB Script"', '"VB6"', '"vb.net"', '"msft vb"']	msft	en	1	msft
