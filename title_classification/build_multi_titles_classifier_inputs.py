@@ -6,6 +6,8 @@ import random
 from pprint import pprint
 import os
 from os.path import basename
+from django.utils.encoding import smart_str
+
 
 def fetch_results_from_es(input_title_filenames, output_filename):
     with open(output_filename,'w') as jsonfile:
@@ -149,3 +151,29 @@ def build_matrix(resultsfile_name, persona_type, products_to_use, test_r, balanc
     # print len(y) + 1 - sum(y), 'negative data points'
 
     return X, y, testX, testY
+
+def freq_analysis_inputs(resultsfile_name, persona_type):
+    persona_dict = {}
+    with open(resultsfile_name) as jsonfile:
+        for title_data_str in jsonfile:
+            title_data = json.loads(title_data_str)
+            # print title_data
+            # for url in title_data['urls'].keys():
+            for psna_type in persona_type.keys():
+                if title_data['title'] in persona_type[psna_type]:
+                    if psna_type not in persona_dict:
+                        persona_dict[psna_type] = []
+                    for url in title_data['urls'].keys():
+                        persona_dict[psna_type].append(title_data['urls'][url])
+    return persona_dict
+
+def get_urls_in_results(resultsfile_name, url_output):
+    fw = open(url_output, 'w')
+    fw.write('url\n')
+    with open(resultsfile_name) as jsonfile:
+        for title_data_str in jsonfile:
+            title_data = json.loads(title_data_str)
+            for url in title_data['urls'].keys():
+                fw.write('{}\n'.format(smart_str(url)))
+    fw.close()
+
