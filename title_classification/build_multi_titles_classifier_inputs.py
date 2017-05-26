@@ -7,6 +7,7 @@ from pprint import pprint
 import os
 from os.path import basename
 from django.utils.encoding import smart_str
+import mysql.connector
 
 
 def fetch_results_from_es(input_title_filenames, output_filename):
@@ -68,6 +69,88 @@ def split_results_into_training_and_test(resultsfile_name, percent_test):
                 test_file.write(row + '\n')
             else:
                 training_file.write(row + '\n')
+
+def generate_blacklist_by_LastVerifDate(resultsfile_name, most_recent_verified_date):
+    """ filter products by last verification date,
+    create a black list of products that is verified before most_recent_verified_date"""
+    # get urls
+    urls = []
+    with open(resultsfile_name) as jsonfile:
+        for title_data_str in jsonfile:
+            title_data = json.loads(title_data_str)
+            for url in title_data['urls'].keys():
+                urls.append(url)
+    db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
+    c = db.cursor(buffered=True)
+    query = ("""SELECT url, product_id, last_verified_at
+                FROM matcher.url_mrf_global_hits
+                WHERE url IN {} and WHERE last_verified_at < {};""")
+    query = query.format(tuple(urls), most_recent_verified_date)
+    iterable = c.execute(query, multi=True)
+    black_dict = {}
+    for item in iterable:
+        for result in item.fetchall():
+            url = result[0]
+            product_id = result[1]
+            if url not in black_dict:
+                black_dict[url] = []
+                if product_id not in black_dict[url]:
+                    black_dict[url].append(product_id)
+    return black_dict
+
+def generate_blacklist_by_product_type(resultsfile_name, product_type_id):
+    """ create a product blacklist of products that are from the category of vertical market """
+    # get urls
+    urls = []
+    with open(resultsfile_name) as jsonfile:
+        for title_data_str in jsonfile:
+            title_data = json.loads(title_data_str)
+            for url in title_data['urls'].keys():
+                urls.append(url)
+    db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
+    c = db.cursor(buffered=True)
+    query = ("""select p.name, pt.product_id from production.products p
+                join production.products_tags pt on p.id=pt.product_id
+                join production.tags t on pt.tag_id=t.id
+                where t.id={};""")
+    query = query.format(product_type_id)
+    iterable = c.execute(query, multi=True)
+    black_prod_dict = {}
+    for item in iterable:
+        for result in item.fetchall():
+            product_name = result[0]
+            product_id = result[1]
+            if product_id not in black_prod_dict:
+                black_prod_dict[product_id] = product_name
+    return black_prod_dict
+
+def revenue_company_size_lookup(resultsfile_name):
+    """ get revenue range and employee range by url"""
+    # get urls
+    urls = []
+    with open(resultsfile_name) as jsonfile:
+        for title_data_str in jsonfile:
+            title_data = json.loads(title_data_str)
+            for url in title_data['urls'].keys():
+                urls.append(url)
+    db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
+    c = db.cursor(buffered=True)
+    query = ("""SELECT url, revenue_range, employees_range
+                FROM integration.combined_urls
+                WHERE url IN {};""")
+    query = query.format(tuple(urls))
+    iterable = c.execute(query, multi=True)
+    rev_emp_lookup = {}
+    for item in iterable:
+        for result in item.fetchall():
+            url = result[0]
+            revenue_range = result[1]
+            employees_range = result[2]
+            if url not in rev_emp_lookup:
+                rev_emp_lookup[url] = []
+                rev_emp_lookup[url]['revenue_range'] = revenue_range
+                rev_emp_lookup[url]['employees_range'] = employees_range
+    return rev_emp_lookup
 
 
 def build_matrix(resultsfile_name, persona_type, products_to_use, test_r, balanced_training=False, balanced_test=False):
