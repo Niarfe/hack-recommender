@@ -49,34 +49,6 @@ def get_top_products(resultsfile_name, minicount):
     products = get_counts_by_product(resultsfile_name)
     return sorted([product for product in products.keys() if products[product] >= minicount])
 
-# def get_blacklisted_products_by_product_type(resultsfile_name, product_type_id):
-#     """ create a product blacklist of products that are from the category of vertical market """
-#     # get urls
-#     urls = []
-#     with open(resultsfile_name) as jsonfile:
-#         for title_data_str in jsonfile:
-#             title_data = json.loads(title_data_str)
-#             for url in title_data['urls'].keys():
-#                 urls.append(url)
-#     # db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
-#     db = mysql.connector.connect(db='matcher', host='db-raven', user='lucia_databaser', passwd='yZdpi8SKeeaNLGMUjS6H')
-#     c = db.cursor(buffered=True)
-#     query = ("""select p.name, pt.product_id from production.products p
-#                 join production.products_tags pt on p.id=pt.product_id
-#                 join production.tags t on pt.tag_id=t.id
-#                 where t.id={};""")
-#     query = query.format(product_type_id)
-#     iterable = c.execute(query, multi=True)
-#     black_prod_dict = {}
-#     for item in iterable:
-#         for result in item.fetchall():
-#             product_name = result[0]
-#             product_id = result[1]
-#             if product_id not in black_prod_dict:
-#                 black_prod_dict[product_id] = product_name
-#     print len(black_prod_dict.keys())
-#     return black_prod_dict.keys()
-
 def get_product_hits_by_title(resultsfile_name):
     products = defaultdict(int)
     count = 0
@@ -100,37 +72,6 @@ def split_results_into_training_and_test(resultsfile_name, percent_test):
                 test_file.write(row + '\n')
             else:
                 training_file.write(row + '\n')
-
-# def get_blacklist_products_by_last_date_verified(resultsfile_name, most_recent_verified_date):
-#     """ filter products by last verification date,
-#     create a black list of products that is verified before most_recent_verified_date"""
-#     # get urls
-#     urls = []
-#     with open(resultsfile_name) as jsonfile:
-#         for title_data_str in jsonfile:
-#             title_data = json.loads(title_data_str)
-#             for url in title_data['urls'].keys():
-#                 urls.append(url)
-#     # db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
-#     db = mysql.connector.connect(db='matcher', host='db-raven', user='lucia_databaser', passwd='yZdpi8SKeeaNLGMUjS6H')
-#     c = db.cursor(buffered=True)
-#     query = ("""SELECT url, product_id, last_verified_at
-#                 FROM matcher.url_mrf_global_hits
-#                 WHERE url IN {} and WHERE last_verified_at < {};""")
-#     query = query.format(tuple(urls), most_recent_verified_date)
-#     iterable = c.execute(query, multi=True)
-#     black_dict = {}
-#     for item in iterable:
-#         for result in item.fetchall():
-#             url = result[0]
-#             product_id = result[1]
-#             if url not in black_dict:
-#                 black_dict[url] = []
-#                 if product_id not in black_dict[url]:
-#                     black_dict[url].append(product_id)
-#     print len(black_dict.keys())
-#     return black_dict
-#
 
 
 def build_matrix(resultsfile_name, persona_type, products_to_use, test_r, balanced_training=False, balanced_test=False):
