@@ -91,8 +91,8 @@ def generate_blacklist_by_product_type(product_type_id):
     """ create a product blacklist of products that are from the category of vertical market,
     it returns a dictionary with product id is key and the product name from the category of veritcal market as value"""
     # get urls
-    # db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
-    db = mysql.connector.connect(db='matcher', host='db-raven', user='lucia_databaser', passwd='yZdpi8SKeeaNLGMUjS6H')
+    db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
+    # db = mysql.connector.connect(db='matcher', host='db-raven', user='lucia_databaser', passwd='yZdpi8SKeeaNLGMUjS6H')
     c = db.cursor(buffered=True)
     query = ("""select p.name, pt.product_id from production.products p
                 join production.products_tags pt on p.id=pt.product_id
@@ -117,17 +117,17 @@ def generate_blacklist_by_LastVerifDate(target_urls, most_recent_verified_date):
     clean_urls = [smart_str(url) for url in target_urls]
     str_urls = map(str, clean_urls)
     # print str_urls
-    # db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
-    db = mysql.connector.connect(db='matcher', host='db-raven', user='lucia_databaser', passwd='yZdpi8SKeeaNLGMUjS6H')
+    db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
+    # db = mysql.connector.connect(db='matcher', host='db-raven', user='lucia_databaser', passwd='yZdpi8SKeeaNLGMUjS6H')
     c = db.cursor(buffered=True)
     if len(str_urls) > 1:
         query = ("""SELECT url, product_id, last_verified_at
-                    FROM matcher.url_mrf_global_hits
+                    FROM matcher.url_mrf_combined_global_hits
                     WHERE url IN {} and last_verified_at < '{}';""")
         query = query.format(tuple(str_urls), most_recent_verified_date)
     else:
         query = ("""SELECT url, product_id, last_verified_at
-                    FROM matcher.url_mrf_global_hits
+                    FROM matcher.url_mrf_combined_global_hits
                     WHERE url = '{}' and last_verified_at < '{}';""")
         element = ' '.join(str(x) for x in str_urls)
         query = query.format(element, most_recent_verified_date)

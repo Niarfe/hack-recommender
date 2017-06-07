@@ -17,15 +17,13 @@ def get_model_from_results_file(results_filename, positive_title_set_filename, p
         for row in f:
             positive_title_set.append(row.strip())
 
-    X, y, testX, testY = build_matrix('results.json', positive_title_set, products_to_use, .3, balanced_training,
+    X, y, testX, testY = build_matrix('results.json', positive_title_set, products_to_use, test_r, balanced_training,
                                       balanced_test)
     x = pd.DataFrame(X, columns=products_to_use)
     # print x
     Y = pd.DataFrame(y, columns=['job_title'])
     model = LogisticRegression()
     model = model.fit(x, Y)
-    # model = linear_model.LogisticRegression()
-    # model = model.fit(X=x, y=Y)
 
     predicted = model.predict(testX)
     print metrics.confusion_matrix(testY, predicted)
@@ -33,6 +31,7 @@ def get_model_from_results_file(results_filename, positive_title_set_filename, p
     print model.intercept_
 
     return model
+
 
 def write_coefficients_to_file(model, feature_names, output_filename):
     feature_dict ={}

@@ -1,8 +1,6 @@
 from build_multi_titles_classifier_inputs import *
 import pandas as pd
-from sklearn.linear_model import LogisticRegression
-from sklearn import metrics
-from sklearn import linear_model
+from sklearn.metrics import accuracy_score
 import operator
 import numpy as np
 # Load scikit's random forest classifier library
@@ -17,27 +15,28 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
 
     X, y, testX, testY = build_matrix(results_filename, persona_type, products_to_use, test_r, balanced_training,
                                       balanced_test)
-    # print len(X)
-    # print len(y)
+
     x = pd.DataFrame(X, columns=products_to_use)
-    # print x
     y_df = pd.DataFrame(y, columns=['job titles'])
     testY_series = pd.Series(testY)
-    # print type(persona_type.keys())
     y_array = np.asarray(y)
     y_names = np.asarray(persona_type.keys())
-    print y_names
-    # print Y
     Y = pd.factorize(y_array)[0]
-    # print Y
+    # fit model
     clf = RandomForestClassifier(n_jobs=2)
     clf.fit(x, Y)
-    print clf.predict(testX)
+    # prediction
     preds = y_names[clf.predict(testX)]
     print preds
+    print type(preds)
+    print testY
+    # print y_names
+    # confusion matrix
     print pd.crosstab(testY_series, preds, rownames=['Actual Species'], colnames=['Predicted Species'])
-    # print metrics.confusion_matrix(testY, preds)
-    print list(zip(x, clf.feature_importances_))
+    # feature important scores
+    feature_scores = pd.DataFrame(list(zip(x, clf.feature_importances_)))
+    feature_scores.to_csv('outputs/random_forest/feature_scores.csv')
+    print accuracy_score(testY, preds, normalize=True)
     # return model
 
 
@@ -66,13 +65,15 @@ def main():
         'inputs/titles/it_exec.txt',
         'inputs/titles/it_in_lob.txt',
         'inputs/titles/it_ops.txt',
-        'inputs/titles/marketing.txt'
+        'inputs/titles/marketing.txt',
+        'inputs/titles/cross_lob_exec.txt'
     ]
+    ######################## fetch data ###################
     # fetch_results_from_es(title_filenames, results_filename)
     person_type = get_persona_type(title_filenames)
 
     # determine which products we want to use in our model
-    products_to_use = get_top_products('inputs/results.json', 100)
+    products_to_use = get_top_products('inputs/results.json', 50)
 
     # build model
     model = get_model_from_results_file(title_filenames, results_filename, person_type, products_to_use, .3, balanced_training=False, balanced_test=False)

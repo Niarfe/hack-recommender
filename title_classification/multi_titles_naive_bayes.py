@@ -1,7 +1,7 @@
 from build_multi_titles_classifier_inputs import *
 import pandas as pd
 from sklearn import metrics
-from sklearn.naive_bayes import MultinomialNB, GaussianNB
+from sklearn.naive_bayes import MultinomialNB, GaussianNB, BernoulliNB
 import operator
 from sklearn.metrics import accuracy_score
 import numpy as np
@@ -26,13 +26,22 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
     gnb = GaussianNB()
     mnb = MultinomialNB()
     y_pred_gnb = gnb.fit(X, y).predict(testX)
+    print type(y_pred_gnb)
     print 'GaussianNB'
     print pd.crosstab(testY_series, y_pred_gnb, rownames=['Actual Species'], colnames=['Predicted Species'])
     print accuracy_score(testY, y_pred_gnb, normalize=True)
+
     print 'MultinomialNB'
     y_pred_mnb = mnb.fit(X, y).predict(testX)
     print pd.crosstab(testY_series, y_pred_mnb, rownames=['Actual Species'], colnames=['Predicted Species'])
     print accuracy_score(testY, y_pred_mnb, normalize=True)
+
+    print 'BernoulliNB'
+    clf = BernoulliNB()
+    y_pred_clf = clf.fit(X, y).predict(testX)
+    print pd.crosstab(testY_series, y_pred_clf, rownames=['Actual Species'], colnames=['Predicted Species'])
+    print accuracy_score(testY, y_pred_clf, normalize=True)
+
 
 def write_coefficients_to_file(model, feature_names, output_filename):
     feature_dict ={}
@@ -51,8 +60,9 @@ def write_coefficients_to_file(model, feature_names, output_filename):
     pprint(sorted_feature_dict[-7:])
 
 def main():
-    results_filename = 'inputs/results.json';
+    results_filename = 'inputs/results_sql.json';
     title_filenames = [
+        'inputs/titles/cross_lob_exec.txt',
         'inputs/titles/dev_analyst.txt',
         'inputs/titles/ent_cloud_arch.txt',
         'inputs/titles/finance.txt',
@@ -61,23 +71,28 @@ def main():
         'inputs/titles/it_ops.txt',
         'inputs/titles/marketing.txt'
     ]
-    ######################## fetch data ###################
-    # fetch_results_from_es(title_filenames, results_filename)
-    person_type = get_persona_type(title_filenames)
 
+    healthcare_id = 142
+    dates_to_filter_outdated_products = '2014-01-01'
+    ######################## fetch data ###################
+    # fetch_results_from_es(title_filenames, results_filename, healthcare_id, dates_to_filter_outdated_products)
+    person_type = get_persona_type(title_filenames)
     # determine which products we want to use in our model
-    products_to_use = get_top_products('inputs/results.json', 100)
+    products_to_use = get_top_products(results_filename, 100)
+
+
+
 
     # build model
     model = get_model_from_results_file(title_filenames, results_filename, person_type, products_to_use, .3, balanced_training=False, balanced_test=False)
 
     # get feature names from products.txt
-    products_lookup = {}
-    with open('inputs/products.txt', 'r') as f:
-        for row in f:
-            line = row.split('\t')
-            products_lookup[int(line[0])] = line[1].strip()
-    feature_names = [str(product_id) + '\t' + products_lookup[product_id] for product_id in products_to_use]
+    # products_lookup = {}
+    # with open('inputs/products.txt', 'r') as f:
+    #     for row in f:
+    #         line = row.split('\t')
+    #         products_lookup[int(line[0])] = line[1].strip()
+    # feature_names = [str(product_id) + '\t' + products_lookup[product_id] for product_id in products_to_use]
 
     # write coefficients to data/lgcoef.txt
     # write_coefficients_to_file(model, feature_names, 'outputs/lg_coef2.txt')

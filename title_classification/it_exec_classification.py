@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score
 from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB, GaussianNB
+from sklearn.naive_bayes import MultinomialNB, GaussianNB, BernoulliNB
 from sklearn.neural_network import MLPClassifier
 import operator
 import numpy as np
@@ -29,21 +29,21 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
     # fit model
     # print testX
     """ Logistic Regression"""
-    model = LogisticRegression(solver ='newton-cg', multi_class='multinomial')
-    model = model.fit(x, y_array.ravel())
-
-    preds = model.predict(testX)
-    for x in preds:
-        print x
-    # print testY_series
-    print pd.crosstab(testY_series, preds, rownames=['Actual Species'], colnames=['Predicted Species'])
-    print 'accuracy', accuracy_score(testY, preds, normalize=True)
+    # model = LogisticRegression(solver ='newton-cg', multi_class='multinomial')
+    # model = model.fit(x, y_array.ravel())
+    #
+    # preds = model.predict(testX)
+    # for x in preds:
+    #     print x
+    # # print testY_series
+    # print pd.crosstab(testY_series, preds, rownames=['Actual Species'], colnames=['Predicted Species'])
+    # print 'accuracy', accuracy_score(testY, preds, normalize=True)
+    # # print model.intercept_
+    # print model.coef_
     # print model.intercept_
-    print model.coef_
-    print model.intercept_
-    return model
+    # return model
 
-    """ Naive Bayes"""
+    # """ Naive Bayes"""
     # gnb = GaussianNB()
     # mnb = MultinomialNB()
     # y_pred_gnb = gnb.fit(X, y).predict(testX)
@@ -56,6 +56,12 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
     # y_pred_mnb = mnb.fit(X, y).predict(testX)
     # print pd.crosstab(testY_series, y_pred_mnb, rownames=['Actual Species'], colnames=['Predicted Species'])
     # print accuracy_score(testY, y_pred_mnb, normalize=True)
+
+    print 'BernoulliNB'
+    clf = BernoulliNB()
+    y_pred_clf = clf.fit(X,y).predict(testX)
+    print pd.crosstab(testY_series, y_pred_clf, rownames=['Actual Species'], colnames=['Predicted Species'])
+    print accuracy_score(testY, y_pred_clf, normalize=True)
     """ NN"""
     # clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(450), random_state=1)
     # model = clf.fit(X, y)

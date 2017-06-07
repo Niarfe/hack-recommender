@@ -29,7 +29,7 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
     # fit model
     # hidden_layer = tuple([np.mean(input_layer, output_layer)])
     # print hidden_layer
-    clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(400, 30), random_state = 1)
+    clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(450), random_state = 1)
     model = clf.fit(X, y)
     preds = clf.predict(testX)
     print clf.coefs_
@@ -61,14 +61,15 @@ def main():
         'inputs/titles/it_exec.txt',
         'inputs/titles/it_in_lob.txt',
         'inputs/titles/it_ops.txt',
-        'inputs/titles/marketing.txt'
+        'inputs/titles/marketing.txt',
+        'inputs/titles/cross_lob_exec.txt'
     ]
     ######################## fetch data ###################
     # fetch_results_from_es(title_filenames, results_filename)
     person_type = get_persona_type(title_filenames)
 
     # determine which products we want to use in our model
-    products_to_use = get_top_products('inputs/results.json', 100)
+    products_to_use = get_top_products('inputs/results.json', 50)
 
     # build model
     model = get_model_from_results_file(title_filenames, results_filename, person_type, products_to_use, .3, balanced_training=False, balanced_test=False)
@@ -80,9 +81,6 @@ def main():
             line = row.split('\t')
             products_lookup[int(line[0])] = line[1].strip()
     feature_names = [str(product_id) + '\t' + products_lookup[product_id] for product_id in products_to_use]
-
-    # write coefficients to data/lgcoef.txt
-    # write_coefficients_to_file(model, feature_names, 'outputs/lg_coef2.txt')
 
 
 

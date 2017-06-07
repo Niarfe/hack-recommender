@@ -1,4 +1,4 @@
-from get_products_by_title import write_products_by_url_for_title
+from get_products_by_title_adding_filters_version import write_products_by_url_for_title
 import json
 import csv
 from collections import defaultdict
@@ -10,14 +10,14 @@ from django.utils.encoding import smart_str
 import mysql.connector
 
 
-def fetch_results_from_es(input_title_filenames, output_filename):
+def fetch_results_from_es(input_title_filenames, output_filename, product_type_id, most_recent_verified_date):
     with open(output_filename,'w') as jsonfile:
         jsonfile.truncate()
     for filename in input_title_filenames:
         with open(filename,'r') as f:
              for row in f:
                  print '\n', row.strip()
-                 write_products_by_url_for_title(output_filename, row.strip())
+                 write_products_by_url_for_title(output_filename, row.strip(), product_type_id, most_recent_verified_date)
 
 def get_persona_type(input_title_filenames):
     persona_type = {}
@@ -98,31 +98,6 @@ def generate_blacklist_by_LastVerifDate(resultsfile_name, most_recent_verified_d
                     black_dict[url].append(product_id)
     return black_dict
 
-def generate_blacklist_by_product_type(resultsfile_name, product_type_id):
-    """ create a product blacklist of products that are from the category of vertical market """
-    # get urls
-    urls = []
-    with open(resultsfile_name) as jsonfile:
-        for title_data_str in jsonfile:
-            title_data = json.loads(title_data_str)
-            for url in title_data['urls'].keys():
-                urls.append(url)
-    db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
-    c = db.cursor(buffered=True)
-    query = ("""select p.name, pt.product_id from production.products p
-                join production.products_tags pt on p.id=pt.product_id
-                join production.tags t on pt.tag_id=t.id
-                where t.id={};""")
-    query = query.format(product_type_id)
-    iterable = c.execute(query, multi=True)
-    black_prod_dict = {}
-    for item in iterable:
-        for result in item.fetchall():
-            product_name = result[0]
-            product_id = result[1]
-            if product_id not in black_prod_dict:
-                black_prod_dict[product_id] = product_name
-    return black_prod_dict
 
 def revenue_company_size_lookup(resultsfile_name):
     """ get revenue range and employee range by url"""
@@ -172,7 +147,7 @@ def build_matrix(resultsfile_name, persona_type, products_to_use, test_r, balanc
                         X_row.append(0)
                 # create dependent variables
                 y_val = title_data['title']
-                print 'y for each url', y_val
+                # print 'y for each url', y_val
                 #add to X, y, testX, and testY
                 if random.uniform(0, 1) < test_r:
                     testX.append(X_row)

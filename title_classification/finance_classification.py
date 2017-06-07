@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.metrics import accuracy_score
 from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB, GaussianNB
+from sklearn.naive_bayes import MultinomialNB, GaussianNB, BernoulliNB
 from sklearn.neural_network import MLPClassifier
 import operator
 import numpy as np
@@ -29,6 +29,7 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
     # fit model
     # print testX
     """Logistic Regression"""
+    # print '+++++++++++++ LR ++++++++++++'
     # model = LogisticRegression(solver ='newton-cg', multi_class='multinomial')
     # model = model.fit(x, y_array.ravel())
     # preds = model.predict(testX)
@@ -38,27 +39,36 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
     # # print model.intercept_
     # print model.coef_
     # print model.intercept_
-    # return model
-    """ Naive Bayes"""
-    # gnb = GaussianNB()
-    # mnb = MultinomialNB()
-    # y_pred_gnb = gnb.fit(X, y).predict(testX)
-    # print type(y_pred_gnb)
-    # print 'GaussianNB'
-    # print pd.crosstab(testY_series, y_pred_gnb, rownames=['Actual Species'], colnames=['Predicted Species'])
-    # print accuracy_score(testY, y_pred_gnb, normalize=True)
+    # # return model
+    # """ Naive Bayes"""
+    gnb = GaussianNB()
+    mnb = MultinomialNB()
+    y_pred_gnb = gnb.fit(X, y).predict(testX)
+    print type(y_pred_gnb)
+    print 'GaussianNB'
+    print pd.crosstab(testY_series, y_pred_gnb, rownames=['Actual Species'], colnames=['Predicted Species'])
+    print accuracy_score(testY, y_pred_gnb, normalize=True)
     #
     # print 'MultinomialNB'
     # y_pred_mnb = mnb.fit(X, y).predict(testX)
     # print pd.crosstab(testY_series, y_pred_mnb, rownames=['Actual Species'], colnames=['Predicted Species'])
     # print accuracy_score(testY, y_pred_mnb, normalize=True)
+
+    print 'BernoulliNB'
+    clf = BernoulliNB()
+    y_pred_clf = clf.fit(X, y).predict(testX)
+    print pd.crosstab(testY_series, y_pred_clf, rownames=['Actual Species'], colnames=['Predicted Species'])
+    print accuracy_score(testY, y_pred_clf, normalize=True)
+
     """ NN"""
-    clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(450), random_state=1)
-    model = clf.fit(X, y)
-    preds = clf.predict(testX)
-    print clf.coefs_
-    print pd.crosstab(testY_series, preds, rownames=['Actual Species'], colnames=['Predicted Species'])
-    print accuracy_score(testY, preds, normalize=True)
+    # print '+++++++++++++++NN++++++++++'
+    # clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(450), random_state=1)
+    # model = clf.fit(X, y)
+    # preds = clf.predict(testX)
+    # print clf.coefs_
+    # print pd.crosstab(testY_series, preds, rownames=['Actual Species'], colnames=['Predicted Species'])
+    # print accuracy_score(testY, preds, normalize=True)
+
 
 def write_coefficients_to_file(model, feature_names, output_filename):
     feature_dict ={}
@@ -103,12 +113,12 @@ def main():
     model = get_model_from_results_file(title_filenames, results_filename, person_type, products_to_use, .3, balanced_training=False, balanced_test=False)
 
     # get feature names from products.txt
-    products_lookup = {}
-    with open('inputs/products.txt', 'r') as f:
-        for row in f:
-            line = row.split('\t')
-            products_lookup[int(line[0])] = line[1].strip()
-    feature_names = [str(product_id) + '\t' + products_lookup[product_id] for product_id in products_to_use]
+    # products_lookup = {}
+    # with open('inputs/products.txt', 'r') as f:
+    #     for row in f:
+    #         line = row.split('\t')
+    #         products_lookup[int(line[0])] = line[1].strip()
+    # feature_names = [str(product_id) + '\t' + products_lookup[product_id] for product_id in products_to_use]
     # print feature_names
 
     # write coefficients to data/lgcoef.txt

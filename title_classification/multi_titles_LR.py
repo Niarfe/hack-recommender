@@ -18,13 +18,15 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
 
     X, y, testX, testY = build_matrix(results_filename, persona_type, products_to_use, test_r, balanced_training,
                                       balanced_test)
-
+    print y
+    print testY
     x = pd.DataFrame(X, columns=products_to_use)   # finalize training X
     y_df = pd.DataFrame(y, columns=['job titles'])
     testY_series = pd.Series(testY)
     # print testY_series
     # print testY
     y_array = np.asarray(y)
+    print y_array
     y_names = np.asarray(persona_type.keys())
     print y_names
     Y = pd.factorize(y_array)[0]    # factorize y
@@ -33,29 +35,13 @@ def get_model_from_results_file(title_filenames, results_filename, persona_type,
     # print testX
     model = LogisticRegression(solver ='newton-cg', multi_class='multinomial')
     model = model.fit(x, y_array.ravel())
-    test = model.predict(testX[70:80])
-    #################testing coefficients#########################
-    # for i in range(len(testX[70:80])):
-    #     print 'predicted result', test[i]
-    #     print 'test data', testX[70:80][i]
-    #     print 'y value', y[70+i]
-    #     for j in range(len(testX[70:80][i])):
-    #         if testX[70:80][i][j] == 1:
-    #             print 'products are using', products_to_use[j]
-    #     for k in range(len(model.coef_)):
-    #         print k
-    #         print np.dot(testX[70:80][i], model.coef_[k]) + model.intercept_[k]
-    #     print '++++++++++++ next one ++++++++++++++'
-    #
-    # print 'probability', model.predict_proba(testX[70:80])
-
     preds = model.predict(testX)
     # print testY_series
     print pd.crosstab(testY_series, preds, rownames=['Actual Species'], colnames=['Predicted Species'])
     print 'accuracy', accuracy_score(testY, preds, normalize=True)
     # print model.intercept_
-    print model.coef_
-    print model.intercept_
+    # print model.coef_
+    # print model.intercept_
     return model
 
 
@@ -77,7 +63,7 @@ def write_coefficients_to_file(model, feature_names, output_filename):
 
 
 def main():
-    results_filename = 'inputs/results.json';
+    results_filename = 'inputs/results_sql.json';
     title_filenames = [
         'inputs/titles/cross_lob_exec.txt',
         'inputs/titles/dev_analyst.txt',
@@ -89,15 +75,17 @@ def main():
         'inputs/titles/marketing.txt',
 
     ]
+    healthcare_id = 142
+    dates_to_filter_outdated_products = '2014-01-01'
     ######################## fetch data ###################
-    # fetch_results_from_es(title_filenames, results_filename)
+    fetch_results_from_es(title_filenames, results_filename, healthcare_id, dates_to_filter_outdated_products)
     person_type = get_persona_type(title_filenames)
 
     # determine which products we want to use in our model
-    products_to_use = get_top_products('inputs/results.json', 100)
+    products_to_use = get_top_products(results_filename, 100)
 
     # build model
-    # model = get_model_from_results_file(title_filenames, results_filename, person_type, products_to_use, .3, balanced_training=False, balanced_test=False)
+    model = get_model_from_results_file(title_filenames, results_filename, person_type, products_to_use, .3, balanced_training=False, balanced_test=False)
 
     # get feature names from products.txt
     products_lookup = {}
@@ -109,9 +97,9 @@ def main():
     # print feature_names
 
     # write coefficients to data/lgcoef.txt
-    # write_coefficients_to_file(model, feature_names, 'outputs/multinomial_LG/multi_LG_coef.txt')
-    get_all_urls = get_urls_in_results('inputs/results.json', 'inputs/url.txt')
-    print get_all_urls
+    write_coefficients_to_file(model, feature_names, 'outputs/multinomial_LG/sql_multi_LG_coef.txt')
+    # get_all_urls = get_urls_in_results('inputs/results.json', 'inputs/url.txt')
+    # print get_all_urls
 
 
 
