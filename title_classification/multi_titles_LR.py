@@ -78,7 +78,7 @@ def main():
     healthcare_id = 142
     dates_to_filter_outdated_products = '2014-01-01'
     ######################## fetch data ###################
-    fetch_results_from_es(title_filenames, results_filename, healthcare_id, dates_to_filter_outdated_products)
+    # fetch_results_from_es(title_filenames, results_filename, healthcare_id, dates_to_filter_outdated_products)
     person_type = get_persona_type(title_filenames)
 
     # determine which products we want to use in our model
