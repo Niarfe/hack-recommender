@@ -1,10 +1,7 @@
 from get_products_by_title_adding_filters_version import write_products_by_url_for_title
 import json
-import csv
 from collections import defaultdict
-from django.utils.encoding import smart_str
 import random
-from pprint import pprint
 import os
 from os.path import basename
 from django.utils.encoding import smart_str
@@ -12,16 +9,29 @@ import mysql.connector
 
 
 def fetch_results_from_es(input_title_filenames, output_filename, product_type_id, most_recent_verified_date):
-    with open(output_filename,'w') as jsonfile:
+    """
+
+    :param input_title_filenames: persona title files, each file has the titles for that person
+    :param output_filename: result json file with url and the products that used by that url and the title for that usage
+    :param product_type_id: the type id of the products from the category of vertical market
+    :param most_recent_verified_date: the minimum date for filter the outdated products
+    :return: return result json file
+    """
+    with open(output_filename, 'w') as jsonfile:
         jsonfile.truncate()
     for filename in input_title_filenames:
         with open(filename,'r') as f:
-             for row in f:
-                 print '\n', row.strip()
-                 write_products_by_url_for_title(output_filename, row.strip(), product_type_id, most_recent_verified_date)
+            for row in f:
+                print '\n', row.strip()
+                write_products_by_url_for_title(output_filename, row.strip(), product_type_id, most_recent_verified_date)
 
 
 def get_persona_type(input_title_filenames):
+    """
+
+    :param input_title_filenames: persona title files, each file has the titles for that person
+    :return: the name of each title file to get the persona type, because all persona files were named by person
+    """
     persona_type = {}
     for filename in input_title_filenames:
         persona_type[basename(os.path.splitext(filename)[0])] = []
@@ -33,6 +43,12 @@ def get_persona_type(input_title_filenames):
 
 
 def get_counts_by_product(resultsfile_name):
+    """
+
+    :param resultsfile_name: results json file
+    :return: a dictionary with product id is the key and the value is the occurence of that product
+            in result file
+    """
     products = defaultdict(int)
     count = 0
     with open(resultsfile_name) as jsonfile:
@@ -46,10 +62,22 @@ def get_counts_by_product(resultsfile_name):
 
 
 def get_top_products(resultsfile_name, minicount):
+    """
+
+    :param resultsfile_name: result json file
+    :param minicount: the mini frequent that we only include products have counts more than mini frequent
+    :return: a list of products that counts more than mini frequent
+    """
     products = get_counts_by_product(resultsfile_name)
     return sorted([product for product in products.keys() if products[product] >= minicount])
 
+
 def get_product_hits_by_title(resultsfile_name):
+    """
+
+    :param resultsfile_name: result json fiel
+    :return: return a dictionary with product_id is key value and the frequent is the value
+    """
     products = defaultdict(int)
     count = 0
     with open(resultsfile_name) as jsonfile:
@@ -64,6 +92,12 @@ def get_product_hits_by_title(resultsfile_name):
 
 
 def split_results_into_training_and_test(resultsfile_name, percent_test):
+    """
+
+    :param resultsfile_name: result json file
+    :param percent_test: the ratio of test set we want to set
+    :return:
+    """
     test_file = open('test.json', 'w')
     training_file = open('training.json', 'w')
     with open(resultsfile_name) as resultsfile:
@@ -75,6 +109,16 @@ def split_results_into_training_and_test(resultsfile_name, percent_test):
 
 
 def build_matrix(resultsfile_name, persona_type, products_to_use, test_r, balanced_training=False, balanced_test=False):
+    """
+
+    :param resultsfile_name: result json file
+    :param persona_type: the name of each persona
+    :param products_to_use: the products that we want to include
+    :param test_r: test ratio
+    :param balanced_training: a switch for manually balancing training set
+    :param balanced_test: a switch for manually balancing test set
+    :return: training set, test set
+    """
     X = []
     y = []
     testX = []
@@ -158,11 +202,16 @@ def build_matrix(resultsfile_name, persona_type, products_to_use, test_r, balanc
 
 
 def revenue_company_size_lookup(resultsfile_name):
-    """ get revenue range and employee range by url"""
+    """
+
+    :param resultsfile_name: result json file
+    :return: a dictionary with url is the key and for each url, revenue_range and employees_range are the values
+    """
     # get urls
     rev_emp_lookup = {}
     urls = []
-    db = mysql.connector.connect(db='matcher', host='db-raven', user='lucia_databaser', passwd='yZdpi8SKeeaNLGMUjS6H')
+    db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
+    # db = mysql.connector.connect(db='matcher', host='db-raven', user='lucia_databaser', passwd='yZdpi8SKeeaNLGMUjS6H')
     c = db.cursor(buffered=True)
     with open(resultsfile_name) as jsonfile:
         for title_data_str in jsonfile:
@@ -170,16 +219,13 @@ def revenue_company_size_lookup(resultsfile_name):
             for url in title_data['urls'].keys():
                 urls.append(smart_str(url))
     for i in range((len(urls)/5000)+1):
-        # print i
-        query = ("""SELECT url, revenue_range_name, employees_range_name
-                                    FROM integration.url_firmographics
+        query = ("""SELECT url, revenue_range, employees_range
+                                    FROM integration.combined_urls
                                     WHERE url IN {};""")
         if (i+1)*5000 < len(urls):
             query = query.format(tuple(urls[i*5000:(i+1)*5000]))
         else:
-            # print'last piece', len(urls[i*5000:len(urls)-1])
             query = query.format(tuple(urls[i*5000:len(urls)-1]))
-        # print query
         iterable = c.execute(query, multi=True)
         for item in iterable:
             for result in item.fetchall():
@@ -193,11 +239,17 @@ def revenue_company_size_lookup(resultsfile_name):
                 rev_emp_lookup[url]['employees_range'] = employees_range
     print len(rev_emp_lookup.keys())
     print len(list(set(urls)))
-    # print rev_emp_lookup
     return rev_emp_lookup
 
 
 def freq_analysis_adding_rev_emp_inputs(resultsfile_name, persona_type):
+    """
+
+    :param resultsfile_name: result jason file
+    :param persona_type: name of each persona
+    :return: a persona dictionary with persona type is key and for different revenue_range and employees size
+            the products that are used by the urls in that revenue range and employees size.
+    """
     persona_dict = {}
     rev_emp_lookup = revenue_company_size_lookup(resultsfile_name)
     with open(resultsfile_name) as jsonfile:
@@ -226,23 +278,18 @@ def freq_analysis_adding_rev_emp_inputs(resultsfile_name, persona_type):
     return persona_dict
 
 
-def get_urls_in_results(resultsfile_name, url_output):
-    fw = open(url_output, 'w')
-    fw.write('url\n')
-    with open(resultsfile_name) as jsonfile:
-        for title_data_str in jsonfile:
-            title_data = json.loads(title_data_str)
-            for url in title_data['urls'].keys():
-                fw.write('{}\n'.format(smart_str(url)))
-    fw.close()
-
 def freq_analysis_inputs(resultsfile_name, persona_type):
+    """
+
+    :param resultsfile_name: result json file
+    :param persona_type: the name of persona type
+    :return: a dictionary, persona type is the key and the value is the lists of products used by the url in that pesona
+            type.
+    """
     persona_dict = {}
     with open(resultsfile_name) as jsonfile:
         for title_data_str in jsonfile:
             title_data = json.loads(title_data_str)
-            # print title_data
-            # for url in title_data['urls'].keys():
             for psna_type in persona_type.keys():
                 if title_data['title'] in persona_type[psna_type]:
                     if psna_type not in persona_dict:
