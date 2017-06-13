@@ -1,0 +1,19 @@
+<html>
+<head>
+<link href="css/mermaid.css" type="text/css" rel="stylesheet" />
+<script src="js/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+</head>
+<body>
+<h1>prep</h1><br>
+<div class="mermaid">
+sequenceDiagram
+    participant LocalDrive
+    nas-->>LocalDrive: companies_for_url.txt.zip
+    LocalDrive->>LocalDrive: unzip, trim header and zip into companies.csv.bz2
+    s3_ROOT-->>LocalDrive: copy into LocalDrive/CURRENT_RUN/input/
+    LocalDrive->>LocalDrive: overwrite companies.csv.bz2 in input with our copy
+    LocalDrive-->>s3_ROOT_CURRENT_RUN: copy everything in local ROOT/input to 
+</div>
+</body>
+</html>
