@@ -26,11 +26,18 @@ def get_product_lookup(db):
 
 
 def query_duns(db, product_ids):
+    """
+
+    :param db: mysql database credentials
+    :param product_ids: a list of all product id in our database
+    :return: a dictionary like {product_id : { yearmonth : [duns...]} }
+    """
     c = db.cursor(buffered=True)
     query = ("""
         SELECT h.product_id, h.dates, cd.duns FROM matcher.hits h JOIN integration.cid_duns cd ON h.cid = cd.cid
-        where product_id in {};
+        where product_id IN {};
         """)
+    # iterable = c.execute(query.format(tuple(product_ids)), multi=True)
     iterable = c.execute(query.format(tuple(product_ids)), multi=True)
     print query.format(tuple(product_ids))
     duns_dict = {}
@@ -48,18 +55,23 @@ def query_duns(db, product_ids):
                     duns_dict[product_id][yearmonth] = []
                 duns_dict[product_id][yearmonth].append(duns)
     print duns_dict.keys()
+    # print duns_dict[duns_dict.keys()[1]]
     return duns_dict
 
 
 def save_duns_prod_hits():
+    """
+
+    :return: save all duns count in a file with the product id as the txt name
+    """
     duns_dict = query_duns(db, product_ids)
     for product_id in duns_dict:
         file = "../detect_anomalies/duns/{}.txt".format(product_id)
         fw = open(file, 'w')
         fw.write("date\tduns_product_hits\n")
         for date in duns_dict[product_id]:
-            duns_counts = len(duns_dict[product_id][date])
-            fw.write("{}\t{}\n".format( date, duns_counts))
+            duns_counts = len(set(duns_dict[product_id][date]))  # count the unique duns
+            fw.write("{}\t{}\n".format(date, duns_counts))
     fw.close()
 
 
