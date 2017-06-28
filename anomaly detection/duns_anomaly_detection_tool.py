@@ -3,6 +3,7 @@ import pandas as pd
 from django.utils.encoding import smart_str
 import mysql.connector
 import statsmodels.api as sm
+from datetime import datetime
 from sklearn import linear_model
 import matplotlib.pyplot as plt
 
@@ -171,10 +172,15 @@ def outlier_detection_with_regression():
                         duns_counts.insert(i + 1, gap_zeros[j])
             x = range(len(dates))
             # print dates
+            # print duns_counts
             regression = sm.OLS(x, duns_counts).fit()
             test = regression.outlier_test()
             outliers = [[dates[i], duns_counts[i]] for i, t in enumerate(test) if t[2] < 0.5]
-            # print 'Outlier', outliers
+            start_date = dates[0]
+            start_year = str(start_date)[:4]
+            start_month = str(start_date)[4:]
+            dt_series = pd.date_range(datetime(int(start_year), int(start_month), 1), periods=len(dates), freq='M')
+            plt.plot(dt_series, duns_counts, linestyle='--', marker='o')
             if len(outliers) != 0:
                 for i in range(len(outliers)):
                     of.write("{}\t{}\t{}\n".format(product_ids[product_id], outliers[i][0], outliers[i][1]))
@@ -183,10 +189,48 @@ def outlier_detection_with_regression():
             print err
         except ValueError as errs:
             print product_id, errs
+    plt.show()
+
+
+def duns_distribution_plot():
+    for product_id in product_ids:
+        print '+++++++++++++++++'
+        print product_id
+        try:
+            FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/duns/{}.txt'.format(product_id)
+            df = pd.read_table(FN, sep='\t')
+            sorted_df = df.sort(['date'])
+            dates = list(sorted_df['date'])
+            duns_counts = list(sorted_df['duns_product_hits'])
+            for i in range(len(dates) - 1):
+                if all([dates[i + 1] - dates[i] > 1, dates[i + 1] - dates[i] < 12]):
+                    # print dates[i]
+                    # print dates[i+1]
+                    gap = dates[i + 1] - dates[i]
+                    gap_list = sorted([dates[i] + diff for diff in range(1, gap)], reverse=True)
+                    # print gap_list
+                    gap_zeros = [0] * (gap - 1)
+                    # print gap_zeros
+                    for j in range(len(gap_list)):
+                        dates.insert(i + 1, gap_list[j])
+                        duns_counts.insert(i + 1, gap_zeros[j])
+            start_date = dates[0]
+            start_year = str(start_date)[:4]
+            start_month = str(start_date)[4:]
+            dt_series = pd.date_range(datetime(int(start_year), int(start_month), 1), periods=len(dates), freq='M')
+            plt.plot(dt_series, duns_counts, linestyle='--', marker='o')
+        except IOError as err:
+            print err
+        except ValueError as errs:
+            print product_id, errs
+    plt.show()
+
+
 
 if __name__ == "__main__":
     db = mysql.connector.connect(db='production', host='pdxn.cx0salcfdftt.us-west-2.rds.amazonaws.com',
                                  user='grace.zhou', passwd='BrZIoLqPsH55emt47yJy')
     # get_outliers()
     product_ids = get_product_lookup(db)
-    outlier_detection_with_regression()
+    # outlier_detection_with_regression()
+    duns_distribution_plot()
