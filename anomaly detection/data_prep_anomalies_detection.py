@@ -3,6 +3,7 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 from django.utils.encoding import smart_str
+import matplotlib.pyplot as plt
 
 
 def get_product_ids(db):
@@ -153,8 +154,30 @@ def get_outliers_with_e_score(db):
         except IOError as err:
             print err
 
+
+def url_hits_plot():
+    product_ids = get_product_ids(db)
+    for product_id in product_ids:
+        print product_id
+        try:
+            FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/data/{}.csv'.format(product_id)
+            dataframe = pd.read_table(FN, sep=',')
+            print dataframe
+            num_prod_hits = list(dataframe[' number of hits'])
+            dates = list(dataframe['date'])
+            start_date = dates[0]
+            start_year = str(start_date)[:4]
+            start_month = str(start_date)[5:]
+            dt_series = pd.date_range(datetime(int(start_year), int(start_month), 1), periods=len(dates), freq='M')
+            # print dt_series
+            plt.plot(dt_series, num_prod_hits)
+        except IOError as err:
+            print err
+    plt.show()
+
 if __name__ == "__main__":
     db = mysql.connector.connect(db='matcher', host='PC4', user='grace', passwd='2DM1YG6SrQUW4yg6')
-    # write_prod_hits_to_file(db)
-    get_outliers_with_modified_z_score(db)
-
+    # product_ids = get_product_ids(db)
+    write_prod_hits_to_file(db)
+    # get_outliers_with_modified_z_score(db)
+    url_hits_plot()
