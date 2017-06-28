@@ -1,3 +1,4 @@
+from __future__ import division
 import numpy as np
 import pandas as pd
 from django.utils.encoding import smart_str
@@ -5,7 +6,10 @@ import mysql.connector
 import statsmodels.api as sm
 from datetime import datetime
 from sklearn import linear_model
+from collections import defaultdict
 import matplotlib.pyplot as plt
+from statsmodels.tsa.seasonal import seasonal_decompose
+from fbprophet import Prophet
 
 def get_product_lookup(db):
     """
@@ -218,12 +222,77 @@ def duns_distribution_plot():
             start_year = str(start_date)[:4]
             start_month = str(start_date)[4:]
             dt_series = pd.date_range(datetime(int(start_year), int(start_month), 1), periods=len(dates), freq='M')
-            plt.plot(dt_series, duns_counts, linestyle='--', marker='o')
+            # plt.plot(dt_series, duns_counts, linestyle='--', marker='o')
+            plt.plot(dt_series, duns_counts)
         except IOError as err:
             print err
         except ValueError as errs:
             print product_id, errs
     plt.show()
+
+
+def monthly_total_hits():
+    total_hits_monthly = defaultdict(int)
+    for product_id in product_ids:
+        # print '+++++++++++++++++'
+        # print product_id
+        try:
+            FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/duns/{}.txt'.format(product_id)
+            df = pd.read_table(FN, sep='\t')
+            sorted_df = df.sort(['date'])
+            dates = list(sorted_df['date'])
+            duns_hits = list(sorted_df['duns_product_hits'])
+            for i in range(len(dates)):
+                # if dates[i] not in total_hits_monthly:
+                #     total_hits_monthly[dates[i]] = defaultdict(int)
+                total_hits_monthly[dates[i]] += duns_hits[i]
+
+        except IOError as err:
+            print err
+        except ValueError as errs:
+            print product_id, errs
+
+    return dict(total_hits_monthly)
+
+
+def test():
+    total_hits_monthly = monthly_total_hits()
+    FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/duns/{}.txt'.format(562)
+    df = pd.read_table(FN, sep='\t')
+    # print df['date']
+    sorted_df = df.sort(['date'])
+    dates = list(sorted_df['date'])
+    duns_counts = list(sorted_df['duns_product_hits'])
+    for i in range(len(dates) - 1):
+        if all([dates[i + 1] - dates[i] > 1, dates[i + 1] - dates[i] < 12]):
+            # print dates[i]
+            # print dates[i+1]
+            gap = dates[i + 1] - dates[i]
+            gap_list = sorted([dates[i] + diff for diff in range(1, gap)], reverse=True)
+            # print gap_list
+            gap_zeros = [0] * (gap - 1)
+            # print gap_zeros
+            for j in range(len(gap_list)):
+                dates.insert(i + 1, gap_list[j])
+                duns_counts.insert(i + 1, gap_zeros[j])
+    start_date = dates[0]
+    start_year = str(start_date)[:4]
+    start_month = str(start_date)[4:]
+    dt_series = pd.date_range(datetime(int(start_year), int(start_month), 1), periods=len(dates), freq='M')
+    denominator = []
+    for i in range(len(dates)):
+        denominator.append(total_hits_monthly[dates[i]])
+    print denominator
+    normalized_counts = [duns_counts[i]/denominator[i] for i in range(len(duns_counts))]
+    print normalized_counts
+    plt.subplot(2, 1, 1)
+    plt.plot(dt_series, normalized_counts, color='blue', marker='o')
+    plt.title('normalized plot')
+    plt.subplot(2, 1, 2)
+    plt.plot(dt_series, duns_counts, color='red', marker='o')
+    plt.title('duns hits pattern')
+    plt.show()
+
 
 
 
@@ -233,4 +302,8 @@ if __name__ == "__main__":
     # get_outliers()
     product_ids = get_product_lookup(db)
     # outlier_detection_with_regression()
-    duns_distribution_plot()
+    # duns_distribution_plot()
+    test()
+    # total_hits_monthly = monthly_total_hits()
+    # print total_hits_monthly
+    # print total_hits_monthly[201412]
