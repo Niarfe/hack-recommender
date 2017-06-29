@@ -10,6 +10,7 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 from fbprophet import Prophet
+from sklearn.linear_model import LinearRegression
 
 def get_product_lookup(db):
     """
@@ -255,9 +256,125 @@ def monthly_total_hits():
     return dict(total_hits_monthly)
 
 
-def test():
+def outlier_detection_with_normalized_regression():
     total_hits_monthly = monthly_total_hits()
-    FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/duns/{}.txt'.format(562)
+    OF = 'output/detected_outlier_normalized_regression.txt'
+    of = open(OF, mode='a+')
+    of.write('product_id\tdate\tnum_prod_hits\n')
+    for product_id in product_ids:
+        print '+++++++++++++++++'
+        print product_id
+        try:
+            FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/duns/{}.txt'.format(product_id)
+            df = pd.read_table(FN, sep='\t')
+            sorted_df = df.sort(['date'])
+            dates = list(sorted_df['date'])
+            duns_counts = list(sorted_df['duns_product_hits'])
+            for i in range(len(dates) - 1):
+                if all([dates[i + 1] - dates[i] > 1, dates[i + 1] - dates[i] < 12]):
+                    gap = dates[i + 1] - dates[i]
+                    gap_list = sorted([dates[i] + diff for diff in range(1, gap)], reverse=True)
+                    gap_zeros = [0] * (gap - 1)
+                    for j in range(len(gap_list)):
+                        dates.insert(i + 1, gap_list[j])
+                        duns_counts.insert(i + 1, gap_zeros[j])
+            denominator = []
+            for i in range(len(dates)):
+                denominator.append(total_hits_monthly[dates[i]])
+            # print denominator
+            normalized_counts = [duns_counts[i] / denominator[i] for i in range(len(duns_counts))]
+            # print normalized_counts
+            x = range(len(dates))
+            regression = sm.OLS(normalized_counts, x).fit()
+            test = regression.outlier_test()
+            ypred = list(regression.predict(x))
+            outliers = [[dates[i], duns_counts[i]] for i, t in enumerate(test) if t[2] < 0.5]
+            print outliers
+            actual_vs_fitted = [[normalized_counts[i], ypred[i]] for i, t in enumerate(test) if t[2] < 0.5]
+            print actual_vs_fitted
+            if len(outliers) != 0:
+                for i in range(len(outliers)):
+                    if actual_vs_fitted[i][0] > actual_vs_fitted[i][1] and outliers[i][1] > 50:
+                        print outliers[i][0], outliers[i][1]
+                        of.write("{}\t{}\t{}\n".format(product_ids[product_id], outliers[i][0], outliers[i][1]))
+        except IOError as err:
+            print err
+        except ValueError as errs:
+            print product_id, errs
+
+
+def get_normalized_outliers():
+    total_hits_monthly = monthly_total_hits()
+    OF = 'output/detected_outlier2.txt'
+    of = open(OF, mode='a+')
+    of.write('product_id\tdate\tnum_prod_hits\n')
+    for product_id in product_ids:
+        print product_id
+        try:
+            FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/duns/{}.txt'.format(product_id)
+            dataframe = pd.read_table(FN, sep='\t')
+            duns_counts = list(dataframe['duns_product_hits'])
+            dates = list(dataframe['date'])
+            denominator = []
+            for i in range(len(dates)):
+                denominator.append(total_hits_monthly[dates[i]])
+            # print denominator
+            normalized_counts = [duns_counts[i] / denominator[i] for i in range(len(duns_counts))]
+            Q3, Q1 = np.percentile(denominator, [75, 25])
+            iqr = Q3 - Q1
+            upper_limit = Q3 + 1.5 * iqr
+            lower_limit = Q1 - 1.5 * iqr
+            # print num_prod_hits
+            # print dates
+            for i in range(len(duns_counts)):
+                print normalized_counts[i] > upper_limit
+                # if (num_prod_hits[i] > upper_limit) or (num_prod_hits[i] < lower_limit):
+                if normalized_counts[i] > upper_limit:
+                    # print product_ids[product_id], dates[i], num_prod_hits[i]
+                    of.write('{}\t{}\t{}\n'.format(product_ids[product_id], dates[i], duns_counts[i]))
+        except IOError as err:
+            print err
+        except ValueError as errs:
+            print product_id, errs
+
+
+def get_normalized_outliers_with_e_score():
+    total_hits_monthly = monthly_total_hits()
+    product_ids = get_product_lookup(db)
+    OF = 'output/detected_normalized_outlier_e_score.txt'
+    of = open(OF, mode='a+')
+    of.write('product_id\tdate\tnum_prod_hits\n')
+    for product_id in product_ids:
+        try:
+            FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/duns/{}.txt'.format(product_id)
+            dataframe = pd.read_table(FN, sep='\t')
+            duns_counts = list(dataframe['duns_product_hits'])
+            dates = list(dataframe['date'])
+            threshold = 1.75
+            denominator = []
+            for i in range(len(dates)):
+                denominator.append(total_hits_monthly[dates[i]])
+            # print denominator
+            normalized_counts = [duns_counts[i] / denominator[i] for i in range(len(duns_counts))]
+            Q3, Q1 = np.percentile(denominator, [75, 25])
+            iqr = Q3 - Q1
+            median_y = np.median(normalized_counts)
+            for i in range(len(normalized_counts)):
+                # print np.abs((num_prod_hits[i] - median_y) / iqr) > threshold
+                if np.abs((normalized_counts[i] - median_y) / iqr) > threshold:
+                # if (num_prod_hits[i] - median_y) / iqr > threshold:
+                    # print product_ids[product_id], dates[i], num_prod_hits[i]
+                    of.write('{}\t{}\t{}\n'.format(product_ids[product_id], dates[i], duns_counts[i]))
+        except IOError as err:
+            print err
+        except ValueError as errs:
+            print product_id, errs
+
+
+def test(product_id):
+    product_ids = get_product_lookup(db)
+    total_hits_monthly = monthly_total_hits()
+    FN = '/Users/gracezhou/PycharmProjects/data_ops/detect_anomalies/duns/{}.txt'.format(product_id)
     df = pd.read_table(FN, sep='\t')
     # print df['date']
     sorted_df = df.sort(['date'])
@@ -275,6 +392,8 @@ def test():
             for j in range(len(gap_list)):
                 dates.insert(i + 1, gap_list[j])
                 duns_counts.insert(i + 1, gap_zeros[j])
+    x = range(len(dates))
+    x_df = pd.DataFrame(x)
     start_date = dates[0]
     start_year = str(start_date)[:4]
     start_month = str(start_date)[4:]
@@ -282,15 +401,23 @@ def test():
     denominator = []
     for i in range(len(dates)):
         denominator.append(total_hits_monthly[dates[i]])
-    print denominator
+    # print denominator
     normalized_counts = [duns_counts[i]/denominator[i] for i in range(len(duns_counts))]
     print normalized_counts
+    normalized_counts_df = pd.DataFrame(normalized_counts)
+    regression = sm.OLS(normalized_counts, x).fit()
+    print regression.summary()
+    test = regression.outlier_test()
+    outliers = [[dates[i], duns_counts[i]] for i, t in enumerate(test) if t[2] < 0.5]
+    print outliers
+    ypred = list(regression.predict(x))
     plt.subplot(2, 1, 1)
     plt.plot(dt_series, normalized_counts, color='blue', marker='o')
-    plt.title('normalized plot')
+    plt.plot(dt_series, ypred, color='red')
+    plt.title('{} normalized plot'.format(product_ids[product_id]))
     plt.subplot(2, 1, 2)
     plt.plot(dt_series, duns_counts, color='red', marker='o')
-    plt.title('duns hits pattern')
+    plt.title('{} duns hits pattern'.format(product_ids[product_id]))
     plt.show()
 
 
@@ -301,9 +428,5 @@ if __name__ == "__main__":
                                  user='grace.zhou', passwd='BrZIoLqPsH55emt47yJy')
     # get_outliers()
     product_ids = get_product_lookup(db)
-    # outlier_detection_with_regression()
-    # duns_distribution_plot()
-    test()
-    # total_hits_monthly = monthly_total_hits()
-    # print total_hits_monthly
-    # print total_hits_monthly[201412]
+    outlier_detection_with_normalized_regression()
+    test(4601)
