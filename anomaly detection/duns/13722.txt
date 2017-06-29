@@ -1,0 +1,3 @@
+date	duns_product_hits
+200611	1
+201210	1
