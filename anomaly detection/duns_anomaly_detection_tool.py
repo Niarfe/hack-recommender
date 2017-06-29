@@ -233,6 +233,9 @@ def duns_distribution_plot():
 
 
 def monthly_total_hits():
+    """
+    :return: the total number of hit every month;
+    """
     total_hits_monthly = defaultdict(int)
     for product_id in product_ids:
         # print '+++++++++++++++++'
@@ -380,46 +383,53 @@ def test(product_id):
     sorted_df = df.sort(['date'])
     dates = list(sorted_df['date'])
     duns_counts = list(sorted_df['duns_product_hits'])
-    for i in range(len(dates) - 1):
-        if all([dates[i + 1] - dates[i] > 1, dates[i + 1] - dates[i] < 12]):
-            # print dates[i]
-            # print dates[i+1]
-            gap = dates[i + 1] - dates[i]
-            gap_list = sorted([dates[i] + diff for diff in range(1, gap)], reverse=True)
-            # print gap_list
-            gap_zeros = [0] * (gap - 1)
-            # print gap_zeros
-            for j in range(len(gap_list)):
-                dates.insert(i + 1, gap_list[j])
-                duns_counts.insert(i + 1, gap_zeros[j])
-    x = range(len(dates))
-    x_df = pd.DataFrame(x)
     start_date = dates[0]
-    start_year = str(start_date)[:4]
-    start_month = str(start_date)[4:]
-    dt_series = pd.date_range(datetime(int(start_year), int(start_month), 1), periods=len(dates), freq='M')
-    denominator = []
+    start_year = int(str(start_date)[:4])
+    end_date = dates[len(dates)-1]
+    end_year = int(str(end_date)[:4])
+    end_month = int(str(end_date)[4:])
+    continous_dates = []
+    for year in range(start_year, end_year):
+        for month in range(1, 13):
+            continous_dates.append(int(str(year) + format(month, '02d')))
+    for month in range(1, end_month + 1):
+        continous_dates.append(int(str(end_year) + format(month, '02d')))
+    # print continous_dates
+    continous_counts = [0] * len(continous_dates)
+    # print continous_counts
     for i in range(len(dates)):
-        denominator.append(total_hits_monthly[dates[i]])
-    # print denominator
-    normalized_counts = [duns_counts[i]/denominator[i] for i in range(len(duns_counts))]
-    print normalized_counts
-    normalized_counts_df = pd.DataFrame(normalized_counts)
+        index = continous_dates.index(dates[i])
+        continous_counts[index] = duns_counts[i]
+    print continous_dates
+
+    x = range(len(continous_dates))
+    start_month = str(start_date)[4:]
+    dt_series = pd.date_range(datetime(int(start_year), int(start_month), 1), periods=len(continous_dates), freq='M')
+    print dt_series
+
+    #
+    denominator = []
+    for i in range(len(continous_dates)):
+        denominator.append(total_hits_monthly[continous_dates[i]])
+
+    normalized_counts = [continous_counts[i]/denominator[i] for i in range(len(continous_counts))]
     regression = sm.OLS(normalized_counts, x).fit()
-    print regression.summary()
+    # print regression.summary()
     test = regression.outlier_test()
-    outliers = [[dates[i], duns_counts[i]] for i, t in enumerate(test) if t[2] < 0.5]
+    outliers = [[x[i], normalized_counts[i]] for i, t in enumerate(test) if t[2] < 0.5]
+    outliers_dates = [[continous_dates[i], continous_counts[i]] for i, t in enumerate(test) if t[2] < 0.5]
     print outliers
+    print outliers_dates
     ypred = list(regression.predict(x))
     plt.subplot(2, 1, 1)
     plt.plot(dt_series, normalized_counts, color='blue', marker='o')
     plt.plot(dt_series, ypred, color='red')
     plt.title('{} normalized plot'.format(product_ids[product_id]))
     plt.subplot(2, 1, 2)
-    plt.plot(dt_series, duns_counts, color='red', marker='o')
+    plt.plot(dt_series, continous_counts, color='red', marker='o')
     plt.title('{} duns hits pattern'.format(product_ids[product_id]))
     plt.show()
-
+    #
 
 
 
@@ -428,5 +438,5 @@ if __name__ == "__main__":
                                  user='grace.zhou', passwd='BrZIoLqPsH55emt47yJy')
     # get_outliers()
     product_ids = get_product_lookup(db)
-    outlier_detection_with_normalized_regression()
+    # outlier_detection_with_normalized_regression()
     test(4601)
