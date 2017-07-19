@@ -1,5 +1,7 @@
 # Requirements
 * virtualenv (if you have conda, do `conda install virtualenv` first
+* jupyter notebooks
+* gensim
 
 # Setup and run
 * cd into retinas folder
